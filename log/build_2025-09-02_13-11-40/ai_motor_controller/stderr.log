@@ -1,0 +1,7 @@
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::[01;32m[KrvolmeaControl[m[K()[m[K’:
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:661:21:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kangular_velocity[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  661 |     Eigen::Vector3f [01;35m[Kangular_velocity[m[K = Eigen::Vector3f(local_angular_velocity_x_, local_angular_velocity_y_, local_angular_velocity_z_);
+      |                     [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:713:21:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ka_corr_adj[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  713 |     Eigen::Vector3f [01;35m[Ka_corr_adj[m[K = a_corr - f_ext;
+      |                     [01;35m[K^~~~~~~~~~[m[K

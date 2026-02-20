@@ -1,0 +1,94 @@
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:425:28:[m[K [01;31m[Kerror: [m[Kin-class initialization of static data member ‘[01m[KEigen::Vector3f OffboardControl::prev_e_pos[m[K’ of non-literal type
+  425 |     static Eigen::Vector3f [01;31m[Kprev_e_pos[m[K       = Eigen::Vector3f::Zero();
+      |                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:425:69:[m[K [01;31m[Kerror: [m[Ktemporary of non-literal type ‘[01m[KEigen::Vector3f[m[K’ {aka ‘[01m[KEigen::Matrix<float, 3, 1>[m[K’} in a constant expression
+  425 |     static Eigen::Vector3f prev_e_pos       = Eigen::Vector3f::Zero([01;31m[K)[m[K;
+      |                                                                     [01;31m[K^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:295[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:23[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:178:7:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::Matrix<float, 3, 1>[m[K’ is not literal because:
+  178 | class [01;36m[KMatrix[m[K
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:178:7:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::Matrix<float, 3, 1>[m[K’ is not an aggregate, does not have a trivial default constructor, and has no ‘[01m[Kconstexpr[m[K’ constructor that is not a copy or move constructor
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:426:28:[m[K [01;31m[Kerror: [m[Kin-class initialization of static data member ‘[01m[KEigen::Vector3f OffboardControl::sum_e_pos[m[K’ of non-literal type
+  426 |     static Eigen::Vector3f [01;31m[Ksum_e_pos[m[K        = Eigen::Vector3f::Zero();
+      |                            [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:426:69:[m[K [01;31m[Kerror: [m[Ktemporary of non-literal type ‘[01m[KEigen::Vector3f[m[K’ {aka ‘[01m[KEigen::Matrix<float, 3, 1>[m[K’} in a constant expression
+  426 |     static Eigen::Vector3f sum_e_pos        = Eigen::Vector3f::Zero([01;31m[K)[m[K;
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:427:28:[m[K [01;31m[Kerror: [m[Kin-class initialization of static data member ‘[01m[KEigen::Vector3f OffboardControl::prev_de_pos_filt[m[K’ of non-literal type
+  427 |     static Eigen::Vector3f [01;31m[Kprev_de_pos_filt[m[K = Eigen::Vector3f::Zero();
+      |                            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:427:69:[m[K [01;31m[Kerror: [m[Ktemporary of non-literal type ‘[01m[KEigen::Vector3f[m[K’ {aka ‘[01m[KEigen::Matrix<float, 3, 1>[m[K’} in a constant expression
+  427 |     static Eigen::Vector3f prev_de_pos_filt = Eigen::Vector3f::Zero([01;31m[K)[m[K;
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:428:28:[m[K [01;31m[Kerror: [m[Kin-class initialization of static data member ‘[01m[KEigen::Vector3f OffboardControl::prev_e_ang[m[K’ of non-literal type
+  428 |     static Eigen::Vector3f [01;31m[Kprev_e_ang[m[K       = Eigen::Vector3f::Zero();
+      |                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:428:69:[m[K [01;31m[Kerror: [m[Ktemporary of non-literal type ‘[01m[KEigen::Vector3f[m[K’ {aka ‘[01m[KEigen::Matrix<float, 3, 1>[m[K’} in a constant expression
+  428 |     static Eigen::Vector3f prev_e_ang       = Eigen::Vector3f::Zero([01;31m[K)[m[K;
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:429:28:[m[K [01;31m[Kerror: [m[Kin-class initialization of static data member ‘[01m[KEigen::Vector3f OffboardControl::sum_e_ang[m[K’ of non-literal type
+  429 |     static Eigen::Vector3f [01;31m[Ksum_e_ang[m[K        = Eigen::Vector3f::Zero();
+      |                            [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:429:69:[m[K [01;31m[Kerror: [m[Ktemporary of non-literal type ‘[01m[KEigen::Vector3f[m[K’ {aka ‘[01m[KEigen::Matrix<float, 3, 1>[m[K’} in a constant expression
+  429 |     static Eigen::Vector3f sum_e_ang        = Eigen::Vector3f::Zero([01;31m[K)[m[K;
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:430:28:[m[K [01;31m[Kerror: [m[Kin-class initialization of static data member ‘[01m[KEigen::Vector3f OffboardControl::prev_de_ang_filt[m[K’ of non-literal type
+  430 |     static Eigen::Vector3f [01;31m[Kprev_de_ang_filt[m[K = Eigen::Vector3f::Zero();
+      |                            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:430:69:[m[K [01;31m[Kerror: [m[Ktemporary of non-literal type ‘[01m[KEigen::Vector3f[m[K’ {aka ‘[01m[KEigen::Matrix<float, 3, 1>[m[K’} in a constant expression
+  430 |     static Eigen::Vector3f prev_de_ang_filt = Eigen::Vector3f::Zero([01;31m[K)[m[K;
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:431:28:[m[K [01;31m[Kerror: [m[Kin-class initialization of static data member ‘[01m[KEigen::Vector3f OffboardControl::prev_vel[m[K’ of non-literal type
+  431 |     static Eigen::Vector3f [01;31m[Kprev_vel[m[K         = Eigen::Vector3f::Zero();
+      |                            [01;31m[K^~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:431:69:[m[K [01;31m[Kerror: [m[Ktemporary of non-literal type ‘[01m[KEigen::Vector3f[m[K’ {aka ‘[01m[KEigen::Matrix<float, 3, 1>[m[K’} in a constant expression
+  431 |     static Eigen::Vector3f prev_vel         = Eigen::Vector3f::Zero([01;31m[K)[m[K;
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:432:28:[m[K [01;31m[Kerror: [m[Kin-class initialization of static data member ‘[01m[KEigen::Vector3f OffboardControl::dist_raw[m[K’ of non-literal type
+  432 |     static Eigen::Vector3f [01;31m[Kdist_raw[m[K         = Eigen::Vector3f::Zero();
+      |                            [01;31m[K^~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:432:69:[m[K [01;31m[Kerror: [m[Ktemporary of non-literal type ‘[01m[KEigen::Vector3f[m[K’ {aka ‘[01m[KEigen::Matrix<float, 3, 1>[m[K’} in a constant expression
+  432 |     static Eigen::Vector3f dist_raw         = Eigen::Vector3f::Zero([01;31m[K)[m[K;
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:433:28:[m[K [01;31m[Kerror: [m[Kin-class initialization of static data member ‘[01m[KEigen::Vector3f OffboardControl::dist_filt[m[K’ of non-literal type
+  433 |     static Eigen::Vector3f [01;31m[Kdist_filt[m[K        = Eigen::Vector3f::Zero();
+      |                            [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:433:69:[m[K [01;31m[Kerror: [m[Ktemporary of non-literal type ‘[01m[KEigen::Vector3f[m[K’ {aka ‘[01m[KEigen::Matrix<float, 3, 1>[m[K’} in a constant expression
+  433 |     static Eigen::Vector3f dist_filt        = Eigen::Vector3f::Zero([01;31m[K)[m[K;
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:462:133:[m[K [01;31m[Kerror: [m[Kcannot declare member function ‘[01m[Kstatic Eigen::Vector3f OffboardControl::[01;32m[KfilteredDerivative[m[K(const Eigen::Vector3f&, const Eigen::Vector3f&, float)[m[K’ to have static linkage [[01;31m[K-fpermissive[m[K]
+  462 | static Eigen::Vector3f OffboardControl::filteredDerivative(const Eigen::Vector3f &prev_filt, const Eigen::Vector3f &raw, float alpha[01;31m[K)[m[K
+      |                                                                                                                                     [01;31m[K^[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:467:85:[m[K [01;31m[Kerror: [m[Kcannot declare member function ‘[01m[Kstatic Eigen::Vector3f OffboardControl::[01;32m[KaxisAngleStabilized[m[K(const Eigen::Matrix3f&)[m[K’ to have static linkage [[01;31m[K-fpermissive[m[K]
+  467 | static Eigen::Vector3f OffboardControl::axisAngleStabilized(const Eigen::Matrix3f &R[01;31m[K)[m[K
+      |                                                                                     [01;31m[K^[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:479:42:[m[K [01;31m[Kerror: [m[Kcannot declare member function ‘[01m[Kstatic float OffboardControl::[01;32m[Ksat[m[K(float)[m[K’ to have static linkage [[01;31m[K-fpermissive[m[K]
+  479 | static float OffboardControl::sat(float x[01;31m[K)[m[K
+      |                                          [01;31m[K^[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:485:107:[m[K [01;31m[Kerror: [m[Kcannot declare member function ‘[01m[Kstatic Eigen::Quaternion<float> OffboardControl::[01;32m[Kcompute_q_des[m[K(const Eigen::Vector3f&, float)[m[K’ to have static linkage [[01;31m[K-fpermissive[m[K]
+  485 | static Eigen::Quaternion<float> OffboardControl::compute_q_des(const Eigen::Vector3f &a_des, float yaw_des[01;31m[K)[m[K
+      |                                                                                                           [01;31m[K^[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::[01;32m[KrvolmeaControl[m[K()[m[K’:
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:659:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kintegrator_dt[m[K’ was not declared in this scope
+  659 |     if (e_p.norm() < yaw_p) sum_e_pos += e_p * [01;31m[Kintegrator_dt[m[K;
+      |                                                [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:671:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kintegrator_dt[m[K’ was not declared in this scope
+  671 |     dist_raw += alpha * (linear_velocity - prev_vel) * [01;31m[Kintegrator_dt[m[K;
+      |                                                        [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:677:62:[m[K [01;31m[Kerror: [m[K‘[01m[KGz[m[K’ was not declared in this scope
+  677 |     Eigen::Vector3f a_des = a_pos + Eigen::Vector3f(0.0,0.0,-[01;31m[KGz[m[K) - dist_filt;
+      |                                                              [01;31m[K^~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:679:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_thrust[m[K’ was not declared in this scope; did you mean ‘[01m[Kthrust[m[K’?
+  679 |     float Tmax = 4.0f * [01;31m[Kmax_thrust[m[K;
+      |                         [01;31m[K^~~~~~~~~~[m[K
+      |                         [32m[Kthrust[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:698:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kaw_p[m[K’ was not declared in this scope; did you mean ‘[01m[Kaw_a[m[K’?
+  698 |     float aw_a = [01;31m[Kaw_p[m[K;
+      |                  [01;31m[K^~~~[m[K
+      |                  [32m[Kaw_a[m[K
+gmake[2]: *** [CMakeFiles/lemniscate.dir/build.make:76: CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lemniscate.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

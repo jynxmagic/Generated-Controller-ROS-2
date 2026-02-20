@@ -1,0 +1,106 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{siunitx}
+\usepackage[hidelinks]{hyperref}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\sisetup{round-mode=places,round-precision=3,detect-all}
+
+\title{Comparative Analysis of Flight Control Systems: rvolmea vs piddob}
+\author{Automated Analysis}
+\date{2025-10-22}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+    This report compares two flight control systems, rvolmea (A) and piddob (B), using ten paired flights with identical file naming and columns (measured positions $x,y,z$ and references $gx,gy,gz$). We compute per-file and dataset-level error metrics and statistically compare the systems. Across all flights, rvolmea demonstrates consistently lower 3D position error than piddob. Visualizations and bootstrap confidence intervals support the conclusion that rvolmea offers better performance on these data.
+\end{abstract}
+
+\section{Data and Methods}
+Each dataset includes ten CSV files with columns $x,y,z$ (measured) and $gx,gy,gz$ (reference). Per sample, we compute the 3D error magnitude $|e|=\sqrt{(x-gx)^2+(y-gy)^2+(z-gz)^2}$. Per file, we compute:
+\begin{itemize}
+    \item Axis metrics: RMSE, MAE, bias, std, max$|e|$, p95$|e|$, skew, kurtosis.
+    \item 3D metrics: RMSE$_{3D}$, MAE$_{3D}$, median$_{3D}$, p95$_{3D}$, max$_{3D}$, IQR$_{3D}$.
+\end{itemize}
+For comparison, we align common files and analyze key metrics (RMSE$_{3D}$, MAE$_{3D}$, p95$_{3D}$, and per-axis RMSE). We compute paired deltas (B$-$A), bootstrap 95\% CIs for the mean delta (10{,}000 resamples), the win-rate $\Pr(\text{B}<\text{A})$, and Cohen's $d$ for the deltas.
+
+\section{Key Results}
+Table~\ref{tab:summary} summarizes the paired differences (B$-$A). Negative values favor B; positive values indicate A is better (lower error).
+
+\begin{table}[h]
+    \centering
+    \caption{Paired comparison summary: deltas are B$-$A (piddob$-$rvolmea)}
+    \label{tab:summary}
+    \begin{tabular}{l S S[table-format=1.6] S[table-format=1.6] S}
+        \toprule
+        Metric      & {Mean $\Delta$} & {CI 2.5\%} & {CI 97.5\%} & {Win-rate B$<$A} \\
+        \midrule
+        RMSE$_{3D}$ & {0.217692}      & {0.212455} & {0.222716}  & {0.000}          \\
+        MAE$_{3D}$  & {0.223897}      & {0.218263} & {0.229202}  & {0.000}          \\
+        P95$_{3D}$  & {0.189584}      & {0.182604} & {0.195689}  & {0.000}          \\
+        RMSE$_x$    & {0.042903}      & {0.041820} & {0.044095}  & {0.000}          \\
+        RMSE$_y$    & {0.041785}      & {0.040216} & {0.043266}  & {0.000}          \\
+        RMSE$_z$    & {0.211492}      & {0.206170} & {0.216591}  & {0.000}          \\
+        \midrule
+        \multicolumn{5}{l}{Cohen's $d$ (effect size) for deltas: RMSE$_{3D}$=24.614, MAE$_{3D}$=23.793, P95$_{3D}$=16.952, $x$=22.046, $y$=16.122, $z$=23.535}
+        \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+All intervals are strictly positive, indicating that piddob's errors exceed rvolmea's on all metrics with high confidence. The win-rate for B$<$A is 0\% across metrics, and effect sizes are very large, indicating consistent, substantial differences.
+
+\section{Visual Evidence}
+Figures~\ref{fig:scatter}--\ref{fig:bland} illustrate the comparison.
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{scatter_rmse3d_B_vs_A.png}
+        \caption{Per-file RMSE$_{3D}$: piddob vs rvolmea (y=x line).}
+        \label{fig:scatter}
+    \end{subfigure}\hfill
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{bar_delta_rmse3d.png}
+        \caption{Delta RMSE$_{3D}$ (B$-$A); negative would favor B.}
+        \label{fig:bar}
+    \end{subfigure}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{box_axes_rmse.png}
+        \caption{Per-axis RMSE across files: distributions for A and B.}
+        \label{fig:box}
+    \end{subfigure}\hfill
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{cdf_compare_e3.png}
+        \caption{CDF overlay of 3D error across all samples; left-shift favors lower errors.}
+        \label{fig:cdf}
+    \end{subfigure}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{bland_altman_rmse3d.png}
+    \caption{Bland--Altman plot of RMSE$_{3D}$ across files: consistent positive offset for B$-$A.}
+    \label{fig:bland}
+\end{figure}
+
+\section{Conclusion}
+Across 10 paired flights, rvolmea delivers lower 3D positional error than piddob by \emph{every} investigated metric. The differences are consistent (0\% win-rate for B), statistically robust (bootstrap 95\% CIs exclude zero), and practically large (very high Cohen's $d$). On these data, rvolmea is the better-performing controller.
+
+\vspace{1ex}
+\noindent\textbf{Reproducibility.} This document was generated from the analysis artifacts in \texttt{new\_data/reports\_compare/20251022\_141618}. Figures are included from the same directory.
+
+\end{document}

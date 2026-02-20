@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/include/**",
+        "/home/lunet/ttcc4/ws_sensor_combined/install/px4_ros_com/include/**",
+        "/home/lunet/ttcc4/ws_sensor_combined/install/px4_msgs/include/**",
+        "/opt/ros/foxy/include/**",
+        "/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

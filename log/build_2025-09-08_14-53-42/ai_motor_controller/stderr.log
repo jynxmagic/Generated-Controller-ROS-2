@@ -1,0 +1,110 @@
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:425:28:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+  425 |     Eigen::Vector3f e_prev([01;31m[K0[m[K,0,0), adaptive_prev(1,1,1), acc_prev(0,0,0), ori_err_prev(0,0,0);
+      |                            [01;31m[K^[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:425:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before numeric constant
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:425:50:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+  425 |     Eigen::Vector3f e_prev(0,0,0), adaptive_prev([01;31m[K1[m[K,1,1), acc_prev(0,0,0), ori_err_prev(0,0,0);
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:425:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before numeric constant
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:425:67:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+  425 |     Eigen::Vector3f e_prev(0,0,0), adaptive_prev(1,1,1), acc_prev([01;31m[K0[m[K,0,0), ori_err_prev(0,0,0);
+      |                                                                   [01;31m[K^[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:425:67:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before numeric constant
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:425:88:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+  425 |     Eigen::Vector3f e_prev(0,0,0), adaptive_prev(1,1,1), acc_prev(0,0,0), ori_err_prev([01;31m[K0[m[K,0,0);
+      |                                                                                        [01;31m[K^[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:425:88:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before numeric constant
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:426:27:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+  426 |     Eigen::Vector3f d_hat([01;31m[K0[m[K,0,0), sat_err_z_vec(0,0,0);
+      |                           [01;31m[K^[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:426:27:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before numeric constant
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:426:49:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+  426 |     Eigen::Vector3f d_hat(0,0,0), sat_err_z_vec([01;31m[K0[m[K,0,0);
+      |                                                 [01;31m[K^[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:426:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before numeric constant
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::[01;32m[Kpublish_thrust_torque_setpoint[m[K(Eigen::Vector<float, 4>)[m[K’:
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:475:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_thrust[m[K’ was not declared in this scope
+  475 |     setpoint[0] = std::clamp(setpoint[0], 0.0f, [01;31m[Kmax_thrust[m[K);
+      |                                                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::[01;32m[KrvolmeaControl[m[K()[m[K’:
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:576:9:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[KEigen::Vector3f OffboardControl::[01;32m[Ke_prev[m[K(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  576 |         [01;31m[Ke_prev[m[K.setZero();
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:577:9:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[KEigen::Vector3f OffboardControl::[01;32m[Kadaptive_prev[m[K(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  577 |         [01;31m[Kadaptive_prev[m[K = Eigen::Vector3d::Ones();
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:578:9:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[KEigen::Vector3f OffboardControl::[01;32m[Kacc_prev[m[K(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  578 |         [01;31m[Kacc_prev[m[K.setZero();
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:579:9:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[KEigen::Vector3f OffboardControl::[01;32m[Kori_err_prev[m[K(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  579 |         [01;31m[Kori_err_prev[m[K.setZero();
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:580:9:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[KEigen::Vector3f OffboardControl::[01;32m[Kd_hat[m[K(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  580 |         [01;31m[Kd_hat[m[K.setZero();
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:582:9:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[KEigen::Vector3f OffboardControl::[01;32m[Ksat_err_z_vec[m[K(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  582 |         [01;31m[Ksat_err_z_vec[m[K.setZero();
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:606:44:[m[K [01;31m[Kerror: [m[Klvalue required as decrement operand
+  606 |     const Eigen::Vector3f gvec(0.0f,0.0f,--[01;31m[K9.81f[m[K);
+      |                                            [01;31m[K^~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:609:32:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[KEigen::Vector3f OffboardControl::[01;32m[Ke_prev[m[K(int)[m[K’
+  609 |     Eigen::Vector3f e_dot = ([01;31m[Ke - e_prev[m[K) / dt;
+      |                              [01;31m[K~~^~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:425:21:[m[K [01;36m[Knote: [m[Kdeclared here
+  425 |     Eigen::Vector3f [01;36m[Ke_prev[m[K(0,0,0), adaptive_prev(1,1,1), acc_prev(0,0,0), ori_err_prev(0,0,0);
+      |                     [01;36m[K^~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:616:46:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[KEigen::Vector3f OffboardControl::[01;32m[Kadaptive_prev[m[K(int)[m[K’
+  616 |     Eigen::Vector3f adaptive_dot = ([01;31m[Kadaptive - adaptive_prev[m[K) / dt;
+      |                                     [01;31m[K~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:425:36:[m[K [01;36m[Knote: [m[Kdeclared here
+  425 |     Eigen::Vector3f e_prev(0,0,0), [01;36m[Kadaptive_prev[m[K(1,1,1), acc_prev(0,0,0), ori_err_prev(0,0,0);
+      |                                    [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:618:30:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[KEigen::Vector3f OffboardControl::[01;32m[Kadaptive_prev[m[K(int)[m[K’
+  618 |     adaptive = [01;31m[Kadaptive_prev + adaptive_dot*dt[m[K;
+      |                [01;31m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:425:36:[m[K [01;36m[Knote: [m[Kdeclared here
+  425 |     Eigen::Vector3f e_prev(0,0,0), [01;36m[Kadaptive_prev[m[K(1,1,1), acc_prev(0,0,0), ori_err_prev(0,0,0);
+      |                                    [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:619:5:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[KEigen::Vector3f OffboardControl::[01;32m[Kadaptive_prev[m[K(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  619 |     [01;31m[Kadaptive_prev[m[K = adaptive;
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:622:23:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[KEigen::Vector3f OffboardControl::[01;32m[Ksat_err_z_vec[m[K(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  622 |     float sat_err_z = [01;31m[Ksat_err_z_vec[m[K.z();
+      |                       [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:637:39:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[KEigen::Vector3f OffboardControl::[01;32m[Kacc_prev[m[K(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  637 |     Eigen::Vector3f acc_lp = coefs[9]*[01;31m[Kacc_prev[m[K + (1.0-coefs[9])*a_des;
+      |                                       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:638:5:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[KEigen::Vector3f OffboardControl::[01;32m[Kacc_prev[m[K(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  638 |     [01;31m[Kacc_prev[m[K = acc_lp;
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:642:11:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[KEigen::Vector3f OffboardControl::[01;32m[Kd_hat[m[K(int)[m[K’
+  642 |     [01;31m[Kd_hat += d_dot*dt[m[K;
+      |     [01;31m[K~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:426:21:[m[K [01;36m[Knote: [m[Kdeclared here
+  426 |     Eigen::Vector3f [01;36m[Kd_hat[m[K(0,0,0), sat_err_z_vec(0,0,0);
+      |                     [01;36m[K^~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:645:35:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[KEigen::Vector3f OffboardControl::[01;32m[Kd_hat[m[K(int)[m[K’
+  645 |     Eigen::Vector3f a_obs = [01;31m[Ka_des - d_hat[m[K;
+      |                             [01;31m[K~~~~~~^~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:426:21:[m[K [01;36m[Knote: [m[Kdeclared here
+  426 |     Eigen::Vector3f [01;36m[Kd_hat[m[K(0,0,0), sat_err_z_vec(0,0,0);
+      |                     [01;36m[K^~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:664:44:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[KEigen::Vector3f OffboardControl::[01;32m[Kori_err_prev[m[K(int)[m[K’
+  664 |     Eigen::Vector3f ori_err_dot = ([01;31m[Kori_err - ori_err_prev[m[K)/dt;
+      |                                    [01;31m[K~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:425:75:[m[K [01;36m[Knote: [m[Kdeclared here
+  425 |     Eigen::Vector3f e_prev(0,0,0), adaptive_prev(1,1,1), acc_prev(0,0,0), [01;36m[Kori_err_prev[m[K(0,0,0);
+      |                                                                           [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:665:5:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[KEigen::Vector3f OffboardControl::[01;32m[Kori_err_prev[m[K(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  665 |     [01;31m[Kori_err_prev[m[K = ori_err;
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:672:5:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[KEigen::Vector3f OffboardControl::[01;32m[Ksat_err_z_vec[m[K(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  672 |     [01;31m[Ksat_err_z_vec[m[K.z() = std::min(0.0f, z_unclamped);
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:676:5:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[KEigen::Vector3f OffboardControl::[01;32m[Ke_prev[m[K(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  676 |     [01;31m[Ke_prev[m[K = e;
+      |     [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/lemniscate.dir/build.make:76: CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lemniscate.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,14 @@
+[0.014s] Invoking command in '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/lunet/ttcc4/anaconda3/bin/cmake --build /home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller -- -j8 -l8
+[0.115s] [ 50%] Built target wrench
+[0.115s] [ 75%] [32mBuilding CXX object CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o[0m
+[15.653s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::[01;32m[Kcalculate_thrust_torque_setpoint[m[K()[m[K’:
+[15.653s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:878:63:[m[K [01;31m[Kerror: [m[K‘[01m[Klemniscate[m[K’ was not declared in this scope
+[15.653s]   878 |     if (debug) std::cout << "[DEBUG] X error: " << x_error[0][[01;31m[Klemniscate[m[K-1] [DEBUG] Position control acceleration (a_pos): 634.198 -624.92 205.666
+[15.654s]       |                                                               [01;31m[K^~~~~~~~~~[m[K
+[15.654s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:878:78:[m[K [01;31m[Kerror: [m[K‘[01m[KDEBUG[m[K’ was not declared in this scope
+[15.654s]   878 |     if (debug) std::cout << "[DEBUG] X error: " << x_error[0][lemniscate-1] [[01;31m[KDEBUG[m[K] Position control acceleration (a_pos): 634.198 -624.92 205.666
+[15.654s]       |                                                                              [01;31m[K^~~~~[m[K
+[15.662s] gmake[2]: *** [CMakeFiles/lemniscate.dir/build.make:76: CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o] Error 1
+[15.663s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lemniscate.dir/all] Error 2
+[15.665s] gmake: *** [Makefile:146: all] Error 2
+[15.681s] Invoked command in '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/lunet/ttcc4/anaconda3/bin/cmake --build /home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller -- -j8 -l8

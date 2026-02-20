@@ -1,0 +1,43 @@
+[0.013s] Invoking command in '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/lunet/ttcc4/anaconda3/bin/cmake --build /home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller -- -j8 -l8
+[0.080s] [ 50%] Built target wrench
+[0.080s] [ 75%] [32mBuilding CXX object CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o[0m
+[28.026s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::[01;32m[KrvolmeaControl[m[K()[m[K’:
+[28.027s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:660:21:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kangular_velocity[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[28.027s]   660 |     Eigen::Vector3f [01;35m[Kangular_velocity[m[K = Eigen::Vector3f(local_angular_velocity_x_, local_angular_velocity_y_, local_angular_velocity_z_);
+[28.027s]       |                     [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[28.027s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:712:21:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ka_corr_adj[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[28.027s]   712 |     Eigen::Vector3f [01;35m[Ka_corr_adj[m[K = a_corr - f_ext;
+[28.027s]       |                     [01;35m[K^~~~~~~~~~[m[K
+[28.039s] [100%] [32m[1mLinking CXX executable lemniscate[0m
+[29.319s] [100%] Built target lemniscate
+[29.331s] Invoked command in '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/lunet/ttcc4/anaconda3/bin/cmake --build /home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller -- -j8 -l8
+[29.365s] Invoking command in '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/lunet/ttcc4/anaconda3/bin/cmake --install /home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller
+[29.387s] -- Install configuration: ""
+[29.387s] -- Installing: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/lib/ai_motor_controller/lemniscate
+[29.404s] -- Set runtime path of "/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/lib/ai_motor_controller/lemniscate" to ""
+[29.404s] -- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/lib/ai_motor_controller/wrench
+[29.404s] -- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller//launch
+[29.404s] -- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller//launch/lemniscate_launch.py
+[29.404s] -- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller//launch/traj.csv
+[29.405s] -- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller//launch/wrench_launch.py
+[29.405s] -- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller//launch/__pycache__
+[29.405s] -- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller//launch/__pycache__/wrench_launch.cpython-312.pyc
+[29.405s] -- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller//config
+[29.405s] -- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller//config/pid_params.yaml
+[29.405s] -- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ament_index/resource_index/package_run_dependencies/ai_motor_controller
+[29.405s] -- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ament_index/resource_index/parent_prefix_path/ai_motor_controller
+[29.405s] -- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/environment/ament_prefix_path.sh
+[29.405s] -- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/environment/ament_prefix_path.dsv
+[29.405s] -- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/environment/path.sh
+[29.405s] -- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/environment/path.dsv
+[29.405s] -- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/local_setup.bash
+[29.405s] -- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/local_setup.sh
+[29.405s] -- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/local_setup.zsh
+[29.405s] -- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/local_setup.dsv
+[29.405s] -- Installing: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/package.dsv
+[29.405s] -- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ament_index/resource_index/packages/ai_motor_controller
+[29.405s] -- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[29.406s] -- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/cmake/ai_motor_controllerConfig.cmake
+[29.406s] -- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/cmake/ai_motor_controllerConfig-version.cmake
+[29.406s] -- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/package.xml
+[29.409s] Invoked command in '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/lunet/ttcc4/anaconda3/bin/cmake --install /home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller

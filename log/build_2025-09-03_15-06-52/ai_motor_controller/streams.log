@@ -1,0 +1,12 @@
+[0.055s] Invoking command in '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/lunet/ttcc4/anaconda3/bin/cmake --build /home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller -- -j8 -l8
+[0.394s] [ 50%] Built target wrench
+[0.410s] [ 75%] [32mBuilding CXX object CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o[0m
+[41.423s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::[01;32m[Kpublish_thrust_torque_setpoint[m[K(Eigen::Vector<float, 4>)[m[K’:
+[41.424s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:516:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_collective_thrust[m[K’ was not declared in this scope; did you mean ‘[01m[Kprev_collective_thrust_[m[K’?
+[41.424s]   516 |     setpoint[0] = std::clamp(setpoint[0], 0.0f, [01;31m[Kmax_collective_thrust[m[K);
+[41.424s]       |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[41.424s]       |                                                 [32m[Kprev_collective_thrust_[m[K
+[41.431s] gmake[2]: *** [CMakeFiles/lemniscate.dir/build.make:76: CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o] Error 1
+[41.432s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lemniscate.dir/all] Error 2
+[41.433s] gmake: *** [Makefile:146: all] Error 2
+[41.461s] Invoked command in '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/lunet/ttcc4/anaconda3/bin/cmake --build /home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller -- -j8 -l8

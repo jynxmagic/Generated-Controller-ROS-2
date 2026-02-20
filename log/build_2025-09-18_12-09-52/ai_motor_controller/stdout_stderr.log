@@ -1,0 +1,119 @@
+[ 75%] [32mBuilding CXX object CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o[0m
+[ 75%] Built target wrench
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:966:17:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+  966 | } cal velocity: [01;35m[K"[m[K << xdot.transpose() << std::endl;
+      |                 [01;35m[K^[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:966:17:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+  966 | } cal velocity: [01;31m[K" << xdot.transpose() << std::endl;[m[K
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::[01;32m[KrvolmeaControl[m[K()[m[K’:
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:603:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmax_thrust[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  603 |     constexpr float [01;35m[Kmax_thrust[m[K = 44.0f;
+      |                     [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:[m[K At global scope:
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:683:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  683 | [01;31m[K}[m[K p.y(), a_comp.z());
+      | [01;31m[K^[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:683:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kp[m[K’ does not name a type
+  683 | } [01;31m[Kp[m[K.y(), a_comp.z());
+      |   [01;31m[K^[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:691:25:[m[K [01;31m[Kerror: [m[K‘[01m[Keuler_to_rotation[m[K’ was not declared in this scope
+  691 | Eigen::Matrix3f R_des = [01;31m[Keuler_to_rotation[m[K(phi, theta, 0.0);
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:692:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kypr[m[K’ was not declared in this scope
+  692 | Eigen::Matrix3f R_cur = euler_to_rotation([01;31m[Kypr[m[K[2], ypr[1], ypr[0]);
+      |                                           [01;31m[K^~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:692:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kypr[m[K’ was not declared in this scope
+  692 | Eigen::Matrix3f R_cur = euler_to_rotation(ypr[2], [01;31m[Kypr[m[K[1], ypr[0]);
+      |                                                   [01;31m[K^~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:692:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kypr[m[K’ was not declared in this scope
+  692 | Eigen::Matrix3f R_cur = euler_to_rotation(ypr[2], ypr[1], [01;31m[Kypr[m[K[0]);
+      |                                                           [01;31m[K^~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:692:25:[m[K [01;31m[Kerror: [m[K‘[01m[Keuler_to_rotation[m[K’ was not declared in this scope
+  692 | Eigen::Matrix3f R_cur = [01;31m[Keuler_to_rotation[m[K(ypr[2], ypr[1], ypr[0]);
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:694:27:[m[K [01;31m[Kerror: [m[K‘[01m[Krotation_matrix_to_axis_angle[m[K’ was not declared in this scope
+  694 | Eigen::Vector3f ori_err = [01;31m[Krotation_matrix_to_axis_angle[m[K(R_err);
+      |                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:695:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kori_err_prev[m[K’ was not declared in this scope; did you mean ‘[01m[Kori_err_dot[m[K’?
+  695 | Eigen::Vector3f ori_err_dot = (ori_err - [01;31m[Kori_err_prev[m[K)/dt;
+      |                                          [01;31m[K^~~~~~~~~~~~[m[K
+      |                                          [32m[Kori_err_dot[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:695:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kdt[m[K’ was not declared in this scope
+  695 | Eigen::Vector3f ori_err_dot = (ori_err - ori_err_prev)/[01;31m[Kdt[m[K;
+      |                                                        [01;31m[K^~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:696:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kori_err_prev[m[K’ does not name a type
+  696 | [01;31m[Kori_err_prev[m[K = ori_err;
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:699:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kcoefs[m[K’ was not declared in this scope
+  699 | Eigen::Vector3f omega_des = [01;31m[Kcoefs[m[K[4]*ori_err + coefs[5]*ori_err_dot;
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:699:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kcoefs[m[K’ was not declared in this scope
+  699 | Eigen::Vector3f omega_des = coefs[4]*ori_err + [01;31m[Kcoefs[m[K[5]*ori_err_dot;
+      |                                                [01;31m[K^~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:702:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kmass[m[K’ was not declared in this scope
+  702 | float z_unclamped = [01;31m[Kmass[m[K * R_cur.col(2).dot(a_comp);
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:702:45:[m[K [01;31m[Kerror: [m[K‘[01m[Ka_comp[m[K’ was not declared in this scope
+  702 | float z_unclamped = mass * R_cur.col(2).dot([01;31m[Ka_comp[m[K);
+      |                                             [01;31m[K^~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:703:1:[m[K [01;31m[Kerror: [m[K‘[01m[Ksat_err_z_vec[m[K’ does not name a type
+  703 | [01;31m[Ksat_err_z_vec[m[K.z() = std::min(0.0f, z_unclamped);
+      | [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:707:1:[m[K [01;31m[Kerror: [m[K‘[01m[Ke_prev[m[K’ does not name a type
+  707 | [01;31m[Ke_prev[m[K = e;
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:711:1:[m[K [01;31m[Kerror: [m[K‘[01m[Koutput[m[K’ does not name a type
+  711 | [01;31m[Koutput[m[K << thrust, omega_des.x(), omega_des.y(), omega_des.z();
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:713:31:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+  713 | publish_thrust_torque_setpoint[01;31m[K([m[Koutput);
+      |                               [01;31m[K^[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:715:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  715 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:966:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  966 | [01;31m[K}[m[K cal velocity: " << xdot.transpose() << std::endl;
+      | [01;31m[K^[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:966:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcal[m[K’ does not name a type
+  966 | } [01;31m[Kcal[m[K velocity: " << xdot.transpose() << std::endl;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:981:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_local_velocity_y_[m[K’ does not name a type
+  981 | [01;31m[Kprev_local_velocity_y_[m[K = local_velocity_y_;
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:982:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_local_velocity_z_[m[K’ does not name a type
+  982 | [01;31m[Kprev_local_velocity_z_[m[K = local_velocity_z_;
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:983:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_collective_thrust_[m[K’ does not name a type
+  983 | [01;31m[Kprev_collective_thrust_[m[K = required_thrust;
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:984:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_ori_q[m[K’ does not name a type
+  984 | [01;31m[Kprev_ori_q[m[K = ori_q;
+      | [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:985:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_cmd_vel[m[K’ does not name a type
+  985 | [01;31m[Kprev_cmd_vel[m[K = target_velocity;
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:987:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_first_run[m[K’ does not name a type
+  987 | [01;31m[Kis_first_run[m[K = false;
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:991:31:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+  991 | publish_thrust_torque_setpoint[01;31m[K([m[Kthrust_and_torque);
+      |                               [01;31m[K^[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:992:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  992 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:1130:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+ 1130 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:1131:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+ 1131 | [01;31m[K{[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:1134:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+ 1134 | [01;31m[Kelse[m[K if (finished_ && ascended_)
+      | [01;31m[K^~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:1143:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+ 1143 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/lemniscate.dir/build.make:76: CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lemniscate.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

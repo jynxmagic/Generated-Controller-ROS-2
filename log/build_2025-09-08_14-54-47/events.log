@@ -1,0 +1,217 @@
+[0.000000] (-) TimerEvent: {}
+[0.000231] (ai_motor_controller) JobQueued: {'identifier': 'ai_motor_controller', 'dependencies': OrderedDict()}
+[0.000842] (ai_motor_controller) JobStarted: {'identifier': 'ai_motor_controller'}
+[0.013212] (ai_motor_controller) JobProgress: {'identifier': 'ai_motor_controller', 'progress': 'cmake'}
+[0.014754] (ai_motor_controller) JobProgress: {'identifier': 'ai_motor_controller', 'progress': 'build'}
+[0.014846] (ai_motor_controller) Command: {'cmd': ['/home/lunet/ttcc4/anaconda3/bin/cmake', '--build', '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller', '--', '-j8', '-l8'], 'cwd': '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/rolling/share', 'LANGUAGE': 'en_GB:en', 'USER': 'ttcc4', 'GZ_CONFIG_PATH': '/opt/ros/rolling/opt/gz_sim_vendor/share/gz:/opt/ros/rolling/opt/sdformat_vendor/share/gz:/opt/ros/rolling/opt/gz_gui_vendor/share/gz:/opt/ros/rolling/opt/gz_transport_vendor/share/gz:/opt/ros/rolling/opt/gz_rendering_vendor/share/gz:/opt/ros/rolling/opt/gz_plugin_vendor/share/gz:/opt/ros/rolling/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/rolling/opt/gz_msgs_vendor/share/gz:/opt/ros/rolling/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/lunet/ttcc4/ws_sensor_combined/install/px4_ros_com/lib:/home/lunet/ttcc4/ws_sensor_combined/install/px4_msgs/lib:/opt/ros/rolling/opt/zenoh_cpp_vendor/lib:/opt/ros/rolling/opt/gz_sim_vendor/lib:/opt/ros/rolling/opt/gz_sensors_vendor/lib:/opt/ros/rolling/opt/gz_physics_vendor/lib:/opt/ros/rolling/opt/sdformat_vendor/lib:/opt/ros/rolling/opt/gz_gui_vendor/lib:/opt/ros/rolling/opt/gz_transport_vendor/lib:/opt/ros/rolling/opt/gz_rendering_vendor/lib:/opt/ros/rolling/opt/gz_plugin_vendor/lib:/opt/ros/rolling/opt/gz_fuel_tools_vendor/lib:/opt/ros/rolling/opt/gz_msgs_vendor/lib:/opt/ros/rolling/opt/gz_common_vendor/lib:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_tools_vendor/lib:/opt/ros/rolling/opt/gz_ogre_next_vendor/lib:/opt/ros/rolling/opt/gz_dartsim_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'HOME': '/home/lunet/ttcc4', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/lunet/ttcc4', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'OPENAI_API_KEY': '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', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '4160', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1394126462/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'GNOME_KEYRING_CONTROL': '/run/user/1394126462/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lunet/ttcc4/ws_sensor_combined/install:/home/lunet/ttcc4/direct_motor_control_ws/install', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'ttcc4', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1394126462.slice/user@1394126462.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ttcc4', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'PATH': '/opt/ros/rolling/opt/gz_msgs_vendor/bin:/opt/ros/rolling/opt/gz_tools_vendor/bin:/opt/ros/rolling/opt/gz_ogre_next_vendor/bin:/opt/ros/rolling/bin:/home/lunet/ttcc4/pclp:/home/lunet/ttcc4/anaconda3/bin:/home/lunet/ttcc4/anaconda3/condabin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/lunet/ttcc4/.cargo/bin:/usr/lib/ccache:/home/lunet/ttcc4/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/lunet/ttcc4/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/puppetlabs/bin', 'SESSION_MANAGER': 'local/LNX-TTCC4-1.lunet.lboro.ac.uk:@/tmp/.ICE-unix/3950,unix/LNX-TTCC4-1.lunet.lboro.ac.uk:/tmp/.ICE-unix/3950', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/30af6751_3b40_4d4d_874d_4d4f6c5938da', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1394126462', 'DISPLAY': ':0', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1394126462/.mutter-Xwaylandauth.VQ03B3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.145', 'SSH_AUTH_SOCK': '/run/user/1394126462/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/lunet/ttcc4/ws_sensor_combined/install/px4_ros_com:/home/lunet/ttcc4/ws_sensor_combined/install/px4_msgs:/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller:/opt/ros/rolling', 'CONDA_PYTHON_EXE': '/home/lunet/ttcc4/anaconda3/bin/python', 'SHELL': '/bin/bash', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_1394126462_WZdXSg', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', 'FLIGHTMARE_PATH': '/home/lunet/ttcc4/flightmare_attitude_control', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/lunet/ttcc4/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lunet/ttcc4/ws_sensor_combined/install/px4_ros_com/lib/python3.9/site-packages:/home/lunet/ttcc4/ws_sensor_combined/install/px4_msgs/lib/python3.9/site-packages:/opt/ros/rolling/lib/python3.12/site-packages', 'CONDA_PREFIX': '/home/lunet/ttcc4/anaconda3', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'MANPATH': ':/opt/puppetlabs/puppet/share/man', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/lunet/ttcc4/ws_sensor_combined/install/px4_ros_com:/home/lunet/ttcc4/ws_sensor_combined/install/px4_msgs:/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller:/opt/ros/rolling/opt/gz_sim_vendor:/opt/ros/rolling/opt/gz_sensors_vendor:/opt/ros/rolling/opt/gz_physics_vendor:/opt/ros/rolling/opt/sdformat_vendor:/opt/ros/rolling/opt/gz_gui_vendor:/opt/ros/rolling/opt/gz_transport_vendor:/opt/ros/rolling/opt/gz_rendering_vendor:/opt/ros/rolling/opt/gz_plugin_vendor:/opt/ros/rolling/opt/gz_fuel_tools_vendor:/opt/ros/rolling/opt/gz_msgs_vendor:/opt/ros/rolling/opt/gz_common_vendor:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_tools_vendor:/opt/ros/rolling/opt/gz_ogre_next_vendor:/opt/ros/rolling/opt/gz_dartsim_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling'}), 'shell': False}
+[0.066117] (ai_motor_controller) StdoutLine: {'line': b'[ 50%] Built target wrench\n'}
+[0.071145] (ai_motor_controller) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o\x1b[0m\n'}
+[0.099915] (-) TimerEvent: {}
+[0.200309] (-) TimerEvent: {}
+[0.300583] (-) TimerEvent: {}
+[0.400924] (-) TimerEvent: {}
+[0.501206] (-) TimerEvent: {}
+[0.601620] (-) TimerEvent: {}
+[0.701903] (-) TimerEvent: {}
+[0.802204] (-) TimerEvent: {}
+[0.902529] (-) TimerEvent: {}
+[1.002824] (-) TimerEvent: {}
+[1.103150] (-) TimerEvent: {}
+[1.203518] (-) TimerEvent: {}
+[1.304129] (-) TimerEvent: {}
+[1.404467] (-) TimerEvent: {}
+[1.504772] (-) TimerEvent: {}
+[1.605101] (-) TimerEvent: {}
+[1.705472] (-) TimerEvent: {}
+[1.805780] (-) TimerEvent: {}
+[1.906097] (-) TimerEvent: {}
+[2.006440] (-) TimerEvent: {}
+[2.106770] (-) TimerEvent: {}
+[2.207101] (-) TimerEvent: {}
+[2.307444] (-) TimerEvent: {}
+[2.407812] (-) TimerEvent: {}
+[2.508142] (-) TimerEvent: {}
+[2.608495] (-) TimerEvent: {}
+[2.708877] (-) TimerEvent: {}
+[2.809243] (-) TimerEvent: {}
+[2.909612] (-) TimerEvent: {}
+[3.009982] (-) TimerEvent: {}
+[3.110267] (-) TimerEvent: {}
+[3.210624] (-) TimerEvent: {}
+[3.310979] (-) TimerEvent: {}
+[3.411350] (-) TimerEvent: {}
+[3.511715] (-) TimerEvent: {}
+[3.612081] (-) TimerEvent: {}
+[3.712462] (-) TimerEvent: {}
+[3.812833] (-) TimerEvent: {}
+[3.913216] (-) TimerEvent: {}
+[4.013583] (-) TimerEvent: {}
+[4.113941] (-) TimerEvent: {}
+[4.214345] (-) TimerEvent: {}
+[4.314716] (-) TimerEvent: {}
+[4.415087] (-) TimerEvent: {}
+[4.515481] (-) TimerEvent: {}
+[4.615846] (-) TimerEvent: {}
+[4.716224] (-) TimerEvent: {}
+[4.816643] (-) TimerEvent: {}
+[4.917040] (-) TimerEvent: {}
+[5.017400] (-) TimerEvent: {}
+[5.117774] (-) TimerEvent: {}
+[5.218138] (-) TimerEvent: {}
+[5.318506] (-) TimerEvent: {}
+[5.418904] (-) TimerEvent: {}
+[5.519300] (-) TimerEvent: {}
+[5.619573] (-) TimerEvent: {}
+[5.719864] (-) TimerEvent: {}
+[5.820238] (-) TimerEvent: {}
+[5.920588] (-) TimerEvent: {}
+[6.020840] (-) TimerEvent: {}
+[6.121187] (-) TimerEvent: {}
+[6.221536] (-) TimerEvent: {}
+[6.321938] (-) TimerEvent: {}
+[6.422311] (-) TimerEvent: {}
+[6.522705] (-) TimerEvent: {}
+[6.623082] (-) TimerEvent: {}
+[6.723454] (-) TimerEvent: {}
+[6.823744] (-) TimerEvent: {}
+[6.924132] (-) TimerEvent: {}
+[7.024474] (-) TimerEvent: {}
+[7.124772] (-) TimerEvent: {}
+[7.225136] (-) TimerEvent: {}
+[7.325502] (-) TimerEvent: {}
+[7.425871] (-) TimerEvent: {}
+[7.526243] (-) TimerEvent: {}
+[7.626595] (-) TimerEvent: {}
+[7.726896] (-) TimerEvent: {}
+[7.827248] (-) TimerEvent: {}
+[7.927612] (-) TimerEvent: {}
+[8.027979] (-) TimerEvent: {}
+[8.128365] (-) TimerEvent: {}
+[8.228642] (-) TimerEvent: {}
+[8.328927] (-) TimerEvent: {}
+[8.429212] (-) TimerEvent: {}
+[8.529563] (-) TimerEvent: {}
+[8.629846] (-) TimerEvent: {}
+[8.730351] (-) TimerEvent: {}
+[8.830804] (-) TimerEvent: {}
+[8.931189] (-) TimerEvent: {}
+[9.031425] (-) TimerEvent: {}
+[9.131696] (-) TimerEvent: {}
+[9.231960] (-) TimerEvent: {}
+[9.332234] (-) TimerEvent: {}
+[9.432506] (-) TimerEvent: {}
+[9.532881] (-) TimerEvent: {}
+[9.631973] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:425:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected identifier before numeric constant\n'}
+[9.632552] (ai_motor_controller) StderrLine: {'line': b'  425 |     Eigen::Vector3f e_prev(\x1b[01;31m\x1b[K0\x1b[m\x1b[K,0,0);\n'}
+[9.632646] (ai_motor_controller) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.632716] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:425:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before numeric constant\n'}
+[9.632779] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:426:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected identifier before numeric constant\n'}
+[9.632848] (ai_motor_controller) StderrLine: {'line': b'  426 |     Eigen::Vector3f adaptive_prev(\x1b[01;31m\x1b[K1\x1b[m\x1b[K,1,1);\n'}
+[9.632901] (-) TimerEvent: {}
+[9.632976] (ai_motor_controller) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.633040] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:426:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before numeric constant\n'}
+[9.633096] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:427:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected identifier before numeric constant\n'}
+[9.633151] (ai_motor_controller) StderrLine: {'line': b'  427 |     Eigen::Vector3f acc_prev(\x1b[01;31m\x1b[K0\x1b[m\x1b[K,0,0);\n'}
+[9.633213] (ai_motor_controller) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.633266] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:427:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before numeric constant\n'}
+[9.633319] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:428:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected identifier before numeric constant\n'}
+[9.633369] (ai_motor_controller) StderrLine: {'line': b'  428 |     Eigen::Vector3f ori_err_prev(\x1b[01;31m\x1b[K0\x1b[m\x1b[K,0,0);\n'}
+[9.633418] (ai_motor_controller) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.633467] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:428:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before numeric constant\n'}
+[9.633517] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:429:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected identifier before numeric constant\n'}
+[9.633567] (ai_motor_controller) StderrLine: {'line': b'  429 |     Eigen::Vector3f d_hat(\x1b[01;31m\x1b[K0\x1b[m\x1b[K,0,0);\n'}
+[9.633616] (ai_motor_controller) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.633666] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:429:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before numeric constant\n'}
+[9.633716] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:430:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected identifier before numeric constant\n'}
+[9.633771] (ai_motor_controller) StderrLine: {'line': b'  430 |     Eigen::Vector3f sat_err_z_vec(\x1b[01;31m\x1b[K0\x1b[m\x1b[K,0,0);\n'}
+[9.633821] (ai_motor_controller) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.633869] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:430:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before numeric constant\n'}
+[9.633919] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid OffboardControl::\x1b[01;32m\x1b[Kpublish_thrust_torque_setpoint\x1b[m\x1b[K(Eigen::Vector<float, 4>)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.633970] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:479:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmax_thrust\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.634025] (ai_motor_controller) StderrLine: {'line': b'  479 |     setpoint[0] = std::clamp(setpoint[0], 0.0f, \x1b[01;31m\x1b[Kmax_thrust\x1b[m\x1b[K);\n'}
+[9.634076] (ai_motor_controller) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.634126] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid OffboardControl::\x1b[01;32m\x1b[KrvolmeaControl\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.634179] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:580:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of member function \xe2\x80\x98\x1b[01m\x1b[KEigen::Vector3f OffboardControl::\x1b[01;32m\x1b[Ke_prev\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99 (did you forget the \xe2\x80\x98\x1b[01m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99 ?)\n'}
+[9.634239] (ai_motor_controller) StderrLine: {'line': b'  580 |         \x1b[01;31m\x1b[Ke_prev\x1b[m\x1b[K.setZero();\n'}
+[9.634291] (ai_motor_controller) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[9.634341] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:581:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of member function \xe2\x80\x98\x1b[01m\x1b[KEigen::Vector3f OffboardControl::\x1b[01;32m\x1b[Kadaptive_prev\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99 (did you forget the \xe2\x80\x98\x1b[01m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99 ?)\n'}
+[9.634394] (ai_motor_controller) StderrLine: {'line': b'  581 |         \x1b[01;31m\x1b[Kadaptive_prev\x1b[m\x1b[K = Eigen::Vector3d::Ones();\n'}
+[9.634444] (ai_motor_controller) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.634494] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:582:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of member function \xe2\x80\x98\x1b[01m\x1b[KEigen::Vector3f OffboardControl::\x1b[01;32m\x1b[Kacc_prev\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99 (did you forget the \xe2\x80\x98\x1b[01m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99 ?)\n'}
+[9.634546] (ai_motor_controller) StderrLine: {'line': b'  582 |         \x1b[01;31m\x1b[Kacc_prev\x1b[m\x1b[K.setZero();\n'}
+[9.634595] (ai_motor_controller) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.634648] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:583:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of member function \xe2\x80\x98\x1b[01m\x1b[KEigen::Vector3f OffboardControl::\x1b[01;32m\x1b[Kori_err_prev\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99 (did you forget the \xe2\x80\x98\x1b[01m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99 ?)\n'}
+[9.634699] (ai_motor_controller) StderrLine: {'line': b'  583 |         \x1b[01;31m\x1b[Kori_err_prev\x1b[m\x1b[K.setZero();\n'}
+[9.634754] (ai_motor_controller) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.634809] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:584:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of member function \xe2\x80\x98\x1b[01m\x1b[KEigen::Vector3f OffboardControl::\x1b[01;32m\x1b[Kd_hat\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99 (did you forget the \xe2\x80\x98\x1b[01m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99 ?)\n'}
+[9.634864] (ai_motor_controller) StderrLine: {'line': b'  584 |         \x1b[01;31m\x1b[Kd_hat\x1b[m\x1b[K.setZero();\n'}
+[9.634917] (ai_motor_controller) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.634973] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:586:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of member function \xe2\x80\x98\x1b[01m\x1b[KEigen::Vector3f OffboardControl::\x1b[01;32m\x1b[Ksat_err_z_vec\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99 (did you forget the \xe2\x80\x98\x1b[01m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99 ?)\n'}
+[9.635028] (ai_motor_controller) StderrLine: {'line': b'  586 |         \x1b[01;31m\x1b[Ksat_err_z_vec\x1b[m\x1b[K.setZero();\n'}
+[9.635082] (ai_motor_controller) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.635134] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:610:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Klvalue required as decrement operand\n'}
+[9.635200] (ai_motor_controller) StderrLine: {'line': b'  610 |     const Eigen::Vector3f gvec(0.0f,0.0f,--\x1b[01;31m\x1b[K9.81f\x1b[m\x1b[K);\n'}
+[9.635253] (ai_motor_controller) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.635305] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:613:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static member function \xe2\x80\x98\x1b[01m\x1b[KEigen::Vector3f OffboardControl::\x1b[01;32m\x1b[Ke_prev\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.635364] (ai_motor_controller) StderrLine: {'line': b'  613 |     Eigen::Vector3f e_dot = (\x1b[01;31m\x1b[Ke - e_prev\x1b[m\x1b[K) / dt;\n'}
+[9.635417] (ai_motor_controller) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K~~^~~~~~~~\x1b[m\x1b[K\n'}
+[9.635470] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:425:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.635524] (ai_motor_controller) StderrLine: {'line': b'  425 |     Eigen::Vector3f \x1b[01;36m\x1b[Ke_prev\x1b[m\x1b[K(0,0,0);\n'}
+[9.635577] (ai_motor_controller) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[9.635629] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:620:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static member function \xe2\x80\x98\x1b[01m\x1b[KEigen::Vector3f OffboardControl::\x1b[01;32m\x1b[Kadaptive_prev\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.635735] (ai_motor_controller) StderrLine: {'line': b'  620 |     Eigen::Vector3f adaptive_dot = (\x1b[01;31m\x1b[Kadaptive - adaptive_prev\x1b[m\x1b[K) / dt;\n'}
+[9.635787] (ai_motor_controller) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.635837] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:426:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.635886] (ai_motor_controller) StderrLine: {'line': b'  426 |     Eigen::Vector3f \x1b[01;36m\x1b[Kadaptive_prev\x1b[m\x1b[K(1,1,1);\n'}
+[9.635934] (ai_motor_controller) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.635982] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:622:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static member function \xe2\x80\x98\x1b[01m\x1b[KEigen::Vector3f OffboardControl::\x1b[01;32m\x1b[Kadaptive_prev\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.636044] (ai_motor_controller) StderrLine: {'line': b'  622 |     adaptive = \x1b[01;31m\x1b[Kadaptive_prev + adaptive_dot*dt\x1b[m\x1b[K;\n'}
+[9.636096] (ai_motor_controller) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.636144] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:426:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.636199] (ai_motor_controller) StderrLine: {'line': b'  426 |     Eigen::Vector3f \x1b[01;36m\x1b[Kadaptive_prev\x1b[m\x1b[K(1,1,1);\n'}
+[9.636252] (ai_motor_controller) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.636301] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:623:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of member function \xe2\x80\x98\x1b[01m\x1b[KEigen::Vector3f OffboardControl::\x1b[01;32m\x1b[Kadaptive_prev\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99 (did you forget the \xe2\x80\x98\x1b[01m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99 ?)\n'}
+[9.636354] (ai_motor_controller) StderrLine: {'line': b'  623 |     \x1b[01;31m\x1b[Kadaptive_prev\x1b[m\x1b[K = adaptive;\n'}
+[9.636405] (ai_motor_controller) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.636453] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:626:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of member function \xe2\x80\x98\x1b[01m\x1b[KEigen::Vector3f OffboardControl::\x1b[01;32m\x1b[Ksat_err_z_vec\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99 (did you forget the \xe2\x80\x98\x1b[01m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99 ?)\n'}
+[9.636505] (ai_motor_controller) StderrLine: {'line': b'  626 |     float sat_err_z = \x1b[01;31m\x1b[Ksat_err_z_vec\x1b[m\x1b[K.z();\n'}
+[9.636554] (ai_motor_controller) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.636603] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:641:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of member function \xe2\x80\x98\x1b[01m\x1b[KEigen::Vector3f OffboardControl::\x1b[01;32m\x1b[Kacc_prev\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99 (did you forget the \xe2\x80\x98\x1b[01m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99 ?)\n'}
+[9.636657] (ai_motor_controller) StderrLine: {'line': b'  641 |     Eigen::Vector3f acc_lp = coefs[9]*\x1b[01;31m\x1b[Kacc_prev\x1b[m\x1b[K + (1.0-coefs[9])*a_des;\n'}
+[9.636714] (ai_motor_controller) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.636762] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:642:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of member function \xe2\x80\x98\x1b[01m\x1b[KEigen::Vector3f OffboardControl::\x1b[01;32m\x1b[Kacc_prev\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99 (did you forget the \xe2\x80\x98\x1b[01m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99 ?)\n'}
+[9.636813] (ai_motor_controller) StderrLine: {'line': b'  642 |     \x1b[01;31m\x1b[Kacc_prev\x1b[m\x1b[K = acc_lp;\n'}
+[9.636863] (ai_motor_controller) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.636911] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:646:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static member function \xe2\x80\x98\x1b[01m\x1b[KEigen::Vector3f OffboardControl::\x1b[01;32m\x1b[Kd_hat\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.636963] (ai_motor_controller) StderrLine: {'line': b'  646 |     \x1b[01;31m\x1b[Kd_hat += d_dot*dt\x1b[m\x1b[K;\n'}
+[9.637013] (ai_motor_controller) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.637060] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:429:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.637109] (ai_motor_controller) StderrLine: {'line': b'  429 |     Eigen::Vector3f \x1b[01;36m\x1b[Kd_hat\x1b[m\x1b[K(0,0,0);\n'}
+[9.637163] (ai_motor_controller) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.637209] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:649:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static member function \xe2\x80\x98\x1b[01m\x1b[KEigen::Vector3f OffboardControl::\x1b[01;32m\x1b[Kd_hat\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.637264] (ai_motor_controller) StderrLine: {'line': b'  649 |     Eigen::Vector3f a_obs = \x1b[01;31m\x1b[Ka_des - d_hat\x1b[m\x1b[K;\n'}
+[9.637314] (ai_motor_controller) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[9.637361] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:429:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.637408] (ai_motor_controller) StderrLine: {'line': b'  429 |     Eigen::Vector3f \x1b[01;36m\x1b[Kd_hat\x1b[m\x1b[K(0,0,0);\n'}
+[9.637456] (ai_motor_controller) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.637505] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:668:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static member function \xe2\x80\x98\x1b[01m\x1b[KEigen::Vector3f OffboardControl::\x1b[01;32m\x1b[Kori_err_prev\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.637557] (ai_motor_controller) StderrLine: {'line': b'  668 |     Eigen::Vector3f ori_err_dot = (\x1b[01;31m\x1b[Kori_err - ori_err_prev\x1b[m\x1b[K)/dt;\n'}
+[9.637606] (ai_motor_controller) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.637654] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:428:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.637701] (ai_motor_controller) StderrLine: {'line': b'  428 |     Eigen::Vector3f \x1b[01;36m\x1b[Kori_err_prev\x1b[m\x1b[K(0,0,0);\n'}
+[9.637752] (ai_motor_controller) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.637798] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:669:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of member function \xe2\x80\x98\x1b[01m\x1b[KEigen::Vector3f OffboardControl::\x1b[01;32m\x1b[Kori_err_prev\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99 (did you forget the \xe2\x80\x98\x1b[01m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99 ?)\n'}
+[9.637854] (ai_motor_controller) StderrLine: {'line': b'  669 |     \x1b[01;31m\x1b[Kori_err_prev\x1b[m\x1b[K = ori_err;\n'}
+[9.637904] (ai_motor_controller) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.637950] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:676:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of member function \xe2\x80\x98\x1b[01m\x1b[KEigen::Vector3f OffboardControl::\x1b[01;32m\x1b[Ksat_err_z_vec\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99 (did you forget the \xe2\x80\x98\x1b[01m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99 ?)\n'}
+[9.637999] (ai_motor_controller) StderrLine: {'line': b'  676 |     \x1b[01;31m\x1b[Ksat_err_z_vec\x1b[m\x1b[K.z() = std::min(0.0f, z_unclamped);\n'}
+[9.638047] (ai_motor_controller) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.638094] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:680:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of member function \xe2\x80\x98\x1b[01m\x1b[KEigen::Vector3f OffboardControl::\x1b[01;32m\x1b[Ke_prev\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99 (did you forget the \xe2\x80\x98\x1b[01m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99 ?)\n'}
+[9.638143] (ai_motor_controller) StderrLine: {'line': b'  680 |     \x1b[01;31m\x1b[Ke_prev\x1b[m\x1b[K = e;\n'}
+[9.638195] (ai_motor_controller) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[9.638243] (ai_motor_controller) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lemniscate.dir/build.make:76: CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o] Error 1\n'}
+[9.638290] (ai_motor_controller) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lemniscate.dir/all] Error 2\n'}
+[9.638340] (ai_motor_controller) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.640763] (ai_motor_controller) CommandEnded: {'returncode': 2}
+[9.647909] (ai_motor_controller) JobEnded: {'identifier': 'ai_motor_controller', 'rc': 2}
+[9.658605] (-) EventReactorShutdown: {}

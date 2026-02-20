@@ -1,0 +1,9 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o[0m
+[ 75%] Built target wrench
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Kpx4_msgs/msg/VehicleRatesSetpoint.hpp: No such file or directory
+   13 | #include [01;31m[K<px4_msgs/msg/VehicleRatesSetpoint.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/lemniscate.dir/build.make:76: CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lemniscate.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

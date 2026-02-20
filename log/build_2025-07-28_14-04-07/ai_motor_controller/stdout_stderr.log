@@ -1,0 +1,20 @@
+[ 50%] Built target wrench
+[ 75%] [32mBuilding CXX object CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o[0m
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::[01;32m[Kpublish_thrust_torque_setpoint[m[K(Eigen::Vector<float, 4>)[m[K’:
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:558:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ktorque[m[K’ was not declared in this scope; did you mean ‘[01m[Ktorque_Nm[m[K’?
+  558 |     rates_sp_msg.roll = [01;31m[Ktorque[m[K[0];
+      |                         [01;31m[K^~~~~~[m[K
+      |                         [32m[Ktorque_Nm[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::[01;32m[KrvolmeaControl[m[K()[m[K’:
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:828:21:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[Kthrust_direction[m[K’
+  828 |     Eigen::Vector3f [01;31m[Kthrust_direction[m[K = (norm_acc > 1e-6f) ? (target_acceleration / norm_acc) : Eigen::Vector3f(0.0f, 0.0f, 1.0f);
+      |                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:834:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kthrust_direction[m[K’ was not declared in this scope
+  834 |     float pitch = std::atan2([01;31m[Kthrust_direction[m[K[0], thrust_direction[2]);
+      |                              [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:826:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knorm_acc[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  826 |     float [01;35m[Knorm_acc[m[K = target_acceleration.norm();
+      |           [01;35m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/lemniscate.dir/build.make:76: CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lemniscate.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

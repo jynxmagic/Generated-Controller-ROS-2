@@ -1,0 +1,2084 @@
+[INFO] [launch]: All log files can be found below /home/lunet/ttcc4/.ros/log/2025-09-02-14-33-24-352961-LNX-TTCC4-1.lunet.lboro.ac.uk-952273
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [lemniscate-1]: process started with pid [952286]
+[lemniscate-1] Starting offboard control node...
+[lemniscate-1] [INFO] [1756820004.713511440] [lemniscate]: Loaded pid_x gains: Kp=2.48, Ki=0.00, Kd=2.03
+[lemniscate-1] [INFO] [1756820004.713914749] [lemniscate]: Loaded pid_y gains: Kp=3.53, Ki=0.00, Kd=1.63
+[lemniscate-1] [INFO] [1756820004.713964664] [lemniscate]: Loaded pid_z gains: Kp=7.13, Ki=0.00, Kd=1.63
+[lemniscate-1] [INFO] [1756820004.714946332] [lemniscate]: Loaded ori_xyz gains: Kp=12.00, Ki=0.00, Kd=0.00
+[lemniscate-1] PID gains loaded: 
+[lemniscate-1] pid_x: 2.48209, 0, 2.02742
+[lemniscate-1] pid_y: 3.53132, 0, 1.62606
+[lemniscate-1] pid_z: 7.12605, 0, 1.62871
+[lemniscate-1] ori_xyz: 12, 0, 0
+[lemniscate-1] [INFO] [1756820008.913351806] [lemniscate]: Arm command send
+[lemniscate-1] Hit Acended counter: 0
+[lemniscate-1] Hit Acended counter: 1
+[lemniscate-1] Hit Acended counter: 2
+[lemniscate-1] Hit Acended counter: 3
+[lemniscate-1] Hit Acended counter: 4
+[lemniscate-1] Hit Acended counter: 5
+[lemniscate-1] Hit Acended counter: 6
+[lemniscate-1] Hit Acended counter: 7
+[lemniscate-1] Hit Acended counter: 8
+[lemniscate-1] Hit Acended counter: 9
+[lemniscate-1] Hit Acended counter: 10
+[lemniscate-1] Hit Acended counter: 11
+[lemniscate-1] Hit Acended counter: 12
+[lemniscate-1] Hit Acended counter: 13
+[lemniscate-1] Hit Acended counter: 14
+[lemniscate-1] Hit Acended counter: 15
+[lemniscate-1] Hit Acended counter: 16
+[lemniscate-1] Hit Acended counter: 17
+[lemniscate-1] Hit Acended counter: 18
+[lemniscate-1] Hit Acended counter: 19
+[lemniscate-1] Hit Acended counter: 20
+[lemniscate-1] Ascended
+[lemniscate-1] Desired roll: 0.5, Actual roll: -0.0201157
+[lemniscate-1] Setpoint:    23.296
+[lemniscate-1]   1.06281
+[lemniscate-1] 0.0152716
+[lemniscate-1]  0.182404
+[lemniscate-1] Desired roll: 0.5, Actual roll: -0.020056
+[lemniscate-1] Setpoint:   22.6752
+[lemniscate-1]   1.06275
+[lemniscate-1] 0.0150493
+[lemniscate-1]  0.182217
+[lemniscate-1] Desired roll: 0.5, Actual roll: -0.0198728
+[lemniscate-1] Setpoint:  23.5349
+[lemniscate-1]  1.06226
+[lemniscate-1] 0.014688
+[lemniscate-1] 0.181584
+[lemniscate-1] Desired roll: 0.5, Actual roll: -0.0198094
+[lemniscate-1] Setpoint:    22.643
+[lemniscate-1]   1.06207
+[lemniscate-1] 0.0146243
+[lemniscate-1]   0.18153
+[lemniscate-1] Desired roll: 0.5, Actual roll: -0.0198094
+[lemniscate-1] Setpoint:   23.5255
+[lemniscate-1]   1.06207
+[lemniscate-1] 0.0146243
+[lemniscate-1]   0.18153
+[lemniscate-1] Desired roll: 0.5, Actual roll: -0.0191425
+[lemniscate-1] Setpoint:    23.547
+[lemniscate-1]   1.05021
+[lemniscate-1] 0.0142004
+[lemniscate-1]  0.180181
+[lemniscate-1] Desired roll: 0.5, Actual roll: -0.0191425
+[lemniscate-1] Setpoint:   23.5453
+[lemniscate-1]   1.05021
+[lemniscate-1] 0.0142004
+[lemniscate-1]  0.180181
+[lemniscate-1] Desired roll: 0.5, Actual roll: -0.0162186
+[lemniscate-1] Setpoint:    22.217
+[lemniscate-1]   1.01158
+[lemniscate-1] 0.0142962
+[lemniscate-1]  0.178829
+[lemniscate-1] Desired roll: 0.5, Actual roll: -0.0162186
+[lemniscate-1] Setpoint:   23.5156
+[lemniscate-1]   1.01158
+[lemniscate-1] 0.0142962
+[lemniscate-1]  0.178829
+[lemniscate-1] Desired roll: 0.5, Actual roll: -0.00999481
+[lemniscate-1] Setpoint:   22.7805
+[lemniscate-1]  0.963202
+[lemniscate-1] 0.0147868
+[lemniscate-1]  0.177225
+[lemniscate-1] Desired roll: 0.5, Actual roll: -0.000703038
+[lemniscate-1] Setpoint:  22.7752
+[lemniscate-1] 0.914363
+[lemniscate-1] 0.014099
+[lemniscate-1] 0.175134
+[lemniscate-1] Desired roll: 0.5, Actual roll: -0.000703038
+[lemniscate-1] Setpoint:  23.5294
+[lemniscate-1] 0.914363
+[lemniscate-1] 0.014099
+[lemniscate-1] 0.175134
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.00484376
+[lemniscate-1] Setpoint:   23.5599
+[lemniscate-1]  0.891992
+[lemniscate-1] 0.0135459
+[lemniscate-1]   0.17382
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.0108265
+[lemniscate-1] Setpoint:   22.9321
+[lemniscate-1]  0.871158
+[lemniscate-1] 0.0131437
+[lemniscate-1]  0.172455
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.0171675
+[lemniscate-1] Setpoint:  23.5757
+[lemniscate-1] 0.851317
+[lemniscate-1] 0.012771
+[lemniscate-1] 0.170955
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.023762
+[lemniscate-1] Setpoint:   23.5826
+[lemniscate-1]  0.832826
+[lemniscate-1] 0.0124506
+[lemniscate-1]  0.169716
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.0271414
+[lemniscate-1] Setpoint:   22.8026
+[lemniscate-1]  0.822213
+[lemniscate-1] 0.0122794
+[lemniscate-1]  0.168553
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.0374743
+[lemniscate-1] Setpoint:   23.6131
+[lemniscate-1]   0.79887
+[lemniscate-1] 0.0121947
+[lemniscate-1]  0.166206
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.04448
+[lemniscate-1] Setpoint:    23.057
+[lemniscate-1]  0.783052
+[lemniscate-1] 0.0121367
+[lemniscate-1]  0.164732
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.0515075
+[lemniscate-1] Setpoint:  23.6574
+[lemniscate-1] 0.768421
+[lemniscate-1] 0.012117
+[lemniscate-1] 0.162945
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.0550237
+[lemniscate-1] Setpoint:  23.6572
+[lemniscate-1] 0.761217
+[lemniscate-1] 0.012275
+[lemniscate-1] 0.161698
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.0655688
+[lemniscate-1] Setpoint:   23.3584
+[lemniscate-1]   0.73984
+[lemniscate-1] 0.0125913
+[lemniscate-1]  0.159124
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.0725761
+[lemniscate-1] Setpoint:   23.7169
+[lemniscate-1]  0.726093
+[lemniscate-1] 0.0127887
+[lemniscate-1]  0.156986
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.0795379
+[lemniscate-1] Setpoint:   23.6729
+[lemniscate-1]  0.712973
+[lemniscate-1] 0.0127928
+[lemniscate-1]  0.155024
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.0829942
+[lemniscate-1] Setpoint:   23.7239
+[lemniscate-1]  0.707646
+[lemniscate-1] 0.0125599
+[lemniscate-1]  0.153499
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.0999621
+[lemniscate-1] Setpoint:   23.6745
+[lemniscate-1]  0.676145
+[lemniscate-1] 0.0123668
+[lemniscate-1]  0.148505
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.106632
+[lemniscate-1] Setpoint:   23.8054
+[lemniscate-1]  0.663849
+[lemniscate-1] 0.0122698
+[lemniscate-1]  0.146047
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.113224
+[lemniscate-1] Setpoint:   23.9563
+[lemniscate-1]  0.652124
+[lemniscate-1] 0.0120841
+[lemniscate-1]  0.143296
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.119728
+[lemniscate-1] Setpoint:   23.8596
+[lemniscate-1]  0.640781
+[lemniscate-1] 0.0119787
+[lemniscate-1]  0.140808
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.122943
+[lemniscate-1] Setpoint:   23.8678
+[lemniscate-1]  0.635226
+[lemniscate-1] 0.0118886
+[lemniscate-1]  0.139571
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.132448
+[lemniscate-1] Setpoint:   24.2833
+[lemniscate-1]  0.618745
+[lemniscate-1] 0.0115213
+[lemniscate-1]  0.135999
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.135576
+[lemniscate-1] Setpoint:   23.9369
+[lemniscate-1]  0.614095
+[lemniscate-1] 0.0116047
+[lemniscate-1]  0.134227
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.144814
+[lemniscate-1] Setpoint:   24.3745
+[lemniscate-1]  0.597503
+[lemniscate-1] 0.0115942
+[lemniscate-1]  0.130749
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.147838
+[lemniscate-1] Setpoint:   23.9753
+[lemniscate-1]  0.593768
+[lemniscate-1] 0.0114637
+[lemniscate-1]  0.129079
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.162546
+[lemniscate-1] Setpoint:    24.452
+[lemniscate-1]  0.568063
+[lemniscate-1] 0.0110572
+[lemniscate-1]  0.122989
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.171085
+[lemniscate-1] Setpoint:   24.1335
+[lemniscate-1]  0.554467
+[lemniscate-1] 0.0108631
+[lemniscate-1]   0.11844
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.179415
+[lemniscate-1] Setpoint:   24.1193
+[lemniscate-1]   0.53953
+[lemniscate-1] 0.0105627
+[lemniscate-1]  0.114389
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.182143
+[lemniscate-1] Setpoint:   24.1237
+[lemniscate-1]  0.535957
+[lemniscate-1] 0.0103005
+[lemniscate-1]  0.112867
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.190193
+[lemniscate-1] Setpoint:    25.6099
+[lemniscate-1]   0.521331
+[lemniscate-1] 0.00979716
+[lemniscate-1]   0.108997
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.192836
+[lemniscate-1] Setpoint:    24.2296
+[lemniscate-1]   0.516804
+[lemniscate-1] 0.00963587
+[lemniscate-1]   0.107575
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.198051
+[lemniscate-1] Setpoint:     24.635
+[lemniscate-1]   0.508891
+[lemniscate-1] 0.00962867
+[lemniscate-1]   0.104225
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.205715
+[lemniscate-1] Setpoint:    24.2707
+[lemniscate-1]   0.495216
+[lemniscate-1] 0.00952456
+[lemniscate-1]   0.100506
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.205715
+[lemniscate-1] Setpoint:    24.2648
+[lemniscate-1]   0.495216
+[lemniscate-1] 0.00952456
+[lemniscate-1]   0.100506
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.215589
+[lemniscate-1] Setpoint:    25.6926
+[lemniscate-1]    0.47926
+[lemniscate-1] 0.00892873
+[lemniscate-1]  0.0948444
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.215589
+[lemniscate-1] Setpoint:     24.337
+[lemniscate-1]    0.47926
+[lemniscate-1] 0.00892873
+[lemniscate-1]  0.0948444
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.225113
+[lemniscate-1] Setpoint:    24.7201
+[lemniscate-1]   0.463298
+[lemniscate-1] 0.00863558
+[lemniscate-1]  0.0891547
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.229752
+[lemniscate-1] Setpoint:    24.4276
+[lemniscate-1]   0.455656
+[lemniscate-1] 0.00841164
+[lemniscate-1]  0.0864441
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.234299
+[lemniscate-1] Setpoint:    25.8573
+[lemniscate-1]   0.448215
+[lemniscate-1] 0.00805799
+[lemniscate-1]  0.0836895
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.236542
+[lemniscate-1] Setpoint:    24.5065
+[lemniscate-1]   0.445375
+[lemniscate-1] 0.00791838
+[lemniscate-1]  0.0821632
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.240968
+[lemniscate-1] Setpoint:    24.5007
+[lemniscate-1]   0.437782
+[lemniscate-1] 0.00770873
+[lemniscate-1]  0.0793273
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.24748
+[lemniscate-1] Setpoint:   25.6021
+[lemniscate-1]  0.425941
+[lemniscate-1] 0.0076193
+[lemniscate-1] 0.0754722
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.249618
+[lemniscate-1] Setpoint:   24.5719
+[lemniscate-1]  0.422883
+[lemniscate-1] 0.0074084
+[lemniscate-1]  0.073959
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.253848
+[lemniscate-1] Setpoint:    24.5691
+[lemniscate-1]   0.415848
+[lemniscate-1] 0.00708221
+[lemniscate-1]   0.071387
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.260044
+[lemniscate-1] Setpoint:    26.2861
+[lemniscate-1]    0.40485
+[lemniscate-1] 0.00660223
+[lemniscate-1]  0.0676622
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.262074
+[lemniscate-1] Setpoint:    24.6695
+[lemniscate-1]   0.401486
+[lemniscate-1] 0.00653139
+[lemniscate-1]  0.0664071
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.268056
+[lemniscate-1] Setpoint:      25.92
+[lemniscate-1]   0.391482
+[lemniscate-1] 0.00661547
+[lemniscate-1]  0.0625319
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.270012
+[lemniscate-1] Setpoint:    24.7342
+[lemniscate-1]   0.389144
+[lemniscate-1] 0.00666153
+[lemniscate-1]  0.0611736
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.275765
+[lemniscate-1] Setpoint:    24.7619
+[lemniscate-1]   0.379118
+[lemniscate-1] 0.00623012
+[lemniscate-1]  0.0574685
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.279504
+[lemniscate-1] Setpoint:    26.5681
+[lemniscate-1]   0.373072
+[lemniscate-1] 0.00576049
+[lemniscate-1]  0.0547261
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.283175
+[lemniscate-1] Setpoint:    24.8294
+[lemniscate-1]   0.367023
+[lemniscate-1] 0.00550916
+[lemniscate-1]  0.0523472
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.284982
+[lemniscate-1] Setpoint:    26.0133
+[lemniscate-1]   0.364756
+[lemniscate-1] 0.00559149
+[lemniscate-1]   0.051319
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.290311
+[lemniscate-1] Setpoint:     24.903
+[lemniscate-1]    0.35522
+[lemniscate-1] 0.00545804
+[lemniscate-1]  0.0480768
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.293782
+[lemniscate-1] Setpoint:    24.8961
+[lemniscate-1]   0.349619
+[lemniscate-1] 0.00529734
+[lemniscate-1]  0.0455991
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.29549
+[lemniscate-1] Setpoint:    26.6993
+[lemniscate-1]   0.346897
+[lemniscate-1] 0.00522015
+[lemniscate-1]  0.0444828
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.298857
+[lemniscate-1] Setpoint:    24.9838
+[lemniscate-1]   0.342075
+[lemniscate-1] 0.00520326
+[lemniscate-1]  0.0422777
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.30379
+[lemniscate-1] Setpoint:    26.1363
+[lemniscate-1]   0.333183
+[lemniscate-1] 0.00516032
+[lemniscate-1]  0.0391323
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.307013
+[lemniscate-1] Setpoint:    25.0354
+[lemniscate-1]   0.327889
+[lemniscate-1] 0.00502869
+[lemniscate-1]   0.037089
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.308596
+[lemniscate-1] Setpoint:    25.0496
+[lemniscate-1]    0.32604
+[lemniscate-1] 0.00494505
+[lemniscate-1]  0.0361958
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.311721
+[lemniscate-1] Setpoint:    26.8355
+[lemniscate-1]   0.320806
+[lemniscate-1] 0.00461525
+[lemniscate-1]  0.0340781
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.314789
+[lemniscate-1] Setpoint:    25.1208
+[lemniscate-1]   0.315771
+[lemniscate-1] 0.00450322
+[lemniscate-1]  0.0321016
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.319286
+[lemniscate-1] Setpoint:    26.2058
+[lemniscate-1]   0.307649
+[lemniscate-1] 0.00434201
+[lemniscate-1]  0.0294048
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.322219
+[lemniscate-1] Setpoint:   25.1827
+[lemniscate-1]  0.302933
+[lemniscate-1] 0.0042114
+[lemniscate-1] 0.0276818
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.325088
+[lemniscate-1] Setpoint:    25.1817
+[lemniscate-1]   0.298269
+[lemniscate-1] 0.00399772
+[lemniscate-1]  0.0256546
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.325088
+[lemniscate-1] Setpoint:    25.1872
+[lemniscate-1]   0.298269
+[lemniscate-1] 0.00399772
+[lemniscate-1]  0.0256546
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.330688
+[lemniscate-1] Setpoint:    27.4173
+[lemniscate-1]   0.288871
+[lemniscate-1] 0.00394445
+[lemniscate-1]  0.0219874
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.333416
+[lemniscate-1] Setpoint:     25.832
+[lemniscate-1]   0.284313
+[lemniscate-1] 0.00397151
+[lemniscate-1]  0.0202838
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.336103
+[lemniscate-1] Setpoint:    25.3001
+[lemniscate-1]    0.27965
+[lemniscate-1] 0.00381398
+[lemniscate-1]  0.0185262
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.336103
+[lemniscate-1] Setpoint:    25.3017
+[lemniscate-1]    0.27965
+[lemniscate-1] 0.00381398
+[lemniscate-1]  0.0185262
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.33874
+[lemniscate-1] Setpoint:    25.3186
+[lemniscate-1]   0.275321
+[lemniscate-1] 0.00362525
+[lemniscate-1]  0.0171147
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.341334
+[lemniscate-1] Setpoint:    27.4933
+[lemniscate-1]   0.270867
+[lemniscate-1] 0.00349784
+[lemniscate-1]  0.0157632
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.343888
+[lemniscate-1] Setpoint:    25.4096
+[lemniscate-1]   0.266646
+[lemniscate-1] 0.00344154
+[lemniscate-1]  0.0141253
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.346395
+[lemniscate-1] Setpoint:    25.9233
+[lemniscate-1]   0.262478
+[lemniscate-1] 0.00322915
+[lemniscate-1]  0.0129556
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.348854
+[lemniscate-1] Setpoint:    25.4352
+[lemniscate-1]   0.258488
+[lemniscate-1] 0.00334719
+[lemniscate-1]  0.0114422
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.351263
+[lemniscate-1] Setpoint:    25.4465
+[lemniscate-1]   0.254521
+[lemniscate-1] 0.00310719
+[lemniscate-1] 0.00981909
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.353635
+[lemniscate-1] Setpoint:    27.5024
+[lemniscate-1]   0.250687
+[lemniscate-1] 0.00304498
+[lemniscate-1] 0.00839796
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.355952
+[lemniscate-1] Setpoint:    25.5245
+[lemniscate-1]   0.246937
+[lemniscate-1] 0.00296736
+[lemniscate-1] 0.00717895
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.358228
+[lemniscate-1] Setpoint:    26.5949
+[lemniscate-1]   0.243224
+[lemniscate-1] 0.00311272
+[lemniscate-1] 0.00592077
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.360458
+[lemniscate-1] Setpoint:    25.5805
+[lemniscate-1]   0.239595
+[lemniscate-1] 0.00313482
+[lemniscate-1] 0.00441481
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.362642
+[lemniscate-1] Setpoint:    25.6035
+[lemniscate-1]   0.236281
+[lemniscate-1] 0.00316972
+[lemniscate-1] 0.00302453
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.363711
+[lemniscate-1] Setpoint:    26.5968
+[lemniscate-1]   0.235225
+[lemniscate-1] 0.00314249
+[lemniscate-1]  0.0027143
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.366849
+[lemniscate-1] Setpoint:     25.6445
+[lemniscate-1]    0.229724
+[lemniscate-1]  0.00281761
+[lemniscate-1] 0.000793178
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.368896
+[lemniscate-1] Setpoint:      26.5603
+[lemniscate-1]     0.226183
+[lemniscate-1]   0.00268019
+[lemniscate-1] -0.000615922
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.370907
+[lemniscate-1] Setpoint:     25.6826
+[lemniscate-1]    0.222953
+[lemniscate-1]   0.0024492
+[lemniscate-1] -0.00172149
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.374801
+[lemniscate-1] Setpoint:     26.2824
+[lemniscate-1]    0.216853
+[lemniscate-1]  0.00223626
+[lemniscate-1] -0.00420677
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.378538
+[lemniscate-1] Setpoint:     26.0695
+[lemniscate-1]    0.210698
+[lemniscate-1]  0.00199664
+[lemniscate-1] -0.00648371
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.379452
+[lemniscate-1] Setpoint:     25.7887
+[lemniscate-1]    0.209551
+[lemniscate-1]  0.00199544
+[lemniscate-1] -0.00697673
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.382136
+[lemniscate-1] Setpoint:     25.7671
+[lemniscate-1]    0.204823
+[lemniscate-1]  0.00184806
+[lemniscate-1] -0.00899549
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.383888
+[lemniscate-1] Setpoint:    27.5992
+[lemniscate-1]   0.201787
+[lemniscate-1] 0.00161433
+[lemniscate-1]  -0.010084
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.385616
+[lemniscate-1] Setpoint:    25.8512
+[lemniscate-1]   0.198865
+[lemniscate-1] 0.00152797
+[lemniscate-1] -0.0112995
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.387308
+[lemniscate-1] Setpoint:    26.2724
+[lemniscate-1]    0.19616
+[lemniscate-1] 0.00146844
+[lemniscate-1] -0.0124895
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.388968
+[lemniscate-1] Setpoint:    25.8772
+[lemniscate-1]   0.193403
+[lemniscate-1] 0.00107593
+[lemniscate-1]  -0.013748
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.389786
+[lemniscate-1] Setpoint:     25.8937
+[lemniscate-1]    0.192448
+[lemniscate-1] 0.000950763
+[lemniscate-1]  -0.0140013
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.392186
+[lemniscate-1] Setpoint:     27.1068
+[lemniscate-1]    0.188242
+[lemniscate-1] 0.000744555
+[lemniscate-1]  -0.0158709
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.393755
+[lemniscate-1] Setpoint:     25.9474
+[lemniscate-1]    0.185529
+[lemniscate-1] 0.000593257
+[lemniscate-1]   -0.017376
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.395299
+[lemniscate-1] Setpoint:     26.728
+[lemniscate-1]    0.18291
+[lemniscate-1] 0.00019255
+[lemniscate-1] -0.0185924
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.396812
+[lemniscate-1] Setpoint:      25.9782
+[lemniscate-1]     0.180518
+[lemniscate-1] -0.000123637
+[lemniscate-1]   -0.0200598
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.398286
+[lemniscate-1] Setpoint:      25.9811
+[lemniscate-1]     0.178293
+[lemniscate-1] -0.000367932
+[lemniscate-1]   -0.0214188
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.399733
+[lemniscate-1] Setpoint:      27.1381
+[lemniscate-1]     0.175945
+[lemniscate-1] -0.000611989
+[lemniscate-1]   -0.0225584
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.399733
+[lemniscate-1] Setpoint:      26.0295
+[lemniscate-1]     0.175945
+[lemniscate-1] -0.000611989
+[lemniscate-1]   -0.0225584
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.402539
+[lemniscate-1] Setpoint:      26.7544
+[lemniscate-1]     0.171324
+[lemniscate-1] -0.000947278
+[lemniscate-1]   -0.0249221
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.403225
+[lemniscate-1] Setpoint:     26.0629
+[lemniscate-1]    0.170554
+[lemniscate-1] -0.00109126
+[lemniscate-1]  -0.0253865
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.403225
+[lemniscate-1] Setpoint:      26.068
+[lemniscate-1]    0.170554
+[lemniscate-1] -0.00109126
+[lemniscate-1]  -0.0253865
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.406532
+[lemniscate-1] Setpoint:    27.4915
+[lemniscate-1]   0.165071
+[lemniscate-1] -0.0018065
+[lemniscate-1] -0.0293537
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.406532
+[lemniscate-1] Setpoint:    26.0898
+[lemniscate-1]   0.165071
+[lemniscate-1] -0.0018065
+[lemniscate-1] -0.0293537
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.408448
+[lemniscate-1] Setpoint:     26.1664
+[lemniscate-1]    0.162005
+[lemniscate-1] -0.00258689
+[lemniscate-1]  -0.0313773
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.410309
+[lemniscate-1] Setpoint:     26.1472
+[lemniscate-1]    0.158826
+[lemniscate-1] -0.00307981
+[lemniscate-1]  -0.0336697
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.410915
+[lemniscate-1] Setpoint:     27.0802
+[lemniscate-1]     0.15809
+[lemniscate-1] -0.00316421
+[lemniscate-1]  -0.0340076
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.412694
+[lemniscate-1] Setpoint:     26.1682
+[lemniscate-1]    0.155092
+[lemniscate-1] -0.00364413
+[lemniscate-1]   -0.036368
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.413276
+[lemniscate-1] Setpoint:     26.1717
+[lemniscate-1]    0.154289
+[lemniscate-1] -0.00384412
+[lemniscate-1]  -0.0369527
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.416098
+[lemniscate-1] Setpoint:     26.4739
+[lemniscate-1]    0.149678
+[lemniscate-1] -0.00479203
+[lemniscate-1]  -0.0413774
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.41718
+[lemniscate-1] Setpoint:     26.2249
+[lemniscate-1]    0.147945
+[lemniscate-1] -0.00532965
+[lemniscate-1]   -0.043129
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.418236
+[lemniscate-1] Setpoint:     26.6846
+[lemniscate-1]    0.146348
+[lemniscate-1] -0.00598728
+[lemniscate-1]  -0.0448528
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.419275
+[lemniscate-1] Setpoint:     26.2434
+[lemniscate-1]    0.144612
+[lemniscate-1] -0.00636222
+[lemniscate-1]  -0.0462119
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.420296
+[lemniscate-1] Setpoint:      26.915
+[lemniscate-1]    0.142895
+[lemniscate-1] -0.00664574
+[lemniscate-1]  -0.0479058
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.420797
+[lemniscate-1] Setpoint:     26.2777
+[lemniscate-1]    0.142095
+[lemniscate-1] -0.00688115
+[lemniscate-1]  -0.0487829
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.422276
+[lemniscate-1] Setpoint:     26.2657
+[lemniscate-1]    0.139572
+[lemniscate-1] -0.00750749
+[lemniscate-1]  -0.0512742
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.423246
+[lemniscate-1] Setpoint:     26.7784
+[lemniscate-1]    0.137936
+[lemniscate-1] -0.00785833
+[lemniscate-1]  -0.0524753
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.424198
+[lemniscate-1] Setpoint:    26.3014
+[lemniscate-1]   0.136376
+[lemniscate-1] -0.0083256
+[lemniscate-1] -0.0543246
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.424669
+[lemniscate-1] Setpoint:     26.7362
+[lemniscate-1]    0.135598
+[lemniscate-1] -0.00855378
+[lemniscate-1]  -0.0553576
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.425603
+[lemniscate-1] Setpoint:     26.3202
+[lemniscate-1]    0.134316
+[lemniscate-1] -0.00917797
+[lemniscate-1]  -0.0573897
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.426947
+[lemniscate-1] Setpoint:    26.3501
+[lemniscate-1]   0.132121
+[lemniscate-1] -0.0101185
+[lemniscate-1] -0.0602318
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.427816
+[lemniscate-1] Setpoint:    27.1343
+[lemniscate-1]   0.130801
+[lemniscate-1] -0.0107067
+[lemniscate-1]  -0.061961
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.42867
+[lemniscate-1] Setpoint:      26.36
+[lemniscate-1]   0.129268
+[lemniscate-1] -0.0112115
+[lemniscate-1] -0.0634958
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.429091
+[lemniscate-1] Setpoint:    26.5615
+[lemniscate-1]   0.128773
+[lemniscate-1] -0.0114229
+[lemniscate-1] -0.0642381
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.430321
+[lemniscate-1] Setpoint:    26.3894
+[lemniscate-1]    0.12669
+[lemniscate-1] -0.0122833
+[lemniscate-1] -0.0667888
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.431125
+[lemniscate-1] Setpoint:    26.3883
+[lemniscate-1]   0.125311
+[lemniscate-1] -0.0126255
+[lemniscate-1] -0.0683499
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.431918
+[lemniscate-1] Setpoint:     27.101
+[lemniscate-1]   0.124009
+[lemniscate-1] -0.0131342
+[lemniscate-1] -0.0703736
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.432686
+[lemniscate-1] Setpoint:    26.4074
+[lemniscate-1]   0.122969
+[lemniscate-1]  -0.013828
+[lemniscate-1] -0.0724939
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.433431
+[lemniscate-1] Setpoint:    26.7536
+[lemniscate-1]   0.121788
+[lemniscate-1] -0.0146104
+[lemniscate-1] -0.0745375
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.434174
+[lemniscate-1] Setpoint:    26.4315
+[lemniscate-1]   0.120431
+[lemniscate-1] -0.0152775
+[lemniscate-1] -0.0762084
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.434904
+[lemniscate-1] Setpoint:    26.4545
+[lemniscate-1]   0.119127
+[lemniscate-1] -0.0158852
+[lemniscate-1] -0.0779007
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.435621
+[lemniscate-1] Setpoint:    26.8373
+[lemniscate-1]   0.117991
+[lemniscate-1] -0.0164937
+[lemniscate-1] -0.0796183
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.436315
+[lemniscate-1] Setpoint:    26.4669
+[lemniscate-1]   0.116992
+[lemniscate-1] -0.0167624
+[lemniscate-1] -0.0813161
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.43666
+[lemniscate-1] Setpoint:    26.5894
+[lemniscate-1]   0.116543
+[lemniscate-1] -0.0169318
+[lemniscate-1] -0.0816171
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.43767
+[lemniscate-1] Setpoint:    26.4813
+[lemniscate-1]   0.114828
+[lemniscate-1] -0.0174767
+[lemniscate-1] -0.0838865
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.43833
+[lemniscate-1] Setpoint:    26.4973
+[lemniscate-1]   0.113636
+[lemniscate-1] -0.0180724
+[lemniscate-1] -0.0859078
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.438977
+[lemniscate-1] Setpoint:    26.8894
+[lemniscate-1]   0.112575
+[lemniscate-1] -0.0186163
+[lemniscate-1] -0.0879662
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.439298
+[lemniscate-1] Setpoint:    26.5137
+[lemniscate-1]   0.112234
+[lemniscate-1] -0.0191075
+[lemniscate-1] -0.0887614
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.439298
+[lemniscate-1] Setpoint:    26.5023
+[lemniscate-1]   0.112234
+[lemniscate-1] -0.0191075
+[lemniscate-1] -0.0887614
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.440841
+[lemniscate-1] Setpoint:    26.7085
+[lemniscate-1]   0.109666
+[lemniscate-1] -0.0206652
+[lemniscate-1] -0.0930208
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.440841
+[lemniscate-1] Setpoint:    26.5168
+[lemniscate-1]   0.109666
+[lemniscate-1] -0.0206652
+[lemniscate-1] -0.0930208
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.441432
+[lemniscate-1] Setpoint:    26.5538
+[lemniscate-1]    0.10874
+[lemniscate-1] -0.0209732
+[lemniscate-1] -0.0945127
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.442017
+[lemniscate-1] Setpoint:    26.6891
+[lemniscate-1]   0.107743
+[lemniscate-1] -0.0213862
+[lemniscate-1] -0.0957077
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.442305
+[lemniscate-1] Setpoint:    26.5455
+[lemniscate-1]   0.107263
+[lemniscate-1] -0.0214875
+[lemniscate-1] -0.0962142
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.443169
+[lemniscate-1] Setpoint:    26.6878
+[lemniscate-1]   0.105532
+[lemniscate-1] -0.0225506
+[lemniscate-1] -0.0989612
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.443452
+[lemniscate-1] Setpoint:    26.5692
+[lemniscate-1]   0.105528
+[lemniscate-1] -0.0228475
+[lemniscate-1] -0.0994456
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.443992
+[lemniscate-1] Setpoint:    26.568
+[lemniscate-1]  0.104884
+[lemniscate-1] -0.023315
+[lemniscate-1]  -0.10094
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.444522
+[lemniscate-1] Setpoint:    26.7435
+[lemniscate-1]    0.10377
+[lemniscate-1] -0.0238508
+[lemniscate-1]  -0.102454
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.445307
+[lemniscate-1] Setpoint:   26.5856
+[lemniscate-1]  0.102404
+[lemniscate-1] -0.024699
+[lemniscate-1] -0.104688
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.445809
+[lemniscate-1] Setpoint:    26.6545
+[lemniscate-1]    0.10168
+[lemniscate-1] -0.0249223
+[lemniscate-1]  -0.105923
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.44606
+[lemniscate-1] Setpoint:    26.5987
+[lemniscate-1]    0.10126
+[lemniscate-1] -0.0248826
+[lemniscate-1]  -0.106208
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.446558
+[lemniscate-1] Setpoint:    26.6201
+[lemniscate-1]   0.100237
+[lemniscate-1] -0.0252664
+[lemniscate-1]  -0.107254
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.447299
+[lemniscate-1] Setpoint:     26.628
+[lemniscate-1]  0.0989043
+[lemniscate-1] -0.0258346
+[lemniscate-1]  -0.108441
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.448264
+[lemniscate-1] Setpoint:    26.4771
+[lemniscate-1]  0.0972602
+[lemniscate-1] -0.0268981
+[lemniscate-1]  -0.110803
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.448725
+[lemniscate-1] Setpoint:    26.6173
+[lemniscate-1]  0.0967477
+[lemniscate-1] -0.0273888
+[lemniscate-1]  -0.111831
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.44895
+[lemniscate-1] Setpoint:    26.6175
+[lemniscate-1]  0.0963379
+[lemniscate-1] -0.0275566
+[lemniscate-1]  -0.112217
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.449623
+[lemniscate-1] Setpoint:    26.5824
+[lemniscate-1]  0.0952508
+[lemniscate-1] -0.0281028
+[lemniscate-1]  -0.113322
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.45004
+[lemniscate-1] Setpoint:     26.639
+[lemniscate-1]  0.0948902
+[lemniscate-1] -0.0284645
+[lemniscate-1]   -0.11373
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.450452
+[lemniscate-1] Setpoint:    26.5226
+[lemniscate-1]  0.0942112
+[lemniscate-1] -0.0285475
+[lemniscate-1]  -0.114178
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.450652
+[lemniscate-1] Setpoint:    26.6445
+[lemniscate-1]  0.0941099
+[lemniscate-1] -0.0285735
+[lemniscate-1]  -0.114116
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.451239
+[lemniscate-1] Setpoint:    26.6316
+[lemniscate-1]  0.0928648
+[lemniscate-1] -0.0287013
+[lemniscate-1]  -0.114401
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.451628
+[lemniscate-1] Setpoint:    26.5546
+[lemniscate-1]  0.0922067
+[lemniscate-1] -0.0289905
+[lemniscate-1]  -0.115303
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.452013
+[lemniscate-1] Setpoint:    26.6505
+[lemniscate-1]  0.0916393
+[lemniscate-1] -0.0294511
+[lemniscate-1]  -0.115628
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.452391
+[lemniscate-1] Setpoint:    26.4491
+[lemniscate-1]  0.0909198
+[lemniscate-1] -0.0299896
+[lemniscate-1]  -0.115984
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.452577
+[lemniscate-1] Setpoint:    26.6463
+[lemniscate-1]  0.0907439
+[lemniscate-1] -0.0300579
+[lemniscate-1]   -0.11581
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.453117
+[lemniscate-1] Setpoint:    26.6591
+[lemniscate-1]  0.0898849
+[lemniscate-1] -0.0302723
+[lemniscate-1]  -0.115903
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.453463
+[lemniscate-1] Setpoint:    26.3956
+[lemniscate-1]  0.0894043
+[lemniscate-1] -0.0301515
+[lemniscate-1]  -0.115816
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.453804
+[lemniscate-1] Setpoint:     26.668
+[lemniscate-1]  0.0887819
+[lemniscate-1] -0.0301294
+[lemniscate-1]  -0.115699
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.453974
+[lemniscate-1] Setpoint:    26.5616
+[lemniscate-1]  0.0886698
+[lemniscate-1] -0.0301247
+[lemniscate-1]  -0.115329
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.454456
+[lemniscate-1] Setpoint:   26.6672
+[lemniscate-1] 0.0878879
+[lemniscate-1]  -0.03034
+[lemniscate-1] -0.114352
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.454772
+[lemniscate-1] Setpoint:    26.6779
+[lemniscate-1]  0.0874523
+[lemniscate-1] -0.0305135
+[lemniscate-1]  -0.114244
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.454928
+[lemniscate-1] Setpoint:     26.323
+[lemniscate-1]   0.087275
+[lemniscate-1] -0.0306569
+[lemniscate-1]  -0.114111
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.45523
+[lemniscate-1] Setpoint:    26.6687
+[lemniscate-1]  0.0869013
+[lemniscate-1] -0.0306858
+[lemniscate-1]  -0.113567
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.455659
+[lemniscate-1] Setpoint:     26.234
+[lemniscate-1]  0.0862015
+[lemniscate-1] -0.0307542
+[lemniscate-1]  -0.113158
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.455805
+[lemniscate-1] Setpoint:    26.6588
+[lemniscate-1]  0.0859462
+[lemniscate-1] -0.0306724
+[lemniscate-1]  -0.112584
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.456224
+[lemniscate-1] Setpoint:    26.6718
+[lemniscate-1]  0.0852372
+[lemniscate-1] -0.0306223
+[lemniscate-1]  -0.111276
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.456494
+[lemniscate-1] Setpoint:    26.3435
+[lemniscate-1]  0.0848417
+[lemniscate-1] -0.0304644
+[lemniscate-1]  -0.110015
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.456624
+[lemniscate-1] Setpoint:    26.6777
+[lemniscate-1]  0.0846942
+[lemniscate-1] -0.0302756
+[lemniscate-1]  -0.109527
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.457012
+[lemniscate-1] Setpoint:    26.1272
+[lemniscate-1]  0.0841494
+[lemniscate-1] -0.0303098
+[lemniscate-1]  -0.108442
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.457012
+[lemniscate-1] Setpoint:    26.6609
+[lemniscate-1]  0.0841494
+[lemniscate-1] -0.0303098
+[lemniscate-1]  -0.108442
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.457377
+[lemniscate-1] Setpoint:    26.6653
+[lemniscate-1]  0.0837545
+[lemniscate-1] -0.0302362
+[lemniscate-1]  -0.106812
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.457377
+[lemniscate-1] Setpoint:    26.6719
+[lemniscate-1]  0.0837545
+[lemniscate-1] -0.0302362
+[lemniscate-1]  -0.106812
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.457856
+[lemniscate-1] Setpoint:    26.3527
+[lemniscate-1]  0.0827334
+[lemniscate-1] -0.0298159
+[lemniscate-1]  -0.104905
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.45821
+[lemniscate-1] Setpoint:    25.9894
+[lemniscate-1]  0.0821833
+[lemniscate-1] -0.0296228
+[lemniscate-1]  -0.102979
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.458431
+[lemniscate-1] Setpoint:    26.636
+[lemniscate-1] 0.0819862
+[lemniscate-1] -0.029628
+[lemniscate-1] -0.101582
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.458852
+[lemniscate-1] Setpoint:    26.2861
+[lemniscate-1]  0.0814061
+[lemniscate-1] -0.0291414
+[lemniscate-1] -0.0983959
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.45906
+[lemniscate-1] Setpoint:    26.6563
+[lemniscate-1]  0.0809255
+[lemniscate-1] -0.0289092
+[lemniscate-1] -0.0970497
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.459274
+[lemniscate-1] Setpoint:    26.1513
+[lemniscate-1]  0.0804631
+[lemniscate-1] -0.0287327
+[lemniscate-1] -0.0956809
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.459377
+[lemniscate-1] Setpoint:    26.6374
+[lemniscate-1]   0.080377
+[lemniscate-1] -0.0286075
+[lemniscate-1] -0.0946379
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.459674
+[lemniscate-1] Setpoint:    26.6363
+[lemniscate-1]  0.0800025
+[lemniscate-1] -0.0283209
+[lemniscate-1] -0.0928706
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.459865
+[lemniscate-1] Setpoint:     25.569
+[lemniscate-1]  0.0798173
+[lemniscate-1] -0.0280993
+[lemniscate-1] -0.0910906
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.460036
+[lemniscate-1] Setpoint:     26.619
+[lemniscate-1]  0.0797424
+[lemniscate-1] -0.0277468
+[lemniscate-1] -0.0892794
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.460202
+[lemniscate-1] Setpoint:     26.055
+[lemniscate-1]  0.0795237
+[lemniscate-1]  -0.027358
+[lemniscate-1] -0.0874921
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.460282
+[lemniscate-1] Setpoint:    26.6061
+[lemniscate-1]    0.07939
+[lemniscate-1] -0.0273907
+[lemniscate-1] -0.0862887
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.46052
+[lemniscate-1] Setpoint:    26.6269
+[lemniscate-1]  0.0790735
+[lemniscate-1] -0.0267768
+[lemniscate-1] -0.0833661
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.460598
+[lemniscate-1] Setpoint:    26.0395
+[lemniscate-1]  0.0790516
+[lemniscate-1] -0.0266442
+[lemniscate-1] -0.0826297
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.460822
+[lemniscate-1] Setpoint:    26.6244
+[lemniscate-1]  0.0786687
+[lemniscate-1] -0.0262903
+[lemniscate-1] -0.0802805
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.460963
+[lemniscate-1] Setpoint:    26.0377
+[lemniscate-1]  0.0784998
+[lemniscate-1] -0.0259852
+[lemniscate-1] -0.0785318
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.4611
+[lemniscate-1] Setpoint:     26.616
+[lemniscate-1]  0.0784584
+[lemniscate-1]  -0.025787
+[lemniscate-1] -0.0764996
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.461223
+[lemniscate-1] Setpoint:    25.6712
+[lemniscate-1]  0.0783355
+[lemniscate-1] -0.0256792
+[lemniscate-1] -0.0745377
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.461339
+[lemniscate-1] Setpoint:    26.5793
+[lemniscate-1]  0.0782414
+[lemniscate-1] -0.0254384
+[lemniscate-1] -0.0726066
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.461395
+[lemniscate-1] Setpoint:    26.5936
+[lemniscate-1]  0.0782444
+[lemniscate-1] -0.0251217
+[lemniscate-1] -0.0716955
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.461558
+[lemniscate-1] Setpoint:    25.6393
+[lemniscate-1]  0.0779195
+[lemniscate-1] -0.0243294
+[lemniscate-1] -0.0682459
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.461659
+[lemniscate-1] Setpoint:     26.577
+[lemniscate-1]  0.0779466
+[lemniscate-1] -0.0239019
+[lemniscate-1] -0.0660332
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.461758
+[lemniscate-1] Setpoint:    26.5766
+[lemniscate-1]  0.0777736
+[lemniscate-1] -0.0238941
+[lemniscate-1] -0.0640816
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.461852
+[lemniscate-1] Setpoint:    25.9241
+[lemniscate-1]  0.0776877
+[lemniscate-1] -0.0238609
+[lemniscate-1]  -0.062774
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.461941
+[lemniscate-1] Setpoint:    26.5767
+[lemniscate-1]  0.0776249
+[lemniscate-1] -0.0235865
+[lemniscate-1] -0.0606147
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.461985
+[lemniscate-1] Setpoint:    25.9326
+[lemniscate-1]   0.077603
+[lemniscate-1] -0.0234317
+[lemniscate-1] -0.0596603
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462112
+[lemniscate-1] Setpoint:     26.576
+[lemniscate-1]  0.0772626
+[lemniscate-1] -0.0228486
+[lemniscate-1] -0.0564436
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.46219
+[lemniscate-1] Setpoint:    26.5776
+[lemniscate-1]  0.0772392
+[lemniscate-1] -0.0226479
+[lemniscate-1] -0.0543742
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462264
+[lemniscate-1] Setpoint:    25.1591
+[lemniscate-1]  0.0773172
+[lemniscate-1] -0.0220606
+[lemniscate-1] -0.0523206
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462322
+[lemniscate-1] Setpoint:    26.5367
+[lemniscate-1]   0.077399
+[lemniscate-1] -0.0216795
+[lemniscate-1] -0.0499765
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462354
+[lemniscate-1] Setpoint:    26.1828
+[lemniscate-1]  0.0773968
+[lemniscate-1] -0.0215841
+[lemniscate-1]   -0.04935
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462438
+[lemniscate-1] Setpoint:    26.5395
+[lemniscate-1]  0.0772549
+[lemniscate-1] -0.0208061
+[lemniscate-1]  -0.046823
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462495
+[lemniscate-1] Setpoint:    26.5453
+[lemniscate-1]  0.0770849
+[lemniscate-1] -0.0203915
+[lemniscate-1] -0.0445987
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462557
+[lemniscate-1] Setpoint:    25.0493
+[lemniscate-1]  0.0768686
+[lemniscate-1] -0.0201494
+[lemniscate-1] -0.0425385
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462557
+[lemniscate-1] Setpoint:    26.5011
+[lemniscate-1]  0.0768686
+[lemniscate-1] -0.0201494
+[lemniscate-1] -0.0425385
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462683
+[lemniscate-1] Setpoint:    26.1176
+[lemniscate-1]  0.0765315
+[lemniscate-1] -0.0196372
+[lemniscate-1] -0.0390614
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462683
+[lemniscate-1] Setpoint:    26.4877
+[lemniscate-1]  0.0765315
+[lemniscate-1] -0.0196372
+[lemniscate-1] -0.0390614
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.46278
+[lemniscate-1] Setpoint:    26.3912
+[lemniscate-1]  0.0768724
+[lemniscate-1] -0.0187013
+[lemniscate-1] -0.0347924
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462843
+[lemniscate-1] Setpoint:     25.757
+[lemniscate-1]  0.0768857
+[lemniscate-1] -0.0179186
+[lemniscate-1] -0.0309043
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462909
+[lemniscate-1] Setpoint:    25.9212
+[lemniscate-1]  0.0767116
+[lemniscate-1]  -0.017287
+[lemniscate-1] -0.0275862
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462969
+[lemniscate-1] Setpoint:    25.3926
+[lemniscate-1]  0.0765815
+[lemniscate-1] -0.0165958
+[lemniscate-1] -0.0239062
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462979
+[lemniscate-1] Setpoint:     26.389
+[lemniscate-1]   0.076699
+[lemniscate-1] -0.0163943
+[lemniscate-1] -0.0231809
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.46301
+[lemniscate-1] Setpoint:    25.4688
+[lemniscate-1]  0.0767352
+[lemniscate-1] -0.0158072
+[lemniscate-1]  -0.020107
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463016
+[lemniscate-1] Setpoint:    26.3674
+[lemniscate-1]  0.0768736
+[lemniscate-1] -0.0156047
+[lemniscate-1] -0.0192709
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463032
+[lemniscate-1] Setpoint:    26.3847
+[lemniscate-1]  0.0767404
+[lemniscate-1]  -0.014892
+[lemniscate-1] -0.0163379
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463046
+[lemniscate-1] Setpoint:    25.0271
+[lemniscate-1]   0.076704
+[lemniscate-1] -0.0148138
+[lemniscate-1] -0.0148581
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463064
+[lemniscate-1] Setpoint:    26.3688
+[lemniscate-1]  0.0766845
+[lemniscate-1] -0.0145258
+[lemniscate-1] -0.0133914
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463069
+[lemniscate-1] Setpoint:    25.9142
+[lemniscate-1]  0.0769045
+[lemniscate-1] -0.0142902
+[lemniscate-1] -0.0125685
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.46307
+[lemniscate-1] Setpoint:     26.2383
+[lemniscate-1]   0.0769447
+[lemniscate-1]  -0.0134853
+[lemniscate-1] -0.00847992
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463072
+[lemniscate-1] Setpoint:     24.4647
+[lemniscate-1]   0.0768239
+[lemniscate-1]  -0.0131432
+[lemniscate-1] -0.00686665
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463071
+[lemniscate-1] Setpoint:     26.3096
+[lemniscate-1]   0.0769175
+[lemniscate-1]  -0.0128061
+[lemniscate-1] -0.00504597
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463062
+[lemniscate-1] Setpoint:     25.3757
+[lemniscate-1]   0.0771262
+[lemniscate-1]   -0.012378
+[lemniscate-1] -0.00338619
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463048
+[lemniscate-1] Setpoint:     26.2965
+[lemniscate-1]   0.0770792
+[lemniscate-1]  -0.0118758
+[lemniscate-1] -0.00193401
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463048
+[lemniscate-1] Setpoint:     26.2998
+[lemniscate-1]    0.076992
+[lemniscate-1]  -0.0118591
+[lemniscate-1] -0.00133088
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463038
+[lemniscate-1] Setpoint:    24.8937
+[lemniscate-1]  0.0771128
+[lemniscate-1] -0.0115005
+[lemniscate-1] 0.00121815
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463036
+[lemniscate-1] Setpoint:     26.284
+[lemniscate-1]  0.0769806
+[lemniscate-1] -0.0112068
+[lemniscate-1] 0.00239038
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463025
+[lemniscate-1] Setpoint:    25.8156
+[lemniscate-1]  0.0771797
+[lemniscate-1] -0.0109405
+[lemniscate-1]  0.0034045
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463011
+[lemniscate-1] Setpoint:    26.2877
+[lemniscate-1]  0.0772023
+[lemniscate-1] -0.0104371
+[lemniscate-1] 0.00500114
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462999
+[lemniscate-1] Setpoint:     26.2692
+[lemniscate-1]   0.0772365
+[lemniscate-1] -0.00993218
+[lemniscate-1]   0.0064349
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462966
+[lemniscate-1] Setpoint:     25.4115
+[lemniscate-1]   0.0772131
+[lemniscate-1] -0.00918871
+[lemniscate-1]  0.00934515
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462956
+[lemniscate-1] Setpoint:     24.7273
+[lemniscate-1]   0.0772822
+[lemniscate-1] -0.00899251
+[lemniscate-1]    0.010489
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462948
+[lemniscate-1] Setpoint:     26.2045
+[lemniscate-1]   0.0774062
+[lemniscate-1] -0.00894429
+[lemniscate-1]   0.0108712
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462926
+[lemniscate-1] Setpoint:     26.2241
+[lemniscate-1]   0.0773058
+[lemniscate-1] -0.00855624
+[lemniscate-1]   0.0125627
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462919
+[lemniscate-1] Setpoint:     25.2396
+[lemniscate-1]   0.0773513
+[lemniscate-1] -0.00860353
+[lemniscate-1]   0.0126628
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462902
+[lemniscate-1] Setpoint:    26.2007
+[lemniscate-1]  0.0772437
+[lemniscate-1] -0.0081881
+[lemniscate-1]  0.0145951
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462883
+[lemniscate-1] Setpoint:     24.6625
+[lemniscate-1]   0.0775525
+[lemniscate-1] -0.00773942
+[lemniscate-1]   0.0158422
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462853
+[lemniscate-1] Setpoint:     26.1648
+[lemniscate-1]   0.0777401
+[lemniscate-1] -0.00745018
+[lemniscate-1]    0.016718
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462828
+[lemniscate-1] Setpoint:     26.1863
+[lemniscate-1]   0.0776055
+[lemniscate-1] -0.00723692
+[lemniscate-1]   0.0175599
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462805
+[lemniscate-1] Setpoint:    25.2043
+[lemniscate-1]  0.0775819
+[lemniscate-1] -0.0070321
+[lemniscate-1]  0.0187753
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462794
+[lemniscate-1] Setpoint:     26.1675
+[lemniscate-1]   0.0774917
+[lemniscate-1] -0.00692633
+[lemniscate-1]   0.0196535
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462782
+[lemniscate-1] Setpoint:      25.177
+[lemniscate-1]   0.0774521
+[lemniscate-1] -0.00666599
+[lemniscate-1]   0.0203112
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462774
+[lemniscate-1] Setpoint:     26.1596
+[lemniscate-1]   0.0774228
+[lemniscate-1] -0.00646546
+[lemniscate-1]   0.0210418
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462762
+[lemniscate-1] Setpoint:     26.1566
+[lemniscate-1]   0.0774793
+[lemniscate-1] -0.00637551
+[lemniscate-1]   0.0220755
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462753
+[lemniscate-1] Setpoint:     24.1618
+[lemniscate-1]   0.0773739
+[lemniscate-1] -0.00603944
+[lemniscate-1]   0.0228118
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.46275
+[lemniscate-1] Setpoint:     26.1095
+[lemniscate-1]    0.077378
+[lemniscate-1] -0.00592135
+[lemniscate-1]   0.0229335
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.46275
+[lemniscate-1] Setpoint:     26.1183
+[lemniscate-1]    0.077378
+[lemniscate-1] -0.00592135
+[lemniscate-1]   0.0229335
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462738
+[lemniscate-1] Setpoint:     25.6224
+[lemniscate-1]   0.0773593
+[lemniscate-1] -0.00557327
+[lemniscate-1]   0.0243452
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462731
+[lemniscate-1] Setpoint:     26.1126
+[lemniscate-1]    0.077287
+[lemniscate-1] -0.00545739
+[lemniscate-1]     0.02505
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462729
+[lemniscate-1] Setpoint:    26.1351
+[lemniscate-1]  0.0773221
+[lemniscate-1] -0.0054202
+[lemniscate-1]   0.025297
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462723
+[lemniscate-1] Setpoint:     24.1496
+[lemniscate-1]   0.0772843
+[lemniscate-1] -0.00497766
+[lemniscate-1]   0.0264719
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462718
+[lemniscate-1] Setpoint:     26.0825
+[lemniscate-1]   0.0774064
+[lemniscate-1] -0.00472049
+[lemniscate-1]   0.0269509
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462708
+[lemniscate-1] Setpoint:     25.5841
+[lemniscate-1]   0.0774458
+[lemniscate-1] -0.00475293
+[lemniscate-1]   0.0273539
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462701
+[lemniscate-1] Setpoint:     26.0728
+[lemniscate-1]   0.0773688
+[lemniscate-1] -0.00451864
+[lemniscate-1]   0.0278064
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462689
+[lemniscate-1] Setpoint:    24.5191
+[lemniscate-1]  0.0775549
+[lemniscate-1] -0.0043276
+[lemniscate-1]  0.0283132
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462669
+[lemniscate-1] Setpoint:     26.0374
+[lemniscate-1]   0.0776629
+[lemniscate-1] -0.00419292
+[lemniscate-1]   0.0287173
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462645
+[lemniscate-1] Setpoint:     25.1755
+[lemniscate-1]   0.0775357
+[lemniscate-1] -0.00382695
+[lemniscate-1]   0.0296129
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462629
+[lemniscate-1] Setpoint:     26.036
+[lemniscate-1]  0.0775609
+[lemniscate-1] -0.0037012
+[lemniscate-1]  0.0301805
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462626
+[lemniscate-1] Setpoint:     26.0336
+[lemniscate-1]   0.0774432
+[lemniscate-1] -0.00343122
+[lemniscate-1]   0.0303607
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462621
+[lemniscate-1] Setpoint:     24.6153
+[lemniscate-1]   0.0774114
+[lemniscate-1] -0.00324339
+[lemniscate-1]   0.0305749
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462618
+[lemniscate-1] Setpoint:     26.0125
+[lemniscate-1]   0.0774355
+[lemniscate-1] -0.00320599
+[lemniscate-1]   0.0308365
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462607
+[lemniscate-1] Setpoint:     25.1045
+[lemniscate-1]   0.0775373
+[lemniscate-1] -0.00308033
+[lemniscate-1]   0.0310416
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462604
+[lemniscate-1] Setpoint:      26.008
+[lemniscate-1]   0.0774246
+[lemniscate-1] -0.00282556
+[lemniscate-1]   0.0310409
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462594
+[lemniscate-1] Setpoint:     25.9912
+[lemniscate-1]   0.0774795
+[lemniscate-1] -0.00261111
+[lemniscate-1]   0.0310531
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462578
+[lemniscate-1] Setpoint:    25.1692
+[lemniscate-1]  0.0774556
+[lemniscate-1] -0.0019471
+[lemniscate-1]  0.0316537
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462576
+[lemniscate-1] Setpoint:        25.1
+[lemniscate-1]   0.0773906
+[lemniscate-1] -0.00218058
+[lemniscate-1]   0.0314814
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462574
+[lemniscate-1] Setpoint:     25.9678
+[lemniscate-1]   0.0774461
+[lemniscate-1] -0.00237084
+[lemniscate-1]   0.0313659
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462573
+[lemniscate-1] Setpoint:     25.9717
+[lemniscate-1]   0.0773925
+[lemniscate-1] -0.00234551
+[lemniscate-1]   0.0314694
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462589
+[lemniscate-1] Setpoint:     24.6804
+[lemniscate-1]   0.0770457
+[lemniscate-1] -0.00222629
+[lemniscate-1]   0.0313936
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462596
+[lemniscate-1] Setpoint:     25.9553
+[lemniscate-1]   0.0770534
+[lemniscate-1] -0.00198735
+[lemniscate-1]   0.0315094
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462609
+[lemniscate-1] Setpoint:     25.1219
+[lemniscate-1]   0.0769655
+[lemniscate-1] -0.00186468
+[lemniscate-1]   0.0313334
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462619
+[lemniscate-1] Setpoint:     25.9441
+[lemniscate-1]   0.0769503
+[lemniscate-1] -0.00189799
+[lemniscate-1]   0.0311263
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462633
+[lemniscate-1] Setpoint:     25.9408
+[lemniscate-1]   0.0768302
+[lemniscate-1] -0.00186987
+[lemniscate-1]   0.0311753
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462646
+[lemniscate-1] Setpoint:     24.6708
+[lemniscate-1]   0.0768049
+[lemniscate-1] -0.00165625
+[lemniscate-1]   0.0309048
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462663
+[lemniscate-1] Setpoint:     25.9283
+[lemniscate-1]   0.0767912
+[lemniscate-1] -0.00152825
+[lemniscate-1]   0.0304863
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462676
+[lemniscate-1] Setpoint:     25.1306
+[lemniscate-1]   0.0767819
+[lemniscate-1] -0.00172829
+[lemniscate-1]   0.0303699
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462694
+[lemniscate-1] Setpoint:     25.9169
+[lemniscate-1]    0.076679
+[lemniscate-1] -0.00166078
+[lemniscate-1]   0.0299229
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462709
+[lemniscate-1] Setpoint:     25.9431
+[lemniscate-1]   0.0766358
+[lemniscate-1] -0.00153763
+[lemniscate-1]   0.0296698
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462721
+[lemniscate-1] Setpoint:     24.8011
+[lemniscate-1]   0.0767149
+[lemniscate-1] -0.00149948
+[lemniscate-1]   0.0291634
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462733
+[lemniscate-1] Setpoint:     25.9231
+[lemniscate-1]   0.0766589
+[lemniscate-1] -0.00160692
+[lemniscate-1]   0.0287079
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462745
+[lemniscate-1] Setpoint:     25.1766
+[lemniscate-1]   0.0765371
+[lemniscate-1] -0.00168023
+[lemniscate-1]   0.0287058
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462766
+[lemniscate-1] Setpoint:     25.9175
+[lemniscate-1]   0.0763244
+[lemniscate-1] -0.00162149
+[lemniscate-1]   0.0285586
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.46279
+[lemniscate-1] Setpoint:     25.9197
+[lemniscate-1]    0.076185
+[lemniscate-1] -0.00133805
+[lemniscate-1]   0.0280703
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462818
+[lemniscate-1] Setpoint:     24.8348
+[lemniscate-1]   0.0761591
+[lemniscate-1] -0.00119457
+[lemniscate-1]   0.0274897
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.46284
+[lemniscate-1] Setpoint:     25.9078
+[lemniscate-1]   0.0762974
+[lemniscate-1] -0.00117297
+[lemniscate-1]   0.0270965
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462846
+[lemniscate-1] Setpoint:     25.5536
+[lemniscate-1]   0.0763785
+[lemniscate-1] -0.00120595
+[lemniscate-1]   0.0269207
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462846
+[lemniscate-1] Setpoint:     25.9154
+[lemniscate-1]   0.0763785
+[lemniscate-1] -0.00120595
+[lemniscate-1]   0.0269207
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462875
+[lemniscate-1] Setpoint:    25.9072
+[lemniscate-1]  0.0760847
+[lemniscate-1] -0.0012294
+[lemniscate-1]  0.0263107
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.4629
+[lemniscate-1] Setpoint:      25.9335
+[lemniscate-1]    0.0759882
+[lemniscate-1] -0.000953812
+[lemniscate-1]    0.0258304
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462916
+[lemniscate-1] Setpoint:      24.4985
+[lemniscate-1]    0.0761383
+[lemniscate-1] -0.000975362
+[lemniscate-1]    0.0254999
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462934
+[lemniscate-1] Setpoint:     25.8881
+[lemniscate-1]   0.0759629
+[lemniscate-1] -0.00115187
+[lemniscate-1]   0.0250466
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462963
+[lemniscate-1] Setpoint:     25.1952
+[lemniscate-1]    0.075697
+[lemniscate-1] -0.00123777
+[lemniscate-1]   0.0246647
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.462993
+[lemniscate-1] Setpoint:     25.8932
+[lemniscate-1]   0.0756079
+[lemniscate-1] -0.00128258
+[lemniscate-1]   0.0240749
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463024
+[lemniscate-1] Setpoint:    25.8967
+[lemniscate-1]  0.0756313
+[lemniscate-1] -0.0012712
+[lemniscate-1]  0.0235176
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463052
+[lemniscate-1] Setpoint:     24.8713
+[lemniscate-1]   0.0755937
+[lemniscate-1] -0.00123087
+[lemniscate-1]   0.0232782
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463081
+[lemniscate-1] Setpoint:     25.8937
+[lemniscate-1]   0.0755166
+[lemniscate-1] -0.00109726
+[lemniscate-1]   0.0225538
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463105
+[lemniscate-1] Setpoint:     25.2416
+[lemniscate-1]   0.0755622
+[lemniscate-1] -0.00103386
+[lemniscate-1]   0.0219764
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463133
+[lemniscate-1] Setpoint:     25.8885
+[lemniscate-1]   0.0753215
+[lemniscate-1] -0.00113636
+[lemniscate-1]   0.0216522
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463168
+[lemniscate-1] Setpoint:     25.8947
+[lemniscate-1]   0.0751247
+[lemniscate-1] -0.00100926
+[lemniscate-1]   0.0212818
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463202
+[lemniscate-1] Setpoint:      24.9539
+[lemniscate-1]    0.0750946
+[lemniscate-1] -0.000859894
+[lemniscate-1]    0.0208202
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463236
+[lemniscate-1] Setpoint:      25.8912
+[lemniscate-1]    0.0749706
+[lemniscate-1] -0.000899588
+[lemniscate-1]    0.0201834
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463272
+[lemniscate-1] Setpoint:     25.2819
+[lemniscate-1]   0.0749882
+[lemniscate-1] -0.00103913
+[lemniscate-1]   0.0197252
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463312
+[lemniscate-1] Setpoint:     25.8905
+[lemniscate-1]   0.0746812
+[lemniscate-1] -0.00126065
+[lemniscate-1]   0.0192907
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463358
+[lemniscate-1] Setpoint:     25.8822
+[lemniscate-1]   0.0746059
+[lemniscate-1] -0.00125676
+[lemniscate-1]     0.01877
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463401
+[lemniscate-1] Setpoint:     24.9807
+[lemniscate-1]   0.0745265
+[lemniscate-1] -0.00136811
+[lemniscate-1]   0.0180534
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463438
+[lemniscate-1] Setpoint:     25.8752
+[lemniscate-1]   0.0745382
+[lemniscate-1] -0.00125866
+[lemniscate-1]   0.0174223
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463483
+[lemniscate-1] Setpoint:     25.2964
+[lemniscate-1]   0.0742086
+[lemniscate-1] -0.00106786
+[lemniscate-1]   0.0169887
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463524
+[lemniscate-1] Setpoint:      25.8811
+[lemniscate-1]     0.074223
+[lemniscate-1] -0.000966301
+[lemniscate-1]    0.0165908
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463568
+[lemniscate-1] Setpoint:     25.8802
+[lemniscate-1]   0.0740473
+[lemniscate-1] -0.00083206
+[lemniscate-1]   0.0160711
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463611
+[lemniscate-1] Setpoint:      24.9916
+[lemniscate-1]    0.0740021
+[lemniscate-1] -0.000967625
+[lemniscate-1]    0.0156297
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.46366
+[lemniscate-1] Setpoint:     25.8665
+[lemniscate-1]   0.0737184
+[lemniscate-1] -0.00109122
+[lemniscate-1]   0.0151739
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463716
+[lemniscate-1] Setpoint:     25.2926
+[lemniscate-1]   0.0735544
+[lemniscate-1] -0.00112252
+[lemniscate-1]   0.0144784
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463765
+[lemniscate-1] Setpoint:     25.8668
+[lemniscate-1]   0.0736157
+[lemniscate-1] -0.00114665
+[lemniscate-1]   0.0138349
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463812
+[lemniscate-1] Setpoint:     25.8954
+[lemniscate-1]   0.0734119
+[lemniscate-1] -0.00113699
+[lemniscate-1]   0.0133004
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463868
+[lemniscate-1] Setpoint:     25.0557
+[lemniscate-1]   0.0731574
+[lemniscate-1] -0.00133392
+[lemniscate-1]   0.0127737
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.46392
+[lemniscate-1] Setpoint:     25.8818
+[lemniscate-1]   0.0731186
+[lemniscate-1] -0.00127006
+[lemniscate-1]   0.0122645
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.463971
+[lemniscate-1] Setpoint:     25.3253
+[lemniscate-1]   0.0730368
+[lemniscate-1] -0.00135681
+[lemniscate-1]   0.0117255
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.464018
+[lemniscate-1] Setpoint:     25.8772
+[lemniscate-1]   0.0730326
+[lemniscate-1] -0.00141369
+[lemniscate-1]   0.0113893
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.46406
+[lemniscate-1] Setpoint:     25.8812
+[lemniscate-1]   0.0729744
+[lemniscate-1] -0.00134806
+[lemniscate-1]   0.0110873
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.464105
+[lemniscate-1] Setpoint:     25.0328
+[lemniscate-1]   0.0729317
+[lemniscate-1] -0.00134933
+[lemniscate-1]   0.0104842
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.464145
+[lemniscate-1] Setpoint:     25.8753
+[lemniscate-1]   0.0728905
+[lemniscate-1] -0.00149042
+[lemniscate-1]  0.00993582
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.464186
+[lemniscate-1] Setpoint:     25.3143
+[lemniscate-1]     0.07277
+[lemniscate-1] -0.00135553
+[lemniscate-1]  0.00940883
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.46423
+[lemniscate-1] Setpoint:     25.8691
+[lemniscate-1]   0.0725791
+[lemniscate-1] -0.00128014
+[lemniscate-1]  0.00881131
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.464272
+[lemniscate-1] Setpoint:     25.8798
+[lemniscate-1]   0.0725019
+[lemniscate-1] -0.00127152
+[lemniscate-1]  0.00830257
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.464321
+[lemniscate-1] Setpoint:     25.3396
+[lemniscate-1]   0.0723132
+[lemniscate-1] -0.00148065
+[lemniscate-1]  0.00798381
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.464359
+[lemniscate-1] Setpoint:     25.8887
+[lemniscate-1]   0.0723867
+[lemniscate-1] -0.00137435
+[lemniscate-1]  0.00760614
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.4644
+[lemniscate-1] Setpoint:     25.0754
+[lemniscate-1]   0.0722756
+[lemniscate-1] -0.00128612
+[lemniscate-1]  0.00731103
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.464435
+[lemniscate-1] Setpoint:    25.8784
+[lemniscate-1]   0.072223
+[lemniscate-1] -0.0012867
+[lemniscate-1] 0.00663183
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.464481
+[lemniscate-1] Setpoint:     25.8695
+[lemniscate-1]   0.0720523
+[lemniscate-1] -0.00152589
+[lemniscate-1]      0.0061
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.464521
+[lemniscate-1] Setpoint:     25.0418
+[lemniscate-1]   0.0719882
+[lemniscate-1] -0.00159885
+[lemniscate-1]  0.00572467
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.464572
+[lemniscate-1] Setpoint:      25.862
+[lemniscate-1]   0.0716468
+[lemniscate-1] -0.00156485
+[lemniscate-1]  0.00510035
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.464627
+[lemniscate-1] Setpoint:     25.3205
+[lemniscate-1]   0.0714246
+[lemniscate-1] -0.00147666
+[lemniscate-1]  0.00455025
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.464627
+[lemniscate-1] Setpoint:     25.8595
+[lemniscate-1]   0.0714246
+[lemniscate-1] -0.00147666
+[lemniscate-1]  0.00455025
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.464679
+[lemniscate-1] Setpoint:     25.8544
+[lemniscate-1]   0.0714263
+[lemniscate-1] -0.00146549
+[lemniscate-1]  0.00429487
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.464728
+[lemniscate-1] Setpoint:     25.8847
+[lemniscate-1]   0.0714153
+[lemniscate-1] -0.00150192
+[lemniscate-1]  0.00378351
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.46477
+[lemniscate-1] Setpoint:     25.0396
+[lemniscate-1]    0.071459
+[lemniscate-1] -0.00157322
+[lemniscate-1]   0.0032343
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.464801
+[lemniscate-1] Setpoint:    25.8643
+[lemniscate-1]  0.0716578
+[lemniscate-1] -0.0015209
+[lemniscate-1]  0.0028715
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.464833
+[lemniscate-1] Setpoint:     25.3333
+[lemniscate-1]   0.0714311
+[lemniscate-1] -0.00176041
+[lemniscate-1]  0.00250055
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.464879
+[lemniscate-1] Setpoint:     25.8753
+[lemniscate-1]   0.0711275
+[lemniscate-1] -0.00188909
+[lemniscate-1]  0.00184157
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.464927
+[lemniscate-1] Setpoint:      25.877
+[lemniscate-1]    0.071002
+[lemniscate-1] -0.00192377
+[lemniscate-1]  0.00125473
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.464967
+[lemniscate-1] Setpoint:     25.0455
+[lemniscate-1]   0.0711231
+[lemniscate-1] -0.00175243
+[lemniscate-1] 0.000971259
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.465001
+[lemniscate-1] Setpoint:     25.8642
+[lemniscate-1]   0.0709965
+[lemniscate-1] -0.00180297
+[lemniscate-1] 0.000631054
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.46505
+[lemniscate-1] Setpoint:     25.3233
+[lemniscate-1]   0.0706565
+[lemniscate-1] -0.00171551
+[lemniscate-1]  0.00032308
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.465102
+[lemniscate-1] Setpoint:     25.8571
+[lemniscate-1]   0.0704977
+[lemniscate-1] -0.00174332
+[lemniscate-1]  6.0957e-05
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.46515
+[lemniscate-1] Setpoint:      25.8738
+[lemniscate-1]    0.0704397
+[lemniscate-1]  -0.00227718
+[lemniscate-1] -0.000436639
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.465197
+[lemniscate-1] Setpoint:      25.0226
+[lemniscate-1]     0.070369
+[lemniscate-1]  -0.00237332
+[lemniscate-1] -0.000670294
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.465246
+[lemniscate-1] Setpoint:     25.8556
+[lemniscate-1]   0.0703711
+[lemniscate-1] -0.00235746
+[lemniscate-1] -0.00120209
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.465286
+[lemniscate-1] Setpoint:      25.299
+[lemniscate-1]   0.0704121
+[lemniscate-1] -0.00221305
+[lemniscate-1] -0.00178922
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.465324
+[lemniscate-1] Setpoint:      25.861
+[lemniscate-1]     0.07033
+[lemniscate-1] -0.00232282
+[lemniscate-1] -0.00211977
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.46536
+[lemniscate-1] Setpoint:     25.2881
+[lemniscate-1]   0.0702965
+[lemniscate-1] -0.00222325
+[lemniscate-1] -0.00248805
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.465378
+[lemniscate-1] Setpoint:     25.8561
+[lemniscate-1]   0.0702562
+[lemniscate-1]  -0.0021233
+[lemniscate-1] -0.00262446
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.465434
+[lemniscate-1] Setpoint:     25.8486
+[lemniscate-1]   0.0700287
+[lemniscate-1] -0.00242428
+[lemniscate-1]  -0.0032565
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.465479
+[lemniscate-1] Setpoint:     24.9449
+[lemniscate-1]    0.069765
+[lemniscate-1]  -0.0024471
+[lemniscate-1] -0.00364461
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.465527
+[lemniscate-1] Setpoint:     25.8418
+[lemniscate-1]   0.0696356
+[lemniscate-1] -0.00262493
+[lemniscate-1] -0.00396672
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.46557
+[lemniscate-1] Setpoint:     25.8564
+[lemniscate-1]   0.0697223
+[lemniscate-1] -0.00261265
+[lemniscate-1] -0.00414652
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.465614
+[lemniscate-1] Setpoint:     24.9802
+[lemniscate-1]   0.0695836
+[lemniscate-1]   -0.002616
+[lemniscate-1] -0.00436017
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.465658
+[lemniscate-1] Setpoint:     25.8369
+[lemniscate-1]    0.069477
+[lemniscate-1] -0.00269573
+[lemniscate-1] -0.00468425
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.465709
+[lemniscate-1] Setpoint:     25.2478
+[lemniscate-1]   0.0693087
+[lemniscate-1] -0.00274238
+[lemniscate-1] -0.00545566
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.465749
+[lemniscate-1] Setpoint:     25.8415
+[lemniscate-1]   0.0693925
+[lemniscate-1] -0.00277828
+[lemniscate-1] -0.00565109
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.465783
+[lemniscate-1] Setpoint:     25.8486
+[lemniscate-1]   0.0694481
+[lemniscate-1] -0.00281793
+[lemniscate-1] -0.00581502
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.46582
+[lemniscate-1] Setpoint:     24.9569
+[lemniscate-1]   0.0693241
+[lemniscate-1] -0.00283857
+[lemniscate-1] -0.00610008
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.465854
+[lemniscate-1] Setpoint:     25.8356
+[lemniscate-1]   0.0692407
+[lemniscate-1] -0.00284327
+[lemniscate-1] -0.00618572
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.465889
+[lemniscate-1] Setpoint:     25.2619
+[lemniscate-1]   0.0691814
+[lemniscate-1] -0.00287501
+[lemniscate-1] -0.00652862
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.465918
+[lemniscate-1] Setpoint:     25.8244
+[lemniscate-1]   0.0692902
+[lemniscate-1] -0.00297802
+[lemniscate-1] -0.00691184
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.465942
+[lemniscate-1] Setpoint:     25.8446
+[lemniscate-1]   0.0693839
+[lemniscate-1]  -0.0031057
+[lemniscate-1] -0.00710509
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.465963
+[lemniscate-1] Setpoint:     24.9089
+[lemniscate-1]   0.0693284
+[lemniscate-1] -0.00325948
+[lemniscate-1] -0.00756049
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.465986
+[lemniscate-1] Setpoint:     25.8144
+[lemniscate-1]   0.0691785
+[lemniscate-1]  -0.0032297
+[lemniscate-1] -0.00784763
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.466024
+[lemniscate-1] Setpoint:     25.2123
+[lemniscate-1]   0.0688664
+[lemniscate-1] -0.00315372
+[lemniscate-1] -0.00815757
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.466053
+[lemniscate-1] Setpoint:     25.8145
+[lemniscate-1]   0.0689531
+[lemniscate-1]  -0.0030815
+[lemniscate-1] -0.00814862
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.46608
+[lemniscate-1] Setpoint:     25.8305
+[lemniscate-1]   0.0689608
+[lemniscate-1] -0.00326427
+[lemniscate-1] -0.00844783
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.466092
+[lemniscate-1] Setpoint:     25.2299
+[lemniscate-1]   0.0689555
+[lemniscate-1] -0.00336084
+[lemniscate-1] -0.00853514
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.466132
+[lemniscate-1] Setpoint:     25.8205
+[lemniscate-1]   0.0687626
+[lemniscate-1] -0.00348113
+[lemniscate-1] -0.00876281
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.466172
+[lemniscate-1] Setpoint:     24.9323
+[lemniscate-1]   0.0686357
+[lemniscate-1] -0.00351854
+[lemniscate-1] -0.00934355
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.466196
+[lemniscate-1] Setpoint:      25.813
+[lemniscate-1]   0.0686926
+[lemniscate-1] -0.00352569
+[lemniscate-1] -0.00929577
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.466225
+[lemniscate-1] Setpoint:    25.8034
+[lemniscate-1]  0.0685708
+[lemniscate-1] -0.0035629
+[lemniscate-1] -0.0093588
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.466291
+[lemniscate-1] Setpoint:     25.2465
+[lemniscate-1]   0.0683825
+[lemniscate-1] -0.00390026
+[lemniscate-1]  -0.0100436
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.466349
+[lemniscate-1] Setpoint:     25.3652
+[lemniscate-1]   0.0683574
+[lemniscate-1] -0.00393252
+[lemniscate-1]  -0.0102592
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.46637
+[lemniscate-1] Setpoint:     25.7921
+[lemniscate-1]   0.0684401
+[lemniscate-1] -0.00386185
+[lemniscate-1]  -0.0104903
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.466392
+[lemniscate-1] Setpoint:     24.8718
+[lemniscate-1]   0.0682589
+[lemniscate-1] -0.00382365
+[lemniscate-1]  -0.0103922
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.466392
+[lemniscate-1] Setpoint:     25.7633
+[lemniscate-1]   0.0682589
+[lemniscate-1] -0.00382365
+[lemniscate-1]  -0.0103922
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.466451
+[lemniscate-1] Setpoint:     25.1603
+[lemniscate-1]   0.0681317
+[lemniscate-1] -0.00389188
+[lemniscate-1]  -0.0110068
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.466451
+[lemniscate-1] Setpoint:     25.7623
+[lemniscate-1]   0.0681317
+[lemniscate-1] -0.00389188
+[lemniscate-1]  -0.0110068
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.466476
+[lemniscate-1] Setpoint:       25.78
+[lemniscate-1]   0.0686032
+[lemniscate-1] -0.00397415
+[lemniscate-1]  -0.0112891
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.466476
+[lemniscate-1] Setpoint:     25.7791
+[lemniscate-1]   0.0686032
+[lemniscate-1] -0.00397415
+[lemniscate-1]  -0.0112891
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.466465
+[lemniscate-1] Setpoint:     24.8392
+[lemniscate-1]   0.0688457
+[lemniscate-1] -0.00381469
+[lemniscate-1]  -0.0114324
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.46646
+[lemniscate-1] Setpoint:     25.7703
+[lemniscate-1]   0.0686574
+[lemniscate-1] -0.00376348
+[lemniscate-1]  -0.0113599
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.466461
+[lemniscate-1] Setpoint:    25.1858
+[lemniscate-1]  0.0685947
+[lemniscate-1] -0.0039055
+[lemniscate-1] -0.0116416
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[lemniscate-1] [INFO] [1756820020.168709443] [rclcpp]: signal_handler(signum=2)
+[lemniscate-1] Desired roll: 0.5, Actual roll: 0.466465
+[lemniscate-1] Setpoint:     25.7435
+[lemniscate-1]   0.0683869
+[lemniscate-1] -0.00400214
+[lemniscate-1]  -0.0118595
+[INFO] [lemniscate-1]: process has finished cleanly [pid 952286]

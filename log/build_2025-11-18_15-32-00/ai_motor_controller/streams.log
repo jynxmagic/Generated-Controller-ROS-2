@@ -1,0 +1,22 @@
+[0.012s] Invoking command in '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/lunet/ttcc4/anaconda3/bin/cmake --build /home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller -- -j8 -l8
+[0.085s] [ 50%] [32mBuilding CXX object CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o[0m
+[0.429s] gmake[2]: *** [CMakeFiles/lemniscate.dir/build.make:76: CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o] Interrupt
+[0.429s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lemniscate.dir/all] Interrupt
+[0.429s] gmake: *** [Makefile:146: all] Interrupt
+[0.431s] Traceback (most recent call last):
+[0.432s]   File "/home/lunet/ttcc4/anaconda3/bin/cmake", line 8, in <module>
+[0.432s]     sys.exit(cmake())
+[0.432s]   File "/home/lunet/ttcc4/anaconda3/lib/python3.9/site-packages/cmake/__init__.py", line 43, in cmake
+[0.432s]     raise SystemExit(_program('cmake', sys.argv[1:]))
+[0.432s]   File "/home/lunet/ttcc4/anaconda3/lib/python3.9/site-packages/cmake/__init__.py", line 39, in _program
+[0.432s]     return subprocess.call([os.path.join(CMAKE_BIN_DIR, name)] + args, close_fds=False)
+[0.432s]   File "/home/lunet/ttcc4/anaconda3/lib/python3.9/subprocess.py", line 351, in call
+[0.432s]     return p.wait(timeout=timeout)
+[0.432s]   File "/home/lunet/ttcc4/anaconda3/lib/python3.9/subprocess.py", line 1189, in wait
+[0.432s]     return self._wait(timeout=timeout)
+[0.433s]   File "/home/lunet/ttcc4/anaconda3/lib/python3.9/subprocess.py", line 1917, in _wait
+[0.433s]     (pid, sts) = self._try_wait(0)
+[0.433s]   File "/home/lunet/ttcc4/anaconda3/lib/python3.9/subprocess.py", line 1875, in _try_wait
+[0.433s]     (pid, sts) = os.waitpid(self.pid, wait_flags)
+[0.433s] KeyboardInterrupt
+[0.441s] Invoked command in '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/lunet/ttcc4/anaconda3/bin/cmake --build /home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller -- -j8 -l8

@@ -1,0 +1,153 @@
+[0.012s] Invoking command in '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/lunet/ttcc4/anaconda3/bin/cmake --build /home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller -- -j8 -l8
+[0.127s] [ 50%] Built target wrench
+[0.133s] [ 75%] [32mBuilding CXX object CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o[0m
+[14.974s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:435:20:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kfloat OffboardControl::x_prev[m[K’
+[14.974s]   435 |     float x_prev = [01;31m[K0.0[m[K;
+[14.974s]       |                    [01;31m[K^~~[m[K
+[14.974s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:389:11:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kfloat OffboardControl::x_prev[m[K’
+[14.974s]   389 |     float [01;36m[Kx_prev[m[K = 0.0;
+[14.974s]       |           [01;36m[K^~~~~~[m[K
+[14.974s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:436:20:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kfloat OffboardControl::y_prev[m[K’
+[14.974s]   436 |     float y_prev = [01;31m[K0.0[m[K;
+[14.974s]       |                    [01;31m[K^~~[m[K
+[14.974s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:390:11:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kfloat OffboardControl::y_prev[m[K’
+[14.974s]   390 |     float [01;36m[Ky_prev[m[K = 0.0;
+[14.974s]       |           [01;36m[K^~~~~~[m[K
+[14.974s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:450:5:[m[K [01;31m[Kerror: [m[Knon-static data member ‘[01m[Ksliding_window_min[m[K’ declared ‘[01m[Kconstexpr[m[K’
+[14.974s]   450 |     [01;31m[Kconstexpr[m[K int sliding_window_min = 3;
+[14.975s]       |     [01;31m[K^~~~~~~~~[m[K
+[14.975s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:451:5:[m[K [01;31m[Kerror: [m[Knon-static data member ‘[01m[Ksliding_window_max[m[K’ declared ‘[01m[Kconstexpr[m[K’
+[14.975s]   451 |     [01;31m[Kconstexpr[m[K int sliding_window_max = 10;
+[14.975s]       |     [01;31m[K^~~~~~~~~[m[K
+[14.975s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:457:22:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KOffboardControl::sliding_window_max[m[K’
+[14.975s]   457 |     float dvx_buffer[[01;31m[Ksliding_window_max[m[K] = {};
+[14.975s]       |                      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[14.975s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:451:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[14.975s]   451 |     constexpr int [01;36m[Ksliding_window_max[m[K = 10;
+[14.975s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[14.975s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:458:22:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KOffboardControl::sliding_window_max[m[K’
+[14.975s]   458 |     float dvy_buffer[[01;31m[Ksliding_window_max[m[K] = {};
+[14.975s]       |                      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[14.975s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:451:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[14.975s]   451 |     constexpr int [01;36m[Ksliding_window_max[m[K = 10;
+[14.976s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[14.976s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:459:22:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KOffboardControl::sliding_window_max[m[K’
+[14.976s]   459 |     float dvz_buffer[[01;31m[Ksliding_window_max[m[K] = {};
+[14.976s]       |                      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[14.976s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:451:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[14.976s]   451 |     constexpr int [01;36m[Ksliding_window_max[m[K = 10;
+[14.976s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[14.976s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:460:22:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KOffboardControl::sliding_window_max[m[K’
+[14.976s]   460 |     float dox_buffer[[01;31m[Ksliding_window_max[m[K] = {};
+[14.976s]       |                      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[14.976s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:451:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[14.976s]   451 |     constexpr int [01;36m[Ksliding_window_max[m[K = 10;
+[14.976s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[14.976s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:461:22:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KOffboardControl::sliding_window_max[m[K’
+[14.976s]   461 |     float doy_buffer[[01;31m[Ksliding_window_max[m[K] = {};
+[14.977s]       |                      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[14.977s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:451:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[14.977s]   451 |     constexpr int [01;36m[Ksliding_window_max[m[K = 10;
+[14.977s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[14.977s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:462:22:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KOffboardControl::sliding_window_max[m[K’
+[14.977s]   462 |     float doz_buffer[[01;31m[Ksliding_window_max[m[K] = {};
+[14.977s]       |                      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[14.977s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:451:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[14.977s]   451 |     constexpr int [01;36m[Ksliding_window_max[m[K = 10;
+[14.977s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[14.977s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:464:5:[m[K [01;31m[Kerror: [m[Knon-static data member ‘[01m[Kextended_window_size[m[K’ declared ‘[01m[Kconstexpr[m[K’
+[14.977s]   464 |     [01;31m[Kconstexpr[m[K int extended_window_size = 15;
+[14.977s]       |     [01;31m[K^~~~~~~~~[m[K
+[14.977s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:466:26:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KOffboardControl::extended_window_size[m[K’
+[14.977s]   466 |     float dvx_ext_buffer[[01;31m[Kextended_window_size[m[K] = {};
+[14.977s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[14.977s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:464:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[14.978s]   464 |     constexpr int [01;36m[Kextended_window_size[m[K = 15;
+[14.978s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[14.978s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:467:26:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KOffboardControl::extended_window_size[m[K’
+[14.978s]   467 |     float dvy_ext_buffer[[01;31m[Kextended_window_size[m[K] = {};
+[14.978s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[14.978s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:464:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[14.978s]   464 |     constexpr int [01;36m[Kextended_window_size[m[K = 15;
+[14.978s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[14.978s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:468:26:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KOffboardControl::extended_window_size[m[K’
+[14.978s]   468 |     float dvz_ext_buffer[[01;31m[Kextended_window_size[m[K] = {};
+[14.978s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[14.978s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:464:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[14.978s]   464 |     constexpr int [01;36m[Kextended_window_size[m[K = 15;
+[14.978s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[14.978s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:469:26:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KOffboardControl::extended_window_size[m[K’
+[14.978s]   469 |     float dox_ext_buffer[[01;31m[Kextended_window_size[m[K] = {};
+[14.978s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[14.978s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:464:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[14.978s]   464 |     constexpr int [01;36m[Kextended_window_size[m[K = 15;
+[14.979s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[14.979s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:470:26:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KOffboardControl::extended_window_size[m[K’
+[14.979s]   470 |     float doy_ext_buffer[[01;31m[Kextended_window_size[m[K] = {};
+[14.979s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[14.979s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:464:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[14.979s]   464 |     constexpr int [01;36m[Kextended_window_size[m[K = 15;
+[14.979s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[14.979s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:471:26:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KOffboardControl::extended_window_size[m[K’
+[14.979s]   471 |     float doz_ext_buffer[[01;31m[Kextended_window_size[m[K] = {};
+[14.979s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[14.979s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:464:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[14.979s]   464 |     constexpr int [01;36m[Kextended_window_size[m[K = 15;
+[14.979s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[14.979s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:473:5:[m[K [01;31m[Kerror: [m[Knon-static data member ‘[01m[Kbase_lin_thresh[m[K’ declared ‘[01m[Kconstexpr[m[K’
+[14.979s]   473 |     [01;31m[Kconstexpr[m[K float base_lin_thresh = 10.0;
+[14.979s]       |     [01;31m[K^~~~~~~~~[m[K
+[14.979s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:474:5:[m[K [01;31m[Kerror: [m[Knon-static data member ‘[01m[Kbase_ang_thresh[m[K’ declared ‘[01m[Kconstexpr[m[K’
+[14.979s]   474 |     [01;31m[Kconstexpr[m[K float base_ang_thresh = 15.0;
+[14.979s]       |     [01;31m[K^~~~~~~~~[m[K
+[14.979s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:475:5:[m[K [01;31m[Kerror: [m[Knon-static data member ‘[01m[Kfault_score_threshold[m[K’ declared ‘[01m[Kconstexpr[m[K’
+[14.980s]   475 |     [01;31m[Kconstexpr[m[K float fault_score_threshold = 1.8; // Weighted fault score threshold
+[14.980s]       |     [01;31m[K^~~~~~~~~[m[K
+[14.980s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:476:5:[m[K [01;31m[Kerror: [m[Knon-static data member ‘[01m[Ksecondary_fault_ratio[m[K’ declared ‘[01m[Kconstexpr[m[K’
+[14.980s]   476 |     [01;31m[Kconstexpr[m[K float secondary_fault_ratio = 0.6; // ratio threshold for extended verification
+[14.980s]       |     [01;31m[K^~~~~~~~~[m[K
+[14.980s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:477:5:[m[K [01;31m[Kerror: [m[Knon-static data member ‘[01m[Kfault_weight_decay[m[K’ declared ‘[01m[Kconstexpr[m[K’
+[14.980s]   477 |     [01;31m[Kconstexpr[m[K float fault_weight_decay = 0.7; // decay factor for weighting recent residuals higher
+[14.980s]       |     [01;31m[K^~~~~~~~~[m[K
+[14.981s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:478:5:[m[K [01;31m[Kerror: [m[Knon-static data member ‘[01m[Keps[m[K’ declared ‘[01m[Kconstexpr[m[K’
+[14.981s]   478 |     [01;31m[Kconstexpr[m[K float eps = 1e-6;
+[14.981s]       |     [01;31m[K^~~~~~~~~[m[K
+[14.981s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::[01;32m[KrvolmeaControl[m[K()[m[K’:
+[14.981s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:630:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ke_prev[m[K’ was not declared in this scope; did you mean ‘[01m[Kx_prev[m[K’?
+[14.982s]   630 |         [01;31m[Ke_prev[m[K.setZero();
+[14.982s]       |         [01;31m[K^~~~~~[m[K
+[14.982s]       |         [32m[Kx_prev[m[K
+[14.982s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:631:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kadaptive_prev[m[K’ was not declared in this scope
+[14.982s]   631 |         [01;31m[Kadaptive_prev[m[K = Eigen::Vector3f::Ones();
+[14.982s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[14.982s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:632:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kacc_prev[m[K’ was not declared in this scope
+[14.982s]   632 |         [01;31m[Kacc_prev[m[K.setZero();
+[14.982s]       |         [01;31m[K^~~~~~~~[m[K
+[14.982s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:633:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kori_err_prev[m[K’ was not declared in this scope; did you mean ‘[01m[Kori_prev[m[K’?
+[14.982s]   633 |         [01;31m[Kori_err_prev[m[K.setZero();
+[14.982s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[14.983s]       |         [32m[Kori_prev[m[K
+[14.983s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:634:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kd_hat[m[K’ was not declared in this scope
+[14.983s]   634 |         [01;31m[Kd_hat[m[K.setZero();
+[14.983s]       |         [01;31m[K^~~~~[m[K
+[14.983s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:635:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kz_int[m[K’ was not declared in this scope; did you mean ‘[01m[Ku_int[m[K’?
+[14.983s]   635 |         [01;31m[Kz_int[m[K = 0.0;
+[14.983s]       |         [01;31m[K^~~~~[m[K
+[14.983s]       |         [32m[Ku_int[m[K
+[14.983s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:636:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksat_err_z_vec[m[K’ was not declared in this scope
+[14.983s]   636 |         [01;31m[Ksat_err_z_vec[m[K.setZero();
+[14.983s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[14.983s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:778:32:[m[K [01;31m[Kerror: [m[K‘[01m[Krequired_thurst[m[K’ was not declared in this scope; did you mean ‘[01m[Krequired_thrust[m[K’?
+[14.983s]   778 |     required_thrust = std::max([01;31m[Krequired_thurst[m[K, 0.0f);
+[14.983s]       |                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+[14.983s]       |                                [32m[Krequired_thrust[m[K
+[14.983s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:642:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmax_thrust[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[14.983s]   642 |     constexpr float [01;35m[Kmax_thrust[m[K = 44.0f;
+[14.984s]       |                     [01;35m[K^~~~~~~~~~[m[K
+[14.984s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:653:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktarget_yaw[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[14.984s]   653 |     float [01;35m[Ktarget_yaw[m[K = target[3];
+[14.984s]       |           [01;35m[K^~~~~~~~~~[m[K
+[15.109s] gmake[2]: *** [CMakeFiles/lemniscate.dir/build.make:76: CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o] Error 1
+[15.110s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lemniscate.dir/all] Error 2
+[15.110s] gmake: *** [Makefile:146: all] Error 2
+[15.119s] Invoked command in '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/lunet/ttcc4/anaconda3/bin/cmake --build /home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller -- -j8 -l8

@@ -1,0 +1,7 @@
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::[01;32m[KrvolmeaControl[m[K()[m[K’:
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:861:43:[m[K [01;31m[Kerror: [m[K‘[01m[KKp_ang[m[K’ was not declared in this scope
+  861 |     Eigen::Vector3f body_torque_des = J * [01;31m[KKp_ang[m[K.asDiagonal() * omega_error + state_omega.cross(J * state_omega);
+      |                                           [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/lemniscate.dir/build.make:76: CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lemniscate.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

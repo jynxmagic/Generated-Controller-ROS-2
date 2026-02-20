@@ -1,0 +1,10 @@
+[ 50%] Built target wrench
+[ 75%] [32mBuilding CXX object CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o[0m
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::[01;32m[Kpublish_thrust_torque_setpoint[m[K(Eigen::Vector<float, 4>)[m[K’:
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:558:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ktorque[m[K’ was not declared in this scope; did you mean ‘[01m[Ktorque_Nm[m[K’?
+  558 |     rates_sp_msg.roll = [01;31m[Ktorque[m[K[0];
+      |                         [01;31m[K^~~~~~[m[K
+      |                         [32m[Ktorque_Nm[m[K
+gmake[2]: *** [CMakeFiles/lemniscate.dir/build.make:76: CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lemniscate.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

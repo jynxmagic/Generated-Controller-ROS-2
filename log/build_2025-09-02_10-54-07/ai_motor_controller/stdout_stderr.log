@@ -1,0 +1,16 @@
+[ 50%] Built target wrench
+[ 75%] [32mBuilding CXX object CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o[0m
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::[01;32m[KrvolmeaControl[m[K()[m[K’:
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:636:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kypr[m[K’ was not declared in this scope
+  636 |         yaw_sp_prev=[01;31m[Kypr[m[K[0];
+      |                     [01;31m[K^~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:639:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_position[m[K’ was not declared in this scope; did you mean ‘[01m[Klocal_position_x_[m[K’?
+  639 |         prev_goal=[01;31m[Kgoal_position[m[K;
+      |                   [01;31m[K^~~~~~~~~~~~~[m[K
+      |                   [32m[Klocal_position_x_[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:641:18:[m[K [01;31m[Kerror: [m[K‘[01m[Klinear_velocity[m[K’ was not declared in this scope
+  641 |         vel_prev=[01;31m[Klinear_velocity[m[K;
+      |                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/lemniscate.dir/build.make:76: CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lemniscate.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

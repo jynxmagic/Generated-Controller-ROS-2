@@ -1,0 +1,35 @@
+[0.009s] Invoking command in '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/lunet/ttcc4/anaconda3/bin/cmake --build /home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller -- -j8 -l8
+[0.110s] [ 50%] Built target wrench
+[0.110s] [ 75%] [32mBuilding CXX object CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o[0m
+[10.781s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::[01;32m[KrvolmeaControl[m[K()[m[K’:
+[10.781s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:610:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_position[m[K’ was not declared in this scope; did you mean ‘[01m[Klocal_position_x_[m[K’?
+[10.781s]   610 |     Eigen::Vector3d goal_pos_pred = [01;31m[Kgoal_position[m[K + coefs[9] * (goal_position - position);
+[10.781s]       |                                     [01;31m[K^~~~~~~~~~~~~[m[K
+[10.781s]       |                                     [32m[Klocal_position_x_[m[K
+[10.781s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:626:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kvel_mag[m[K’ was not declared in this scope
+[10.781s]   626 |         std::cout << "[DEBUG] Velocity Magnitude: " << [01;31m[Kvel_mag[m[K << "\n";
+[10.781s]       |                                                        [01;31m[K^~~~~~~[m[K
+[10.781s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:627:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_sliding_window_size[m[K’ was not declared in this scope
+[10.781s]   627 |         std::cout << "[DEBUG] Updated Sliding Window Size: " << [01;31m[Kcurrent_sliding_window_size[m[K << "\n";
+[10.781s]       |                                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.781s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:652:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kts[m[K’ was not declared in this scope; did you mean ‘[01m[Kt[m[K’?
+[10.782s]   652 |     if([01;31m[Kts[m[K > 0)
+[10.782s]       |        [01;31m[K^~[m[K
+[10.782s]       |        [32m[Kt[m[K
+[10.782s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:670:21:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[KEigen::Vector3f thrust_direction[m[K’
+[10.782s]   670 |     Eigen::Vector3f [01;31m[Kthrust_direction[m[K = (norm_acc > 1e-6f) ? (target_acceleration / norm_acc) : Eigen::Vector3f(0.0f, 0.0f, 1.0f);
+[10.782s]       |                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[10.782s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:667:21:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::Vector3f thrust_direction[m[K’ previously declared here
+[10.782s]   667 |     Eigen::Vector3f [01;36m[Kthrust_direction[m[K = target_acceleration.normalized();
+[10.782s]       |                     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[10.782s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:704:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kstate_omega[m[K’ was not declared in this scope
+[10.782s]   704 |         std::cout << "[DEBUG] State Omega: " << [01;31m[Kstate_omega[m[K.transpose() << "\n";
+[10.782s]       |                                                 [01;31m[K^~~~~~~~~~~[m[K
+[10.782s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:715:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_thrust[m[K’ was not declared in this scope; did you mean ‘[01m[Kmin_thrust[m[K’?
+[10.782s]   715 |     constexpr double max_thrust_val = [01;31m[Kmax_thrust[m[K*4.0;
+[10.782s]       |                                       [01;31m[K^~~~~~~~~~[m[K
+[10.782s]       |                                       [32m[Kmin_thrust[m[K
+[10.783s] gmake[2]: *** [CMakeFiles/lemniscate.dir/build.make:76: CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o] Error 1
+[10.783s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lemniscate.dir/all] Error 2
+[10.784s] gmake: *** [Makefile:146: all] Error 2
+[10.789s] Invoked command in '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/lunet/ttcc4/anaconda3/bin/cmake --build /home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller -- -j8 -l8

@@ -1,0 +1,39 @@
+[0.020s] Invoking command in '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/lunet/ttcc4/anaconda3/bin/cmake --build /home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller -- -j8 -l8
+[0.075s] [ 25%] [32mBuilding CXX object CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o[0m
+[0.085s] [ 75%] Built target wrench
+[10.285s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::[01;32m[Kpublish_thrust_torque_setpoint[m[K(Eigen::Vector<float, 4>)[m[K’:
+[10.285s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:557:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing px4_msgs::msg::VehicleRatesSetpoint = struct px4_msgs::msg::VehicleRatesSetpoint_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct px4_msgs::msg::VehicleRatesSetpoint_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktimestamp_sample[m[K’; did you mean ‘[01m[K_timestamp_type[m[K’?
+[10.285s]   557 |     rates_sp_msg.[01;31m[Ktimestamp_sample[m[K = this->get_clock()->now().nanoseconds() / 1000;
+[10.285s]       |                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[10.285s]       |                  [32m[K_timestamp_type[m[K
+[10.285s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:558:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing px4_msgs::msg::VehicleRatesSetpoint = struct px4_msgs::msg::VehicleRatesSetpoint_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct px4_msgs::msg::VehicleRatesSetpoint_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktimestamp_sample[m[K’; did you mean ‘[01m[K_timestamp_type[m[K’?
+[10.285s]   558 |     rates_sp_msg.timestamp = rates_sp_msg.[01;31m[Ktimestamp_sample[m[K;
+[10.285s]       |                                           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[10.285s]       |                                           [32m[K_timestamp_type[m[K
+[10.285s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:559:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing px4_msgs::msg::VehicleRatesSetpoint = struct px4_msgs::msg::VehicleRatesSetpoint_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct px4_msgs::msg::VehicleRatesSetpoint_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kxyz[m[K’
+[10.285s]   559 |     rates_sp_msg.[01;31m[Kxyz[m[K[0] = torque[0];
+[10.286s]       |                  [01;31m[K^~~[m[K
+[10.286s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:559:27:[m[K [01;31m[Kerror: [m[K‘[01m[Ktorque[m[K’ was not declared in this scope; did you mean ‘[01m[Ktorque_Nm[m[K’?
+[10.286s]   559 |     rates_sp_msg.xyz[0] = [01;31m[Ktorque[m[K[0];
+[10.286s]       |                           [01;31m[K^~~~~~[m[K
+[10.286s]       |                           [32m[Ktorque_Nm[m[K
+[10.286s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:560:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing px4_msgs::msg::VehicleRatesSetpoint = struct px4_msgs::msg::VehicleRatesSetpoint_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct px4_msgs::msg::VehicleRatesSetpoint_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kxyz[m[K’
+[10.286s]   560 |     rates_sp_msg.[01;31m[Kxyz[m[K[1] = torque[1];
+[10.286s]       |                  [01;31m[K^~~[m[K
+[10.286s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:561:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing px4_msgs::msg::VehicleRatesSetpoint = struct px4_msgs::msg::VehicleRatesSetpoint_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct px4_msgs::msg::VehicleRatesSetpoint_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kxyz[m[K’
+[10.286s]   561 |     rates_sp_msg.[01;31m[Kxyz[m[K[2] = torque[2];
+[10.286s]       |                  [01;31m[K^~~[m[K
+[10.286s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::[01;32m[KrvolmeaControl[m[K()[m[K’:
+[10.286s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:829:21:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[Kthrust_direction[m[K’
+[10.286s]   829 |     Eigen::Vector3f [01;31m[Kthrust_direction[m[K = (norm_acc > 1e-6f) ? (target_acceleration / norm_acc) : Eigen::Vector3f(0.0f, 0.0f, 1.0f);
+[10.286s]       |                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[10.286s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:835:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kthrust_direction[m[K’ was not declared in this scope
+[10.286s]   835 |     float pitch = std::atan2([01;31m[Kthrust_direction[m[K[0], thrust_direction[2]);
+[10.286s]       |                              [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[10.286s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:827:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knorm_acc[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[10.287s]   827 |     float [01;35m[Knorm_acc[m[K = target_acceleration.norm();
+[10.287s]       |           [01;35m[K^~~~~~~~[m[K
+[10.287s] gmake[2]: *** [CMakeFiles/lemniscate.dir/build.make:76: CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o] Error 1
+[10.287s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lemniscate.dir/all] Error 2
+[10.287s] gmake: *** [Makefile:146: all] Error 2
+[10.292s] Invoked command in '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/lunet/ttcc4/anaconda3/bin/cmake --build /home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller -- -j8 -l8

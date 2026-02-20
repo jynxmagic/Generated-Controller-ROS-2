@@ -1,0 +1,110 @@
+lissajous:
+  ros__parameters:
+    pid_x.kp: 2.48209
+    pid_x.ki: 0.0
+    pid_x.kd: 2.02742
+
+    pid_y.kp: 3.53132
+    pid_y.ki: 0.0
+    pid_y.kd: 1.62606
+
+    pid_z.kp: 7.12605
+    pid_z.ki: 0.0
+    pid_z.kd: 1.62871
+
+    ori_xyz.kp: 12.0
+    ori_xyz.ki: 0.0
+    ori_xyz.kd: 0.0
+
+    # LQR Coefficients
+    lqr.Q_pos_xy: 20.0
+    lqr.Q_pos_z: 20.0
+    lqr.Q_vel_xy: 1.0
+    lqr.Q_vel_z: 1.0
+    lqr.Q_ang_xy: 5.0
+    lqr.Q_ang_z: 1.0
+    lqr.Q_rate_xy: 0.1
+    lqr.Q_rate_z: 0.1
+
+    lqr.R_thrust: 0.1
+    lqr.R_torque_xy: 1.0
+    lqr.R_torque_z: 1.0
+
+lemniscate:
+  ros__parameters:
+    pid_x.kp: 2.48209
+    pid_x.ki: 0.0
+    pid_x.kd: 2.02742
+
+    pid_y.kp: 3.53132
+    pid_y.ki: 0.0
+    pid_y.kd: 1.62606
+
+    pid_z.kp: 7.12605
+    pid_z.ki: 0.0
+    pid_z.kd: 1.62871
+
+    ori_xyz.kp: 12.0
+    ori_xyz.ki: 0.0
+    ori_xyz.kd: 0.0
+
+    # Coefficients for the generated control system
+    coefs.0: 5.6565
+    coefs.1: 2.757084
+    coefs.2: 6.12948
+    coefs.3: 1.24571
+    coefs.4: 11.8059
+    coefs.5: 2.22786
+    coefs.6: 2.008056
+    coefs.7: 0.490644
+    coefs.8: 2.75048
+    coefs.9: -0.0861477
+    coefs.10: -0.0861477
+
+    # LQR Coefficients
+    lqr.Q_pos_xy: 20.0
+    lqr.Q_pos_z: 20.0
+    lqr.Q_vel_xy: 1.0
+    lqr.Q_vel_z: 1.0
+    lqr.Q_ang_xy: 5.0
+    lqr.Q_ang_z: 1.0
+    lqr.Q_rate_xy: 0.1
+    lqr.Q_rate_z: 0.1
+
+    lqr.R_thrust: 0.1
+    lqr.R_torque_xy: 1.0
+    lqr.R_torque_z: 1.0
+
+wrench:
+  ros__parameters:
+    pid_x.kp: 2.48209
+    pid_x.ki: 0.0
+    pid_x.kd: 2.02742
+
+    pid_y.kp: 3.53132
+    pid_y.ki: 0.0
+    pid_y.kd: 1.62606
+
+    pid_z.kp: 7.12605
+    pid_z.ki: 0.0
+    pid_z.kd: 1.62871
+
+    ori_xyz.kp: 4.0
+    ori_xyz.ki: 0.0
+    ori_xyz.kd: 0.0
+  # ros__parameters:
+  #   pid_x.kp: 11.1095
+  #   pid_x.ki: 0.0
+  #   pid_x.kd: 10.7368
+
+  #   pid_y.kp: 12.3559
+  #   pid_y.ki: 0.0
+  #   pid_y.kd: 10.6744
+
+  #   pid_z.kp: 10.4959
+  #   pid_z.ki: 0.0
+  #   pid_z.kd: 11.661
+
+  #   ori_xyz.kp: 10.7426
+  #   ori_xyz.ki: 0.0
+  #   ori_xyz.kd: 0.0

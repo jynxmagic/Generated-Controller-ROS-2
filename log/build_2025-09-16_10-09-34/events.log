@@ -1,0 +1,167 @@
+[0.000000] (-) TimerEvent: {}
+[0.000111] (ai_motor_controller) JobQueued: {'identifier': 'ai_motor_controller', 'dependencies': OrderedDict()}
+[0.000648] (ai_motor_controller) JobStarted: {'identifier': 'ai_motor_controller'}
+[0.015222] (ai_motor_controller) JobProgress: {'identifier': 'ai_motor_controller', 'progress': 'cmake'}
+[0.017111] (ai_motor_controller) JobProgress: {'identifier': 'ai_motor_controller', 'progress': 'build'}
+[0.017158] (ai_motor_controller) Command: {'cmd': ['/home/lunet/ttcc4/anaconda3/bin/cmake', '--build', '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller', '--', '-j8', '-l8'], 'cwd': '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/rolling/share', 'LANGUAGE': 'en_GB:en', 'USER': 'ttcc4', 'GZ_CONFIG_PATH': '/opt/ros/rolling/opt/gz_sim_vendor/share/gz:/opt/ros/rolling/opt/sdformat_vendor/share/gz:/opt/ros/rolling/opt/gz_gui_vendor/share/gz:/opt/ros/rolling/opt/gz_transport_vendor/share/gz:/opt/ros/rolling/opt/gz_rendering_vendor/share/gz:/opt/ros/rolling/opt/gz_plugin_vendor/share/gz:/opt/ros/rolling/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/rolling/opt/gz_msgs_vendor/share/gz:/opt/ros/rolling/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/lunet/ttcc4/ws_sensor_combined/install/px4_ros_com/lib:/home/lunet/ttcc4/ws_sensor_combined/install/px4_msgs/lib:/opt/ros/rolling/opt/zenoh_cpp_vendor/lib:/opt/ros/rolling/opt/gz_sim_vendor/lib:/opt/ros/rolling/opt/gz_sensors_vendor/lib:/opt/ros/rolling/opt/gz_physics_vendor/lib:/opt/ros/rolling/opt/sdformat_vendor/lib:/opt/ros/rolling/opt/gz_gui_vendor/lib:/opt/ros/rolling/opt/gz_transport_vendor/lib:/opt/ros/rolling/opt/gz_rendering_vendor/lib:/opt/ros/rolling/opt/gz_plugin_vendor/lib:/opt/ros/rolling/opt/gz_fuel_tools_vendor/lib:/opt/ros/rolling/opt/gz_msgs_vendor/lib:/opt/ros/rolling/opt/gz_common_vendor/lib:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_tools_vendor/lib:/opt/ros/rolling/opt/gz_ogre_next_vendor/lib:/opt/ros/rolling/opt/gz_dartsim_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'HOME': '/home/lunet/ttcc4', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/lunet/ttcc4', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'OPENAI_API_KEY': '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', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3705', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1394126462/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lunet/ttcc4/direct_motor_control_ws/install:/home/lunet/ttcc4/ws_sensor_combined/install', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'ttcc4', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1394126462.slice/user@1394126462.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ttcc4', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'PATH': '/opt/ros/rolling/opt/gz_msgs_vendor/bin:/opt/ros/rolling/opt/gz_tools_vendor/bin:/opt/ros/rolling/opt/gz_ogre_next_vendor/bin:/opt/ros/rolling/bin:/home/lunet/ttcc4/pclp:/home/lunet/ttcc4/anaconda3/bin:/home/lunet/ttcc4/anaconda3/condabin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/lunet/ttcc4/.cargo/bin:/usr/lib/ccache:/home/lunet/ttcc4/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/lunet/ttcc4/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/puppetlabs/bin', 'SESSION_MANAGER': 'local/LNX-TTCC4-1.lunet.lboro.ac.uk:@/tmp/.ICE-unix/3657,unix/LNX-TTCC4-1.lunet.lboro.ac.uk:/tmp/.ICE-unix/3657', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7c314c60_4bae_4160_bce4_402a8e287ca4', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1394126462', 'DISPLAY': ':0', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1394126462/.mutter-Xwaylandauth.FLZ2C3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.210', 'SSH_AUTH_SOCK': '/run/user/1394126462/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/lunet/ttcc4/ws_sensor_combined/install/px4_ros_com:/home/lunet/ttcc4/ws_sensor_combined/install/px4_msgs:/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller:/opt/ros/rolling', 'CONDA_PYTHON_EXE': '/home/lunet/ttcc4/anaconda3/bin/python', 'SHELL': '/bin/bash', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_1394126462_MVrZdx', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', 'FLIGHTMARE_PATH': '/home/lunet/ttcc4/flightmare_attitude_control', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/lunet/ttcc4/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lunet/ttcc4/ws_sensor_combined/install/px4_ros_com/lib/python3.9/site-packages:/home/lunet/ttcc4/ws_sensor_combined/install/px4_msgs/lib/python3.9/site-packages:/opt/ros/rolling/lib/python3.12/site-packages', 'CONDA_PREFIX': '/home/lunet/ttcc4/anaconda3', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'MANPATH': ':/opt/puppetlabs/puppet/share/man', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/lunet/ttcc4/ws_sensor_combined/install/px4_ros_com:/home/lunet/ttcc4/ws_sensor_combined/install/px4_msgs:/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller:/opt/ros/rolling/opt/gz_sim_vendor:/opt/ros/rolling/opt/gz_sensors_vendor:/opt/ros/rolling/opt/gz_physics_vendor:/opt/ros/rolling/opt/sdformat_vendor:/opt/ros/rolling/opt/gz_gui_vendor:/opt/ros/rolling/opt/gz_transport_vendor:/opt/ros/rolling/opt/gz_rendering_vendor:/opt/ros/rolling/opt/gz_plugin_vendor:/opt/ros/rolling/opt/gz_fuel_tools_vendor:/opt/ros/rolling/opt/gz_msgs_vendor:/opt/ros/rolling/opt/gz_common_vendor:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_tools_vendor:/opt/ros/rolling/opt/gz_ogre_next_vendor:/opt/ros/rolling/opt/gz_dartsim_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling'}), 'shell': False}
+[0.099946] (-) TimerEvent: {}
+[0.188823] (ai_motor_controller) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o\x1b[0m\n'}
+[0.189535] (ai_motor_controller) StdoutLine: {'line': b'[ 75%] Built target wrench\n'}
+[0.200025] (-) TimerEvent: {}
+[0.300335] (-) TimerEvent: {}
+[0.400702] (-) TimerEvent: {}
+[0.501073] (-) TimerEvent: {}
+[0.601416] (-) TimerEvent: {}
+[0.701766] (-) TimerEvent: {}
+[0.802141] (-) TimerEvent: {}
+[0.902521] (-) TimerEvent: {}
+[1.002893] (-) TimerEvent: {}
+[1.103287] (-) TimerEvent: {}
+[1.203642] (-) TimerEvent: {}
+[1.303997] (-) TimerEvent: {}
+[1.404382] (-) TimerEvent: {}
+[1.504743] (-) TimerEvent: {}
+[1.605047] (-) TimerEvent: {}
+[1.705395] (-) TimerEvent: {}
+[1.805857] (-) TimerEvent: {}
+[1.906196] (-) TimerEvent: {}
+[2.006511] (-) TimerEvent: {}
+[2.106895] (-) TimerEvent: {}
+[2.207274] (-) TimerEvent: {}
+[2.307658] (-) TimerEvent: {}
+[2.407987] (-) TimerEvent: {}
+[2.508312] (-) TimerEvent: {}
+[2.608712] (-) TimerEvent: {}
+[2.709042] (-) TimerEvent: {}
+[2.809375] (-) TimerEvent: {}
+[2.909680] (-) TimerEvent: {}
+[3.009965] (-) TimerEvent: {}
+[3.110235] (-) TimerEvent: {}
+[3.210552] (-) TimerEvent: {}
+[3.310881] (-) TimerEvent: {}
+[3.411212] (-) TimerEvent: {}
+[3.511535] (-) TimerEvent: {}
+[3.611920] (-) TimerEvent: {}
+[3.712245] (-) TimerEvent: {}
+[3.812628] (-) TimerEvent: {}
+[3.913068] (-) TimerEvent: {}
+[4.013372] (-) TimerEvent: {}
+[4.113680] (-) TimerEvent: {}
+[4.214085] (-) TimerEvent: {}
+[4.314490] (-) TimerEvent: {}
+[4.414829] (-) TimerEvent: {}
+[4.515151] (-) TimerEvent: {}
+[4.615527] (-) TimerEvent: {}
+[4.715923] (-) TimerEvent: {}
+[4.816274] (-) TimerEvent: {}
+[4.916574] (-) TimerEvent: {}
+[5.016880] (-) TimerEvent: {}
+[5.117146] (-) TimerEvent: {}
+[5.217460] (-) TimerEvent: {}
+[5.317789] (-) TimerEvent: {}
+[5.418124] (-) TimerEvent: {}
+[5.518498] (-) TimerEvent: {}
+[5.618777] (-) TimerEvent: {}
+[5.719089] (-) TimerEvent: {}
+[5.819410] (-) TimerEvent: {}
+[5.919720] (-) TimerEvent: {}
+[6.020072] (-) TimerEvent: {}
+[6.120319] (-) TimerEvent: {}
+[6.220657] (-) TimerEvent: {}
+[6.320937] (-) TimerEvent: {}
+[6.421263] (-) TimerEvent: {}
+[6.521578] (-) TimerEvent: {}
+[6.621835] (-) TimerEvent: {}
+[6.722094] (-) TimerEvent: {}
+[6.822531] (-) TimerEvent: {}
+[6.922802] (-) TimerEvent: {}
+[7.023067] (-) TimerEvent: {}
+[7.123419] (-) TimerEvent: {}
+[7.223983] (-) TimerEvent: {}
+[7.324299] (-) TimerEvent: {}
+[7.424616] (-) TimerEvent: {}
+[7.524912] (-) TimerEvent: {}
+[7.625246] (-) TimerEvent: {}
+[7.725514] (-) TimerEvent: {}
+[7.825859] (-) TimerEvent: {}
+[7.926229] (-) TimerEvent: {}
+[8.026509] (-) TimerEvent: {}
+[8.126772] (-) TimerEvent: {}
+[8.227060] (-) TimerEvent: {}
+[8.327327] (-) TimerEvent: {}
+[8.427619] (-) TimerEvent: {}
+[8.527901] (-) TimerEvent: {}
+[8.628171] (-) TimerEvent: {}
+[8.728461] (-) TimerEvent: {}
+[8.828738] (-) TimerEvent: {}
+[8.929050] (-) TimerEvent: {}
+[9.029305] (-) TimerEvent: {}
+[9.129646] (-) TimerEvent: {}
+[9.230438] (-) TimerEvent: {}
+[9.330877] (-) TimerEvent: {}
+[9.431124] (-) TimerEvent: {}
+[9.531365] (-) TimerEvent: {}
+[9.631643] (-) TimerEvent: {}
+[9.731886] (-) TimerEvent: {}
+[9.832196] (-) TimerEvent: {}
+[9.932578] (-) TimerEvent: {}
+[10.032901] (-) TimerEvent: {}
+[10.133216] (-) TimerEvent: {}
+[10.233513] (-) TimerEvent: {}
+[10.333823] (-) TimerEvent: {}
+[10.434093] (-) TimerEvent: {}
+[10.534430] (-) TimerEvent: {}
+[10.634749] (-) TimerEvent: {}
+[10.735082] (-) TimerEvent: {}
+[10.835427] (-) TimerEvent: {}
+[10.935790] (-) TimerEvent: {}
+[11.036176] (-) TimerEvent: {}
+[11.120227] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid OffboardControl::\x1b[01;32m\x1b[KrvolmeaControl\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.120470] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:631:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kclamp(Eigen::DenseCoeffsBase<Eigen::Matrix<float, 3, 1>, 1>::Scalar&, Eigen::DenseCoeffsBase<Eigen::Matrix<double, 10, 1, 0, 10, 1>, 1>::Scalar, Eigen::DenseCoeffsBase<Eigen::Matrix<double, 10, 1, 0, 10, 1>, 1>::Scalar&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.120534] (ai_motor_controller) StderrLine: {'line': b'  631 |     for(int i=0; i<3; i++) adaptive_dot[i] = \x1b[01;31m\x1b[Kstd::clamp(adaptive_dot[i], -coefs[6], coefs[6])\x1b[m\x1b[K;\n'}
+[11.120590] (ai_motor_controller) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.120642] (ai_motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/algorithm:61\x1b[m\x1b[K,\n'}
+[11.120694] (ai_motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lunet/ttcc4/ws_sensor_combined/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/offboard_control_mode__struct.hpp:11\x1b[m\x1b[K,\n'}
+[11.120746] (ai_motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lunet/ttcc4/ws_sensor_combined/install/px4_msgs/include/px4_msgs/px4_msgs/msg/offboard_control_mode.hpp:7\x1b[m\x1b[K,\n'}
+[11.120797] (ai_motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:1\x1b[m\x1b[K:\n'}
+[11.120848] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_algo.h:3667:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr const _Tp& std::\x1b[01;32m\x1b[Kclamp\x1b[m\x1b[K(const _Tp&, const _Tp&, const _Tp&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.120898] (ai_motor_controller) StderrLine: {'line': b' 3667 |     \x1b[01;36m\x1b[Kclamp\x1b[m\x1b[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi)\n'}
+[11.120948] (ai_motor_controller) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[11.120997] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_algo.h:3667:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[11.121054] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:631:56:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[Kconst _Tp\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[KEigen::DenseCoeffsBase<Eigen::Matrix<double, 10, 1, 0, 10, 1>, 1>::Scalar\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[11.121106] (ai_motor_controller) StderrLine: {'line': b'  631 |     for(int i=0; i<3; i++) adaptive_dot[i] = \x1b[01;36m\x1b[Kstd::clamp(adaptive_dot[i], -coefs[6], coefs[6])\x1b[m\x1b[K;\n'}
+[11.121155] (ai_motor_controller) StderrLine: {'line': b'      |                                              \x1b[01;36m\x1b[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.121205] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_algo.h:3687:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::\x1b[01;32m\x1b[Kclamp\x1b[m\x1b[K(const _Tp&, const _Tp&, const _Tp&, _Compare)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.121261] (ai_motor_controller) StderrLine: {'line': b' 3687 |     \x1b[01;36m\x1b[Kclamp\x1b[m\x1b[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi, _Compare __comp)\n'}
+[11.121312] (ai_motor_controller) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[11.121361] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_algo.h:3687:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[11.121411] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:631:56:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[Kconst _Tp\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[KEigen::DenseCoeffsBase<Eigen::Matrix<double, 10, 1, 0, 10, 1>, 1>::Scalar\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[11.121461] (ai_motor_controller) StderrLine: {'line': b'  631 |     for(int i=0; i<3; i++) adaptive_dot[i] = \x1b[01;36m\x1b[Kstd::clamp(adaptive_dot[i], -coefs[6], coefs[6])\x1b[m\x1b[K;\n'}
+[11.121517] (ai_motor_controller) StderrLine: {'line': b'      |                                              \x1b[01;36m\x1b[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.121567] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:638:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kclamp(float&, Eigen::DenseCoeffsBase<Eigen::Matrix<double, 10, 1, 0, 10, 1>, 1>::Scalar, Eigen::DenseCoeffsBase<Eigen::Matrix<double, 10, 1, 0, 10, 1>, 1>::Scalar)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.121618] (ai_motor_controller) StderrLine: {'line': b'  638 |     z_int = \x1b[01;31m\x1b[Kstd::clamp(z_int, -coefs[6]*10.0f, coefs[6]*10.0f)\x1b[m\x1b[K;\n'}
+[11.121854] (ai_motor_controller) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.121918] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_algo.h:3667:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr const _Tp& std::\x1b[01;32m\x1b[Kclamp\x1b[m\x1b[K(const _Tp&, const _Tp&, const _Tp&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.121984] (ai_motor_controller) StderrLine: {'line': b' 3667 |     \x1b[01;36m\x1b[Kclamp\x1b[m\x1b[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi)\n'}
+[11.122050] (ai_motor_controller) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[11.122112] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_algo.h:3667:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[11.122168] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:638:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[Kconst _Tp\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[KEigen::DenseCoeffsBase<Eigen::Matrix<double, 10, 1, 0, 10, 1>, 1>::Scalar\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[11.122238] (ai_motor_controller) StderrLine: {'line': b'  638 |     z_int = \x1b[01;36m\x1b[Kstd::clamp(z_int, -coefs[6]*10.0f, coefs[6]*10.0f)\x1b[m\x1b[K;\n'}
+[11.122299] (ai_motor_controller) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.122358] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_algo.h:3687:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::\x1b[01;32m\x1b[Kclamp\x1b[m\x1b[K(const _Tp&, const _Tp&, const _Tp&, _Compare)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.122423] (ai_motor_controller) StderrLine: {'line': b' 3687 |     \x1b[01;36m\x1b[Kclamp\x1b[m\x1b[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi, _Compare __comp)\n'}
+[11.122483] (ai_motor_controller) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[11.122543] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_algo.h:3687:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[11.122604] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:638:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[Kconst _Tp\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[KEigen::DenseCoeffsBase<Eigen::Matrix<double, 10, 1, 0, 10, 1>, 1>::Scalar\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[11.122666] (ai_motor_controller) StderrLine: {'line': b'  638 |     z_int = \x1b[01;36m\x1b[Kstd::clamp(z_int, -coefs[6]*10.0f, coefs[6]*10.0f)\x1b[m\x1b[K;\n'}
+[11.122722] (ai_motor_controller) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.122785] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:603:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kmax_thrust\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[11.122844] (ai_motor_controller) StderrLine: {'line': b'  603 |     constexpr float \x1b[01;35m\x1b[Kmax_thrust\x1b[m\x1b[K = 44.0f;\n'}
+[11.122904] (ai_motor_controller) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.124406] (ai_motor_controller) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lemniscate.dir/build.make:76: CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o] Error 1\n'}
+[11.124662] (ai_motor_controller) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lemniscate.dir/all] Error 2\n'}
+[11.124826] (ai_motor_controller) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.129303] (ai_motor_controller) CommandEnded: {'returncode': 2}
+[11.136403] (-) TimerEvent: {}
+[11.150288] (ai_motor_controller) JobEnded: {'identifier': 'ai_motor_controller', 'rc': 2}
+[11.161762] (-) EventReactorShutdown: {}

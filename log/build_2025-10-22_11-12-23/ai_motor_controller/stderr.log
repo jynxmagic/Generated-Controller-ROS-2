@@ -1,0 +1,16 @@
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::[01;32m[KrvolmeaControl[m[K()[m[K’:
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:617:103:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_position_x[m[K’ was not declared in this scope
+  617 |     traj_log_ <<  local_position_x_ << "," << local_position_y_ << "," << local_position_z_ << "," << [01;31m[Ktarget_position_x[m[K << "," << target_position_y << "," << target_postion_z << "," << motor_0 << "," << motor_1 << "," << motor_2 << "," << motor_3 << "," << target_yaw << "," << local_ori_z_ << std::endl;
+      |                                                                                                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:617:131:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_position_y[m[K’ was not declared in this scope
+  617 |     traj_log_ <<  local_position_x_ << "," << local_position_y_ << "," << local_position_z_ << "," << target_position_x << "," << [01;31m[Ktarget_position_y[m[K << "," << target_postion_z << "," << motor_0 << "," << motor_1 << "," << motor_2 << "," << motor_3 << "," << target_yaw << "," << local_ori_z_ << std::endl;
+      |                                                                                                                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:617:159:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_postion_z[m[K’ was not declared in this scope
+  617 |     traj_log_ <<  local_position_x_ << "," << local_position_y_ << "," << local_position_z_ << "," << target_position_x << "," << target_position_y << "," << [01;31m[Ktarget_postion_z[m[K << "," << motor_0 << "," << motor_1 << "," << motor_2 << "," << motor_3 << "," << target_yaw << "," << local_ori_z_ << std::endl;
+      |                                                                                                                                                               [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:602:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmax_thrust[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  602 |     constexpr float [01;35m[Kmax_thrust[m[K = 44.0f;
+      |                     [01;35m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/lemniscate.dir/build.make:76: CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lemniscate.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

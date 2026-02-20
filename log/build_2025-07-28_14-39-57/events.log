@@ -1,0 +1,321 @@
+[0.000000] (-) TimerEvent: {}
+[0.000201] (ai_motor_controller) JobQueued: {'identifier': 'ai_motor_controller', 'dependencies': OrderedDict()}
+[0.000375] (ai_motor_controller) JobStarted: {'identifier': 'ai_motor_controller'}
+[0.009414] (ai_motor_controller) JobProgress: {'identifier': 'ai_motor_controller', 'progress': 'cmake'}
+[0.010196] (ai_motor_controller) JobProgress: {'identifier': 'ai_motor_controller', 'progress': 'build'}
+[0.011427] (ai_motor_controller) Command: {'cmd': ['/home/lunet/ttcc4/anaconda3/bin/cmake', '--build', '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller', '--', '-j8', '-l8'], 'cwd': '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'LANGUAGE': 'en_GB:en', 'USER': 'ttcc4', 'GZ_CONFIG_PATH': '/opt/ros/rolling/opt/gz_sim_vendor/share/gz:/opt/ros/rolling/opt/sdformat_vendor/share/gz:/opt/ros/rolling/opt/gz_gui_vendor/share/gz:/opt/ros/rolling/opt/gz_transport_vendor/share/gz:/opt/ros/rolling/opt/gz_rendering_vendor/share/gz:/opt/ros/rolling/opt/gz_plugin_vendor/share/gz:/opt/ros/rolling/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/rolling/opt/gz_msgs_vendor/share/gz:/opt/ros/rolling/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/lunet/ttcc4/ws_sensor_combined/install/px4_ros_com/lib:/home/lunet/ttcc4/ws_sensor_combined/install/px4_msgs/lib:/opt/ros/rolling/opt/zenoh_cpp_vendor/lib:/opt/ros/rolling/opt/gz_sim_vendor/lib:/opt/ros/rolling/opt/gz_sensors_vendor/lib:/opt/ros/rolling/opt/gz_physics_vendor/lib:/opt/ros/rolling/opt/sdformat_vendor/lib:/opt/ros/rolling/opt/gz_gui_vendor/lib:/opt/ros/rolling/opt/gz_transport_vendor/lib:/opt/ros/rolling/opt/gz_rendering_vendor/lib:/opt/ros/rolling/opt/gz_plugin_vendor/lib:/opt/ros/rolling/opt/gz_fuel_tools_vendor/lib:/opt/ros/rolling/opt/gz_msgs_vendor/lib:/opt/ros/rolling/opt/gz_common_vendor/lib:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_tools_vendor/lib:/opt/ros/rolling/opt/gz_ogre_next_vendor/lib:/opt/ros/rolling/opt/gz_dartsim_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'HOME': '/home/lunet/ttcc4', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/lunet/ttcc4', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'OPENAI_API_KEY': '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', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2915', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1394126462/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lunet/ttcc4/direct_motor_control_ws/install:/home/lunet/ttcc4/ws_sensor_combined/install', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'ttcc4', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1394126462.slice/user@1394126462.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ttcc4', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'PATH': '/home/lunet/ttcc4/anaconda3/bin:/opt/ros/rolling/opt/gz_msgs_vendor/bin:/opt/ros/rolling/opt/gz_tools_vendor/bin:/opt/ros/rolling/opt/gz_ogre_next_vendor/bin:/opt/ros/rolling/bin:/home/lunet/ttcc4/pclp:/home/lunet/ttcc4/anaconda3/condabin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/lunet/ttcc4/.cargo/bin:/usr/lib/ccache:/home/lunet/ttcc4/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/lunet/ttcc4/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/puppetlabs/bin', 'SESSION_MANAGER': 'local/LNX-TTCC4-1.lunet.lboro.ac.uk:@/tmp/.ICE-unix/2870,unix/LNX-TTCC4-1.lunet.lboro.ac.uk:/tmp/.ICE-unix/2870', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/70ad874f_6b31_442e_a89d_de38050551be', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1394126462', 'DISPLAY': ':0', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1394126462/.mutter-Xwaylandauth.T5UMA3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.223', 'SSH_AUTH_SOCK': '/run/user/1394126462/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller:/home/lunet/ttcc4/ws_sensor_combined/install/px4_ros_com:/home/lunet/ttcc4/ws_sensor_combined/install/px4_msgs:/opt/ros/rolling', 'CONDA_PYTHON_EXE': '/home/lunet/ttcc4/anaconda3/bin/python', 'SHELL': '/bin/bash', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_1394126462_YUDlNv', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/rolling/share', 'CONDA_DEFAULT_ENV': 'base', 'FLIGHTMARE_PATH': '/home/lunet/ttcc4/flightmare_attitude_control', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/lunet/ttcc4/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lunet/ttcc4/ws_sensor_combined/install/px4_ros_com/lib/python3.8/site-packages:/home/lunet/ttcc4/ws_sensor_combined/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/rolling/lib/python3.12/site-packages', 'CONDA_PREFIX': '/home/lunet/ttcc4/anaconda3', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'MANPATH': ':/opt/puppetlabs/puppet/share/man', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller:/home/lunet/ttcc4/ws_sensor_combined/install/px4_ros_com:/home/lunet/ttcc4/ws_sensor_combined/install/px4_msgs:/opt/ros/rolling/opt/gz_sim_vendor:/opt/ros/rolling/opt/gz_sensors_vendor:/opt/ros/rolling/opt/gz_physics_vendor:/opt/ros/rolling/opt/sdformat_vendor:/opt/ros/rolling/opt/gz_gui_vendor:/opt/ros/rolling/opt/gz_transport_vendor:/opt/ros/rolling/opt/gz_rendering_vendor:/opt/ros/rolling/opt/gz_plugin_vendor:/opt/ros/rolling/opt/gz_fuel_tools_vendor:/opt/ros/rolling/opt/gz_msgs_vendor:/opt/ros/rolling/opt/gz_common_vendor:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_tools_vendor:/opt/ros/rolling/opt/gz_ogre_next_vendor:/opt/ros/rolling/opt/gz_dartsim_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling'}), 'shell': False}
+[0.068332] (ai_motor_controller) StdoutLine: {'line': b'[ 75%] Built target wrench\n'}
+[0.068591] (ai_motor_controller) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o\x1b[0m\n'}
+[0.099869] (-) TimerEvent: {}
+[0.200167] (-) TimerEvent: {}
+[0.300433] (-) TimerEvent: {}
+[0.400687] (-) TimerEvent: {}
+[0.501014] (-) TimerEvent: {}
+[0.601344] (-) TimerEvent: {}
+[0.701617] (-) TimerEvent: {}
+[0.801890] (-) TimerEvent: {}
+[0.902181] (-) TimerEvent: {}
+[1.002424] (-) TimerEvent: {}
+[1.102683] (-) TimerEvent: {}
+[1.202976] (-) TimerEvent: {}
+[1.303270] (-) TimerEvent: {}
+[1.403546] (-) TimerEvent: {}
+[1.503822] (-) TimerEvent: {}
+[1.604117] (-) TimerEvent: {}
+[1.704397] (-) TimerEvent: {}
+[1.804682] (-) TimerEvent: {}
+[1.905020] (-) TimerEvent: {}
+[2.005350] (-) TimerEvent: {}
+[2.105624] (-) TimerEvent: {}
+[2.205908] (-) TimerEvent: {}
+[2.306205] (-) TimerEvent: {}
+[2.406484] (-) TimerEvent: {}
+[2.506758] (-) TimerEvent: {}
+[2.607107] (-) TimerEvent: {}
+[2.707428] (-) TimerEvent: {}
+[2.807697] (-) TimerEvent: {}
+[2.907950] (-) TimerEvent: {}
+[3.008223] (-) TimerEvent: {}
+[3.108446] (-) TimerEvent: {}
+[3.208692] (-) TimerEvent: {}
+[3.308940] (-) TimerEvent: {}
+[3.409227] (-) TimerEvent: {}
+[3.509530] (-) TimerEvent: {}
+[3.609780] (-) TimerEvent: {}
+[3.710050] (-) TimerEvent: {}
+[3.810313] (-) TimerEvent: {}
+[3.910583] (-) TimerEvent: {}
+[4.010872] (-) TimerEvent: {}
+[4.111197] (-) TimerEvent: {}
+[4.211514] (-) TimerEvent: {}
+[4.311819] (-) TimerEvent: {}
+[4.412072] (-) TimerEvent: {}
+[4.512348] (-) TimerEvent: {}
+[4.612653] (-) TimerEvent: {}
+[4.712924] (-) TimerEvent: {}
+[4.813218] (-) TimerEvent: {}
+[4.913456] (-) TimerEvent: {}
+[5.013788] (-) TimerEvent: {}
+[5.114075] (-) TimerEvent: {}
+[5.214338] (-) TimerEvent: {}
+[5.314590] (-) TimerEvent: {}
+[5.414859] (-) TimerEvent: {}
+[5.515149] (-) TimerEvent: {}
+[5.615435] (-) TimerEvent: {}
+[5.715690] (-) TimerEvent: {}
+[5.815976] (-) TimerEvent: {}
+[5.916251] (-) TimerEvent: {}
+[6.016505] (-) TimerEvent: {}
+[6.116756] (-) TimerEvent: {}
+[6.217067] (-) TimerEvent: {}
+[6.317406] (-) TimerEvent: {}
+[6.417748] (-) TimerEvent: {}
+[6.518033] (-) TimerEvent: {}
+[6.618345] (-) TimerEvent: {}
+[6.718626] (-) TimerEvent: {}
+[6.818889] (-) TimerEvent: {}
+[6.919154] (-) TimerEvent: {}
+[7.019441] (-) TimerEvent: {}
+[7.119726] (-) TimerEvent: {}
+[7.219975] (-) TimerEvent: {}
+[7.320222] (-) TimerEvent: {}
+[7.420482] (-) TimerEvent: {}
+[7.520841] (-) TimerEvent: {}
+[7.621128] (-) TimerEvent: {}
+[7.721431] (-) TimerEvent: {}
+[7.821693] (-) TimerEvent: {}
+[7.921977] (-) TimerEvent: {}
+[8.022288] (-) TimerEvent: {}
+[8.122575] (-) TimerEvent: {}
+[8.222839] (-) TimerEvent: {}
+[8.323092] (-) TimerEvent: {}
+[8.423356] (-) TimerEvent: {}
+[8.523618] (-) TimerEvent: {}
+[8.623895] (-) TimerEvent: {}
+[8.724216] (-) TimerEvent: {}
+[8.824531] (-) TimerEvent: {}
+[8.924800] (-) TimerEvent: {}
+[9.025073] (-) TimerEvent: {}
+[9.125317] (-) TimerEvent: {}
+[9.225568] (-) TimerEvent: {}
+[9.325824] (-) TimerEvent: {}
+[9.426104] (-) TimerEvent: {}
+[9.526376] (-) TimerEvent: {}
+[9.626645] (-) TimerEvent: {}
+[9.726902] (-) TimerEvent: {}
+[9.827155] (-) TimerEvent: {}
+[9.927433] (-) TimerEvent: {}
+[10.027695] (-) TimerEvent: {}
+[10.127985] (-) TimerEvent: {}
+[10.228259] (-) TimerEvent: {}
+[10.328566] (-) TimerEvent: {}
+[10.428864] (-) TimerEvent: {}
+[10.529161] (-) TimerEvent: {}
+[10.629456] (-) TimerEvent: {}
+[10.729729] (-) TimerEvent: {}
+[10.830010] (-) TimerEvent: {}
+[10.930300] (-) TimerEvent: {}
+[11.030595] (-) TimerEvent: {}
+[11.130910] (-) TimerEvent: {}
+[11.231176] (-) TimerEvent: {}
+[11.331453] (-) TimerEvent: {}
+[11.431700] (-) TimerEvent: {}
+[11.532008] (-) TimerEvent: {}
+[11.632352] (-) TimerEvent: {}
+[11.732807] (-) TimerEvent: {}
+[11.833186] (-) TimerEvent: {}
+[11.933465] (-) TimerEvent: {}
+[12.033775] (-) TimerEvent: {}
+[12.134098] (-) TimerEvent: {}
+[12.234379] (-) TimerEvent: {}
+[12.334618] (-) TimerEvent: {}
+[12.434901] (-) TimerEvent: {}
+[12.535231] (-) TimerEvent: {}
+[12.635538] (-) TimerEvent: {}
+[12.735866] (-) TimerEvent: {}
+[12.836176] (-) TimerEvent: {}
+[12.936456] (-) TimerEvent: {}
+[13.036714] (-) TimerEvent: {}
+[13.136969] (-) TimerEvent: {}
+[13.237238] (-) TimerEvent: {}
+[13.337608] (-) TimerEvent: {}
+[13.437977] (-) TimerEvent: {}
+[13.538321] (-) TimerEvent: {}
+[13.638627] (-) TimerEvent: {}
+[13.738907] (-) TimerEvent: {}
+[13.839261] (-) TimerEvent: {}
+[13.939611] (-) TimerEvent: {}
+[14.039916] (-) TimerEvent: {}
+[14.140165] (-) TimerEvent: {}
+[14.240420] (-) TimerEvent: {}
+[14.340647] (-) TimerEvent: {}
+[14.440908] (-) TimerEvent: {}
+[14.541174] (-) TimerEvent: {}
+[14.641456] (-) TimerEvent: {}
+[14.741766] (-) TimerEvent: {}
+[14.842043] (-) TimerEvent: {}
+[14.942315] (-) TimerEvent: {}
+[15.042560] (-) TimerEvent: {}
+[15.142838] (-) TimerEvent: {}
+[15.243157] (-) TimerEvent: {}
+[15.343527] (-) TimerEvent: {}
+[15.443820] (-) TimerEvent: {}
+[15.544113] (-) TimerEvent: {}
+[15.644401] (-) TimerEvent: {}
+[15.744639] (-) TimerEvent: {}
+[15.844905] (-) TimerEvent: {}
+[15.945250] (-) TimerEvent: {}
+[16.045487] (-) TimerEvent: {}
+[16.146967] (-) TimerEvent: {}
+[16.247263] (-) TimerEvent: {}
+[16.347495] (-) TimerEvent: {}
+[16.447750] (-) TimerEvent: {}
+[16.547998] (-) TimerEvent: {}
+[16.648242] (-) TimerEvent: {}
+[16.748484] (-) TimerEvent: {}
+[16.848719] (-) TimerEvent: {}
+[16.948978] (-) TimerEvent: {}
+[17.049241] (-) TimerEvent: {}
+[17.149453] (-) TimerEvent: {}
+[17.249697] (-) TimerEvent: {}
+[17.349929] (-) TimerEvent: {}
+[17.450220] (-) TimerEvent: {}
+[17.550478] (-) TimerEvent: {}
+[17.650751] (-) TimerEvent: {}
+[17.751023] (-) TimerEvent: {}
+[17.851309] (-) TimerEvent: {}
+[17.951575] (-) TimerEvent: {}
+[18.051850] (-) TimerEvent: {}
+[18.152120] (-) TimerEvent: {}
+[18.252384] (-) TimerEvent: {}
+[18.352667] (-) TimerEvent: {}
+[18.452993] (-) TimerEvent: {}
+[18.553254] (-) TimerEvent: {}
+[18.653497] (-) TimerEvent: {}
+[18.753794] (-) TimerEvent: {}
+[18.854106] (-) TimerEvent: {}
+[18.954330] (-) TimerEvent: {}
+[19.054560] (-) TimerEvent: {}
+[19.154796] (-) TimerEvent: {}
+[19.255055] (-) TimerEvent: {}
+[19.355345] (-) TimerEvent: {}
+[19.455722] (-) TimerEvent: {}
+[19.555966] (-) TimerEvent: {}
+[19.656212] (-) TimerEvent: {}
+[19.756448] (-) TimerEvent: {}
+[19.856676] (-) TimerEvent: {}
+[19.956951] (-) TimerEvent: {}
+[20.057235] (-) TimerEvent: {}
+[20.157503] (-) TimerEvent: {}
+[20.257772] (-) TimerEvent: {}
+[20.358127] (-) TimerEvent: {}
+[20.458422] (-) TimerEvent: {}
+[20.558649] (-) TimerEvent: {}
+[20.658900] (-) TimerEvent: {}
+[20.759150] (-) TimerEvent: {}
+[20.859406] (-) TimerEvent: {}
+[20.959638] (-) TimerEvent: {}
+[21.059886] (-) TimerEvent: {}
+[21.160170] (-) TimerEvent: {}
+[21.260471] (-) TimerEvent: {}
+[21.360769] (-) TimerEvent: {}
+[21.461018] (-) TimerEvent: {}
+[21.561263] (-) TimerEvent: {}
+[21.661494] (-) TimerEvent: {}
+[21.761735] (-) TimerEvent: {}
+[21.861990] (-) TimerEvent: {}
+[21.962210] (-) TimerEvent: {}
+[22.062446] (-) TimerEvent: {}
+[22.162737] (-) TimerEvent: {}
+[22.263050] (-) TimerEvent: {}
+[22.363304] (-) TimerEvent: {}
+[22.463535] (-) TimerEvent: {}
+[22.563797] (-) TimerEvent: {}
+[22.664043] (-) TimerEvent: {}
+[22.764293] (-) TimerEvent: {}
+[22.864615] (-) TimerEvent: {}
+[22.965234] (-) TimerEvent: {}
+[23.065575] (-) TimerEvent: {}
+[23.165934] (-) TimerEvent: {}
+[23.266197] (-) TimerEvent: {}
+[23.366501] (-) TimerEvent: {}
+[23.466785] (-) TimerEvent: {}
+[23.567014] (-) TimerEvent: {}
+[23.667240] (-) TimerEvent: {}
+[23.767457] (-) TimerEvent: {}
+[23.867716] (-) TimerEvent: {}
+[23.968058] (-) TimerEvent: {}
+[24.068393] (-) TimerEvent: {}
+[24.168710] (-) TimerEvent: {}
+[24.269045] (-) TimerEvent: {}
+[24.369360] (-) TimerEvent: {}
+[24.469642] (-) TimerEvent: {}
+[24.569944] (-) TimerEvent: {}
+[24.670217] (-) TimerEvent: {}
+[24.770490] (-) TimerEvent: {}
+[24.870805] (-) TimerEvent: {}
+[24.971114] (-) TimerEvent: {}
+[25.071418] (-) TimerEvent: {}
+[25.171677] (-) TimerEvent: {}
+[25.271985] (-) TimerEvent: {}
+[25.372353] (-) TimerEvent: {}
+[25.472676] (-) TimerEvent: {}
+[25.572985] (-) TimerEvent: {}
+[25.673239] (-) TimerEvent: {}
+[25.773493] (-) TimerEvent: {}
+[25.873825] (-) TimerEvent: {}
+[25.974271] (-) TimerEvent: {}
+[26.074530] (-) TimerEvent: {}
+[26.174821] (-) TimerEvent: {}
+[26.275062] (-) TimerEvent: {}
+[26.311187] (ai_motor_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lemniscate\x1b[0m\n'}
+[26.375179] (-) TimerEvent: {}
+[26.475426] (-) TimerEvent: {}
+[26.575705] (-) TimerEvent: {}
+[26.676171] (-) TimerEvent: {}
+[26.776647] (-) TimerEvent: {}
+[26.876979] (-) TimerEvent: {}
+[26.977403] (-) TimerEvent: {}
+[27.077852] (-) TimerEvent: {}
+[27.178353] (-) TimerEvent: {}
+[27.278668] (-) TimerEvent: {}
+[27.378964] (-) TimerEvent: {}
+[27.479278] (-) TimerEvent: {}
+[27.579604] (-) TimerEvent: {}
+[27.679861] (-) TimerEvent: {}
+[27.705711] (ai_motor_controller) StdoutLine: {'line': b'[100%] Built target lemniscate\n'}
+[27.719120] (ai_motor_controller) CommandEnded: {'returncode': 0}
+[27.719705] (ai_motor_controller) JobProgress: {'identifier': 'ai_motor_controller', 'progress': 'install'}
+[27.754821] (ai_motor_controller) Command: {'cmd': ['/home/lunet/ttcc4/anaconda3/bin/cmake', '--install', '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller'], 'cwd': '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'LANGUAGE': 'en_GB:en', 'USER': 'ttcc4', 'GZ_CONFIG_PATH': '/opt/ros/rolling/opt/gz_sim_vendor/share/gz:/opt/ros/rolling/opt/sdformat_vendor/share/gz:/opt/ros/rolling/opt/gz_gui_vendor/share/gz:/opt/ros/rolling/opt/gz_transport_vendor/share/gz:/opt/ros/rolling/opt/gz_rendering_vendor/share/gz:/opt/ros/rolling/opt/gz_plugin_vendor/share/gz:/opt/ros/rolling/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/rolling/opt/gz_msgs_vendor/share/gz:/opt/ros/rolling/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/lunet/ttcc4/ws_sensor_combined/install/px4_ros_com/lib:/home/lunet/ttcc4/ws_sensor_combined/install/px4_msgs/lib:/opt/ros/rolling/opt/zenoh_cpp_vendor/lib:/opt/ros/rolling/opt/gz_sim_vendor/lib:/opt/ros/rolling/opt/gz_sensors_vendor/lib:/opt/ros/rolling/opt/gz_physics_vendor/lib:/opt/ros/rolling/opt/sdformat_vendor/lib:/opt/ros/rolling/opt/gz_gui_vendor/lib:/opt/ros/rolling/opt/gz_transport_vendor/lib:/opt/ros/rolling/opt/gz_rendering_vendor/lib:/opt/ros/rolling/opt/gz_plugin_vendor/lib:/opt/ros/rolling/opt/gz_fuel_tools_vendor/lib:/opt/ros/rolling/opt/gz_msgs_vendor/lib:/opt/ros/rolling/opt/gz_common_vendor/lib:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_tools_vendor/lib:/opt/ros/rolling/opt/gz_ogre_next_vendor/lib:/opt/ros/rolling/opt/gz_dartsim_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'HOME': '/home/lunet/ttcc4', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/lunet/ttcc4', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'OPENAI_API_KEY': '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', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2915', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1394126462/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lunet/ttcc4/direct_motor_control_ws/install:/home/lunet/ttcc4/ws_sensor_combined/install', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'ttcc4', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1394126462.slice/user@1394126462.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ttcc4', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'PATH': '/home/lunet/ttcc4/anaconda3/bin:/opt/ros/rolling/opt/gz_msgs_vendor/bin:/opt/ros/rolling/opt/gz_tools_vendor/bin:/opt/ros/rolling/opt/gz_ogre_next_vendor/bin:/opt/ros/rolling/bin:/home/lunet/ttcc4/pclp:/home/lunet/ttcc4/anaconda3/condabin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/lunet/ttcc4/.cargo/bin:/usr/lib/ccache:/home/lunet/ttcc4/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/lunet/ttcc4/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/puppetlabs/bin', 'SESSION_MANAGER': 'local/LNX-TTCC4-1.lunet.lboro.ac.uk:@/tmp/.ICE-unix/2870,unix/LNX-TTCC4-1.lunet.lboro.ac.uk:/tmp/.ICE-unix/2870', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/70ad874f_6b31_442e_a89d_de38050551be', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1394126462', 'DISPLAY': ':0', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1394126462/.mutter-Xwaylandauth.T5UMA3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.223', 'SSH_AUTH_SOCK': '/run/user/1394126462/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller:/home/lunet/ttcc4/ws_sensor_combined/install/px4_ros_com:/home/lunet/ttcc4/ws_sensor_combined/install/px4_msgs:/opt/ros/rolling', 'CONDA_PYTHON_EXE': '/home/lunet/ttcc4/anaconda3/bin/python', 'SHELL': '/bin/bash', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_1394126462_YUDlNv', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/rolling/share', 'CONDA_DEFAULT_ENV': 'base', 'FLIGHTMARE_PATH': '/home/lunet/ttcc4/flightmare_attitude_control', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/lunet/ttcc4/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lunet/ttcc4/ws_sensor_combined/install/px4_ros_com/lib/python3.8/site-packages:/home/lunet/ttcc4/ws_sensor_combined/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/rolling/lib/python3.12/site-packages', 'CONDA_PREFIX': '/home/lunet/ttcc4/anaconda3', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'MANPATH': ':/opt/puppetlabs/puppet/share/man', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller:/home/lunet/ttcc4/ws_sensor_combined/install/px4_ros_com:/home/lunet/ttcc4/ws_sensor_combined/install/px4_msgs:/opt/ros/rolling/opt/gz_sim_vendor:/opt/ros/rolling/opt/gz_sensors_vendor:/opt/ros/rolling/opt/gz_physics_vendor:/opt/ros/rolling/opt/sdformat_vendor:/opt/ros/rolling/opt/gz_gui_vendor:/opt/ros/rolling/opt/gz_transport_vendor:/opt/ros/rolling/opt/gz_rendering_vendor:/opt/ros/rolling/opt/gz_plugin_vendor:/opt/ros/rolling/opt/gz_fuel_tools_vendor:/opt/ros/rolling/opt/gz_msgs_vendor:/opt/ros/rolling/opt/gz_common_vendor:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_tools_vendor:/opt/ros/rolling/opt/gz_ogre_next_vendor:/opt/ros/rolling/opt/gz_dartsim_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling'}), 'shell': False}
+[27.779983] (-) TimerEvent: {}
+[27.780292] (ai_motor_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.780501] (ai_motor_controller) StdoutLine: {'line': b'-- Installing: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/lib/ai_motor_controller/lemniscate\n'}
+[27.801814] (ai_motor_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/lib/ai_motor_controller/lemniscate" to ""\n'}
+[27.802157] (ai_motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/lib/ai_motor_controller/wrench\n'}
+[27.802354] (ai_motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller//launch\n'}
+[27.802468] (ai_motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller//launch/lemniscate_launch.py\n'}
+[27.802672] (ai_motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller//launch/traj.csv\n'}
+[27.802742] (ai_motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller//launch/wrench_launch.py\n'}
+[27.802800] (ai_motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller//launch/__pycache__\n'}
+[27.802893] (ai_motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller//launch/__pycache__/wrench_launch.cpython-312.pyc\n'}
+[27.802947] (ai_motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller//config\n'}
+[27.803002] (ai_motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller//config/pid_params.yaml\n'}
+[27.803058] (ai_motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ament_index/resource_index/package_run_dependencies/ai_motor_controller\n'}
+[27.803108] (ai_motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ament_index/resource_index/parent_prefix_path/ai_motor_controller\n'}
+[27.803169] (ai_motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/environment/ament_prefix_path.sh\n'}
+[27.803219] (ai_motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/environment/ament_prefix_path.dsv\n'}
+[27.803268] (ai_motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/environment/path.sh\n'}
+[27.803318] (ai_motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/environment/path.dsv\n'}
+[27.803377] (ai_motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/local_setup.bash\n'}
+[27.803431] (ai_motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/local_setup.sh\n'}
+[27.803487] (ai_motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/local_setup.zsh\n'}
+[27.803535] (ai_motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/local_setup.dsv\n'}
+[27.803583] (ai_motor_controller) StdoutLine: {'line': b'-- Installing: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/package.dsv\n'}
+[27.803633] (ai_motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ament_index/resource_index/packages/ai_motor_controller\n'}
+[27.803685] (ai_motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[27.803738] (ai_motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/cmake/ai_motor_controllerConfig.cmake\n'}
+[27.803787] (ai_motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/cmake/ai_motor_controllerConfig-version.cmake\n'}
+[27.803837] (ai_motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/package.xml\n'}
+[27.807369] (ai_motor_controller) CommandEnded: {'returncode': 0}
+[27.818894] (ai_motor_controller) JobEnded: {'identifier': 'ai_motor_controller', 'rc': 0}
+[27.819428] (-) EventReactorShutdown: {}

@@ -1,0 +1,6 @@
+[0.031s] Invoking command in '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/lunet/ttcc4/.local/bin/cmake --build /home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller -- -j8 -l8
+[0.056s] Traceback (most recent call last):
+[0.056s]   File "/home/lunet/ttcc4/.local/bin/cmake", line 5, in <module>
+[0.056s]     from cmake import cmake
+[0.056s] ModuleNotFoundError: No module named 'cmake'
+[0.061s] Invoked command in '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/lunet/ttcc4/.local/bin/cmake --build /home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller -- -j8 -l8

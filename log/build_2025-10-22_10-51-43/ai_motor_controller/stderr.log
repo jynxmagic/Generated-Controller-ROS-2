@@ -1,0 +1,38 @@
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::[01;32m[KrvolmeaControl[m[K()[m[K’:
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:597:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ke_prev[m[K’ was not declared in this scope; did you mean ‘[01m[Kx_prev[m[K’?
+  597 |         [01;31m[Ke_prev[m[K.setZero();
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Kx_prev[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:598:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kadaptive_prev[m[K’ was not declared in this scope
+  598 |         [01;31m[Kadaptive_prev[m[K = Eigen::Vector3f::Ones();
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:599:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kacc_prev[m[K’ was not declared in this scope
+  599 |         [01;31m[Kacc_prev[m[K.setZero();
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:600:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kori_err_prev[m[K’ was not declared in this scope; did you mean ‘[01m[Kori_prev[m[K’?
+  600 |         [01;31m[Kori_err_prev[m[K.setZero();
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+      |         [32m[Kori_prev[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:601:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kd_hat[m[K’ was not declared in this scope
+  601 |         [01;31m[Kd_hat[m[K.setZero();
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:602:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kz_int[m[K’ was not declared in this scope; did you mean ‘[01m[Ku_int[m[K’?
+  602 |         [01;31m[Kz_int[m[K = 0.0;
+      |         [01;31m[K^~~~~[m[K
+      |         [32m[Ku_int[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:603:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksat_err_z_vec[m[K’ was not declared in this scope
+  603 |         [01;31m[Ksat_err_z_vec[m[K.setZero();
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:667:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kz_prev[m[K’ was not declared in this scope; did you mean ‘[01m[Kdz_prev[m[K’?
+  667 |     const float dz = (z_err - [01;31m[Kz_prev[m[K) / dt;
+      |                               [01;31m[K^~~~~~[m[K
+      |                               [32m[Kdz_prev[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:609:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmax_thrust[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  609 |     constexpr float [01;35m[Kmax_thrust[m[K = 44.0f;
+      |                     [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:620:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktarget_yaw[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  620 |     float [01;35m[Ktarget_yaw[m[K = target[3];
+      |           [01;35m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/lemniscate.dir/build.make:76: CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lemniscate.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

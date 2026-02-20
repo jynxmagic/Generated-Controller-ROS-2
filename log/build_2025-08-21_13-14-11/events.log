@@ -1,0 +1,188 @@
+[0.000000] (-) TimerEvent: {}
+[0.000238] (ai_motor_controller) JobQueued: {'identifier': 'ai_motor_controller', 'dependencies': OrderedDict()}
+[0.000979] (ai_motor_controller) JobStarted: {'identifier': 'ai_motor_controller'}
+[0.014721] (ai_motor_controller) JobProgress: {'identifier': 'ai_motor_controller', 'progress': 'cmake'}
+[0.016089] (ai_motor_controller) JobProgress: {'identifier': 'ai_motor_controller', 'progress': 'build'}
+[0.017966] (ai_motor_controller) Command: {'cmd': ['/home/lunet/ttcc4/anaconda3/bin/cmake', '--build', '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller', '--', '-j8', '-l8'], 'cwd': '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'LANGUAGE': 'en_GB:en', 'USER': 'ttcc4', 'GZ_CONFIG_PATH': '/opt/ros/rolling/opt/gz_sim_vendor/share/gz:/opt/ros/rolling/opt/sdformat_vendor/share/gz:/opt/ros/rolling/opt/gz_gui_vendor/share/gz:/opt/ros/rolling/opt/gz_transport_vendor/share/gz:/opt/ros/rolling/opt/gz_rendering_vendor/share/gz:/opt/ros/rolling/opt/gz_plugin_vendor/share/gz:/opt/ros/rolling/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/rolling/opt/gz_msgs_vendor/share/gz:/opt/ros/rolling/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/rolling/opt/zenoh_cpp_vendor/lib:/opt/ros/rolling/opt/gz_sim_vendor/lib:/opt/ros/rolling/opt/gz_sensors_vendor/lib:/opt/ros/rolling/opt/gz_physics_vendor/lib:/opt/ros/rolling/opt/sdformat_vendor/lib:/opt/ros/rolling/opt/gz_gui_vendor/lib:/opt/ros/rolling/opt/gz_transport_vendor/lib:/opt/ros/rolling/opt/gz_rendering_vendor/lib:/opt/ros/rolling/opt/gz_plugin_vendor/lib:/opt/ros/rolling/opt/gz_fuel_tools_vendor/lib:/opt/ros/rolling/opt/gz_msgs_vendor/lib:/opt/ros/rolling/opt/gz_common_vendor/lib:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_tools_vendor/lib:/opt/ros/rolling/opt/gz_ogre_next_vendor/lib:/opt/ros/rolling/opt/gz_dartsim_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'HOME': '/home/lunet/ttcc4', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/lunet/ttcc4', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'OPENAI_API_KEY': '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', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2986', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1394126462/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'ttcc4', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1394126462.slice/user@1394126462.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ttcc4', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'PATH': '/home/lunet/ttcc4/anaconda3/bin:/opt/ros/rolling/opt/gz_msgs_vendor/bin:/opt/ros/rolling/opt/gz_tools_vendor/bin:/opt/ros/rolling/opt/gz_ogre_next_vendor/bin:/opt/ros/rolling/bin:/home/lunet/ttcc4/pclp:/home/lunet/ttcc4/anaconda3/condabin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/lunet/ttcc4/.cargo/bin:/usr/lib/ccache:/home/lunet/ttcc4/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/lunet/ttcc4/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/puppetlabs/bin', 'SESSION_MANAGER': 'local/LNX-TTCC4-1.lunet.lboro.ac.uk:@/tmp/.ICE-unix/2938,unix/LNX-TTCC4-1.lunet.lboro.ac.uk:/tmp/.ICE-unix/2938', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/383bc934_69f3_4b2c_8f73_3265ae05db77', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1394126462', 'DISPLAY': ':0', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1394126462/.mutter-Xwaylandauth.2F1PB3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.175', 'SSH_AUTH_SOCK': '/run/user/1394126462/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/rolling', 'CONDA_PYTHON_EXE': '/home/lunet/ttcc4/anaconda3/bin/python', 'SHELL': '/bin/bash', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_1394126462_mCYVkG', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/rolling/share', 'CONDA_DEFAULT_ENV': 'base', 'FLIGHTMARE_PATH': '/home/lunet/ttcc4/flightmare_attitude_control', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/lunet/ttcc4/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/rolling/lib/python3.12/site-packages', 'CONDA_PREFIX': '/home/lunet/ttcc4/anaconda3', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'MANPATH': ':/opt/puppetlabs/puppet/share/man', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/rolling/opt/gz_sim_vendor:/opt/ros/rolling/opt/gz_sensors_vendor:/opt/ros/rolling/opt/gz_physics_vendor:/opt/ros/rolling/opt/sdformat_vendor:/opt/ros/rolling/opt/gz_gui_vendor:/opt/ros/rolling/opt/gz_transport_vendor:/opt/ros/rolling/opt/gz_rendering_vendor:/opt/ros/rolling/opt/gz_plugin_vendor:/opt/ros/rolling/opt/gz_fuel_tools_vendor:/opt/ros/rolling/opt/gz_msgs_vendor:/opt/ros/rolling/opt/gz_common_vendor:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_tools_vendor:/opt/ros/rolling/opt/gz_ogre_next_vendor:/opt/ros/rolling/opt/gz_dartsim_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling'}), 'shell': False}
+[0.099892] (-) TimerEvent: {}
+[0.108264] (ai_motor_controller) StdoutLine: {'line': b'[ 50%] Built target wrench\n'}
+[0.120030] (ai_motor_controller) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o\x1b[0m\n'}
+[0.199996] (-) TimerEvent: {}
+[0.300289] (-) TimerEvent: {}
+[0.400714] (-) TimerEvent: {}
+[0.501159] (-) TimerEvent: {}
+[0.601577] (-) TimerEvent: {}
+[0.701979] (-) TimerEvent: {}
+[0.802361] (-) TimerEvent: {}
+[0.902793] (-) TimerEvent: {}
+[1.003396] (-) TimerEvent: {}
+[1.103817] (-) TimerEvent: {}
+[1.204245] (-) TimerEvent: {}
+[1.304516] (-) TimerEvent: {}
+[1.404784] (-) TimerEvent: {}
+[1.505074] (-) TimerEvent: {}
+[1.605384] (-) TimerEvent: {}
+[1.705763] (-) TimerEvent: {}
+[1.806082] (-) TimerEvent: {}
+[1.906363] (-) TimerEvent: {}
+[2.006626] (-) TimerEvent: {}
+[2.106942] (-) TimerEvent: {}
+[2.207358] (-) TimerEvent: {}
+[2.307651] (-) TimerEvent: {}
+[2.408097] (-) TimerEvent: {}
+[2.508639] (-) TimerEvent: {}
+[2.609070] (-) TimerEvent: {}
+[2.709896] (-) TimerEvent: {}
+[2.810261] (-) TimerEvent: {}
+[2.910782] (-) TimerEvent: {}
+[3.011084] (-) TimerEvent: {}
+[3.111388] (-) TimerEvent: {}
+[3.211777] (-) TimerEvent: {}
+[3.312178] (-) TimerEvent: {}
+[3.412480] (-) TimerEvent: {}
+[3.513262] (-) TimerEvent: {}
+[3.613782] (-) TimerEvent: {}
+[3.714073] (-) TimerEvent: {}
+[3.815020] (-) TimerEvent: {}
+[3.915313] (-) TimerEvent: {}
+[4.015663] (-) TimerEvent: {}
+[4.115936] (-) TimerEvent: {}
+[4.216193] (-) TimerEvent: {}
+[4.316490] (-) TimerEvent: {}
+[4.416747] (-) TimerEvent: {}
+[4.517013] (-) TimerEvent: {}
+[4.617311] (-) TimerEvent: {}
+[4.717699] (-) TimerEvent: {}
+[4.818136] (-) TimerEvent: {}
+[4.918735] (-) TimerEvent: {}
+[5.019151] (-) TimerEvent: {}
+[5.120041] (-) TimerEvent: {}
+[5.220412] (-) TimerEvent: {}
+[5.320776] (-) TimerEvent: {}
+[5.421070] (-) TimerEvent: {}
+[5.521610] (-) TimerEvent: {}
+[5.621969] (-) TimerEvent: {}
+[5.722255] (-) TimerEvent: {}
+[5.822761] (-) TimerEvent: {}
+[5.923223] (-) TimerEvent: {}
+[6.023500] (-) TimerEvent: {}
+[6.123961] (-) TimerEvent: {}
+[6.224396] (-) TimerEvent: {}
+[6.324843] (-) TimerEvent: {}
+[6.425509] (-) TimerEvent: {}
+[6.525886] (-) TimerEvent: {}
+[6.626222] (-) TimerEvent: {}
+[6.726566] (-) TimerEvent: {}
+[6.826941] (-) TimerEvent: {}
+[6.927285] (-) TimerEvent: {}
+[7.027562] (-) TimerEvent: {}
+[7.127783] (-) TimerEvent: {}
+[7.228066] (-) TimerEvent: {}
+[7.328607] (-) TimerEvent: {}
+[7.429510] (-) TimerEvent: {}
+[7.529807] (-) TimerEvent: {}
+[7.630103] (-) TimerEvent: {}
+[7.730573] (-) TimerEvent: {}
+[7.830978] (-) TimerEvent: {}
+[7.931450] (-) TimerEvent: {}
+[8.031795] (-) TimerEvent: {}
+[8.132131] (-) TimerEvent: {}
+[8.232495] (-) TimerEvent: {}
+[8.332786] (-) TimerEvent: {}
+[8.433136] (-) TimerEvent: {}
+[8.533778] (-) TimerEvent: {}
+[8.634153] (-) TimerEvent: {}
+[8.734551] (-) TimerEvent: {}
+[8.834956] (-) TimerEvent: {}
+[8.935299] (-) TimerEvent: {}
+[9.035668] (-) TimerEvent: {}
+[9.136157] (-) TimerEvent: {}
+[9.236551] (-) TimerEvent: {}
+[9.336977] (-) TimerEvent: {}
+[9.437309] (-) TimerEvent: {}
+[9.537871] (-) TimerEvent: {}
+[9.638328] (-) TimerEvent: {}
+[9.738785] (-) TimerEvent: {}
+[9.839086] (-) TimerEvent: {}
+[9.939403] (-) TimerEvent: {}
+[10.039913] (-) TimerEvent: {}
+[10.140966] (-) TimerEvent: {}
+[10.241277] (-) TimerEvent: {}
+[10.341669] (-) TimerEvent: {}
+[10.442073] (-) TimerEvent: {}
+[10.542436] (-) TimerEvent: {}
+[10.642753] (-) TimerEvent: {}
+[10.743042] (-) TimerEvent: {}
+[10.843334] (-) TimerEvent: {}
+[10.943693] (-) TimerEvent: {}
+[11.044033] (-) TimerEvent: {}
+[11.144386] (-) TimerEvent: {}
+[11.244707] (-) TimerEvent: {}
+[11.345039] (-) TimerEvent: {}
+[11.445410] (-) TimerEvent: {}
+[11.545768] (-) TimerEvent: {}
+[11.646078] (-) TimerEvent: {}
+[11.746360] (-) TimerEvent: {}
+[11.846713] (-) TimerEvent: {}
+[11.946990] (-) TimerEvent: {}
+[12.047252] (-) TimerEvent: {}
+[12.147519] (-) TimerEvent: {}
+[12.247806] (-) TimerEvent: {}
+[12.348069] (-) TimerEvent: {}
+[12.448349] (-) TimerEvent: {}
+[12.548631] (-) TimerEvent: {}
+[12.648921] (-) TimerEvent: {}
+[12.749301] (-) TimerEvent: {}
+[12.850068] (-) TimerEvent: {}
+[12.950809] (-) TimerEvent: {}
+[13.051329] (-) TimerEvent: {}
+[13.152004] (-) TimerEvent: {}
+[13.252488] (-) TimerEvent: {}
+[13.353041] (-) TimerEvent: {}
+[13.453594] (-) TimerEvent: {}
+[13.554029] (-) TimerEvent: {}
+[13.654810] (-) TimerEvent: {}
+[13.755211] (-) TimerEvent: {}
+[13.856024] (-) TimerEvent: {}
+[13.956407] (-) TimerEvent: {}
+[14.056734] (-) TimerEvent: {}
+[14.157041] (-) TimerEvent: {}
+[14.257380] (-) TimerEvent: {}
+[14.357706] (-) TimerEvent: {}
+[14.458156] (-) TimerEvent: {}
+[14.558618] (-) TimerEvent: {}
+[14.659014] (-) TimerEvent: {}
+[14.759479] (-) TimerEvent: {}
+[14.859940] (-) TimerEvent: {}
+[14.960654] (-) TimerEvent: {}
+[15.061096] (-) TimerEvent: {}
+[15.161757] (-) TimerEvent: {}
+[15.262027] (-) TimerEvent: {}
+[15.362542] (-) TimerEvent: {}
+[15.463787] (-) TimerEvent: {}
+[15.564049] (-) TimerEvent: {}
+[15.664507] (-) TimerEvent: {}
+[15.764881] (-) TimerEvent: {}
+[15.865388] (-) TimerEvent: {}
+[15.966045] (-) TimerEvent: {}
+[16.066344] (-) TimerEvent: {}
+[16.166699] (-) TimerEvent: {}
+[16.267077] (-) TimerEvent: {}
+[16.307388] (ai_motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:164\x1b[m\x1b[K,\n'}
+[16.309287] (ai_motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[16.309485] (ai_motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:23\x1b[m\x1b[K:\n'}
+[16.309617] (ai_motor_controller) StderrLine: {'line': b'/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid Eigen::internal::\x1b[01;32m\x1b[Kcall_assignment_no_alias\x1b[m\x1b[K(Dst&, const Src&, const Func&) \x1b[35m\x1b[K[with Dst = Eigen::Matrix<double, 3, 1>; Src = Eigen::CwiseBinaryOp<scalar_sum_op<float, float>, const Eigen::Matrix<float, 3, 1>, const Eigen::CwiseBinaryOp<scalar_product_op<float, float>, const Eigen::CwiseNullaryOp<scalar_constant_op<float>, const Eigen::Matrix<float, 3, 1> >, const Eigen::CwiseBinaryOp<scalar_difference_op<float, float>, const Eigen::Matrix<float, 3, 1>, const Eigen::Matrix<float, 3, 1> > > >; Func = assign_op<double, float>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.310036] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:797:41:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[KDerived& Eigen::PlainObjectBase<Derived>::\x1b[01;32m\x1b[K_set_noalias\x1b[m\x1b[K(const Eigen::DenseBase<OtherDerived>&) \x1b[35m\x1b[K[with OtherDerived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<float, float>, const Eigen::Matrix<float, 3, 1>, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<float, float>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>, const Eigen::Matrix<float, 3, 1> >, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<float, float>, const Eigen::Matrix<float, 3, 1>, const Eigen::Matrix<float, 3, 1> > > >; Derived = Eigen::Matrix<double, 3, 1>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.310229] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:594:19:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[KEigen::PlainObjectBase<Derived>::\x1b[01;32m\x1b[KPlainObjectBase\x1b[m\x1b[K(const Eigen::DenseBase<OtherDerived>&) \x1b[35m\x1b[K[with OtherDerived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<float, float>, const Eigen::Matrix<float, 3, 1>, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<float, float>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>, const Eigen::Matrix<float, 3, 1> >, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<float, float>, const Eigen::Matrix<float, 3, 1>, const Eigen::Matrix<float, 3, 1> > > >; Derived = Eigen::Matrix<double, 3, 1>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.310349] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:423:29:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::\x1b[01;32m\x1b[KMatrix\x1b[m\x1b[K(const Eigen::EigenBase<OtherDerived>&) \x1b[35m\x1b[K[with OtherDerived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<float, float>, const Eigen::Matrix<float, 3, 1>, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<float, float>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>, const Eigen::Matrix<float, 3, 1> >, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<float, float>, const Eigen::Matrix<float, 3, 1>, const Eigen::Matrix<float, 3, 1> > > >; _Scalar = double; int _Rows = 3; int _Cols = 1; int _Options = 0; int _MaxRows = 3; int _MaxCols = 1]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.310507] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:610:89:\x1b[m\x1b[K   required from here\n'}
+[16.310598] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:888:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: YOU_MIXED_DIFFERENT_NUMERIC_TYPES__YOU_NEED_TO_USE_THE_CAST_METHOD_OF_MATRIXBASE_TO_CAST_NUMERIC_TYPES_EXPLICITLY\n'}
+[16.310674] (ai_motor_controller) StderrLine: {'line': b'  888 |   \x1b[01;31m\x1b[KEIGEN_CHECK_BINARY_COMPATIBILIY\x1b[m\x1b[K(Func,typename ActualDstTypeCleaned::Scalar,typename Src::Scalar);\n'}
+[16.310921] (ai_motor_controller) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.310989] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:888:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::internal::has_ReturnType<Eigen::ScalarBinaryOpTraits<double, float, Eigen::internal::assign_op<double, float> > >::value\x1b[m\x1b[K\xe2\x80\x99 evaluates to false\n'}
+[16.312750] (ai_motor_controller) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lemniscate.dir/build.make:76: CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o] Error 1\n'}
+[16.313082] (ai_motor_controller) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lemniscate.dir/all] Error 2\n'}
+[16.313573] (ai_motor_controller) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[16.320899] (ai_motor_controller) CommandEnded: {'returncode': 2}
+[16.337693] (ai_motor_controller) JobEnded: {'identifier': 'ai_motor_controller', 'rc': 2}
+[16.349574] (-) EventReactorShutdown: {}

@@ -1,0 +1,4 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/wrench.dir/src/wrench_disturbance.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable wrench[0m
+[ 75%] Built target wrench

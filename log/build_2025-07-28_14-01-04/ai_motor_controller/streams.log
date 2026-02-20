@@ -1,0 +1,41 @@
+[0.012s] Invoking command in '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/lunet/ttcc4/anaconda3/bin/cmake /home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller -DCMAKE_INSTALL_PREFIX=/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller
+[0.188s] -- The C compiler identification is GNU 13.3.0
+[0.285s] -- The CXX compiler identification is GNU 13.3.0
+[0.300s] -- Detecting C compiler ABI info
+[0.346s] -- Detecting C compiler ABI info - done
+[0.355s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.355s] -- Detecting C compile features
+[0.356s] -- Detecting C compile features - done
+[0.359s] -- Detecting CXX compiler ABI info
+[0.411s] -- Detecting CXX compiler ABI info - done
+[0.423s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.423s] -- Detecting CXX compile features
+[0.424s] -- Detecting CXX compile features - done
+[0.432s] -- Found ament_cmake: 2.8.2 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.962s] -- Found Python3: /home/lunet/ttcc4/anaconda3/bin/python3 (found version "3.9.13") found components: Interpreter 
+[1.055s] -- Found builtin_interfaces: 2.4.0 (/opt/ros/rolling/share/builtin_interfaces/cmake)
+[1.100s] -- Found rosidl_generator_c: 4.10.0 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[1.118s] -- Found rosidl_generator_cpp: 4.10.0 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[1.139s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.160s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.178s] -- Found eigen3_cmake_module: 0.5.0 (/opt/ros/rolling/share/eigen3_cmake_module/cmake)
+[1.190s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.201s] -- Configuring incomplete, errors occurred!
+[1.201s] [31mCMake Error at CMakeLists.txt:17 (find_package):
+[1.201s]   By not providing "Findpx4_msgs.cmake" in CMAKE_MODULE_PATH this project has
+[1.201s]   asked CMake to find a package configuration file provided by "px4_msgs",
+[1.201s]   but CMake did not find one.
+[1.201s] 
+[1.201s]   Could not find a package configuration file provided by "px4_msgs" with any
+[1.201s]   of the following names:
+[1.201s] 
+[1.201s]     px4_msgsConfig.cmake
+[1.201s]     px4_msgs-config.cmake
+[1.202s] 
+[1.202s]   Add the installation prefix of "px4_msgs" to CMAKE_PREFIX_PATH or set
+[1.202s]   "px4_msgs_DIR" to a directory containing one of the above files.  If
+[1.202s]   "px4_msgs" provides a separate development package or SDK, be sure it has
+[1.202s]   been installed.
+[1.202s] 
+[1.202s] [0m
+[1.215s] Invoked command in '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/lunet/ttcc4/anaconda3/bin/cmake /home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller -DCMAKE_INSTALL_PREFIX=/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller

@@ -1,0 +1,86 @@
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::[01;32m[KrvolmeaControl[m[K()[m[K’:
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:636:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kypr[m[K’ was not declared in this scope
+  636 |         yaw_sp_prev=[01;31m[Kypr[m[K[0];
+      |                     [01;31m[K^~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:639:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_position[m[K’ was not declared in this scope; did you mean ‘[01m[Klocal_position_x_[m[K’?
+  639 |         prev_goal=[01;31m[Kgoal_position[m[K;
+      |                   [01;31m[K^~~~~~~~~~~~~[m[K
+      |                   [32m[Klocal_position_x_[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:641:18:[m[K [01;31m[Kerror: [m[K‘[01m[Klinear_velocity[m[K’ was not declared in this scope
+  641 |         vel_prev=[01;31m[Klinear_velocity[m[K;
+      |                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:679:23:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kclamp(float, double, double)[m[K’
+  679 |     z_int = [01;31m[Kstd::clamp(z_int + z_err*dt, -1.0,1.0)[m[K;
+      |             [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/13/algorithm:61[m[K,
+                 from [01m[K/home/lunet/ttcc4/ws_sensor_combined/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/offboard_control_mode__struct.hpp:11[m[K,
+                 from [01m[K/home/lunet/ttcc4/ws_sensor_combined/install/px4_msgs/include/px4_msgs/px4_msgs/msg/offboard_control_mode.hpp:7[m[K,
+                 from [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:1[m[K:
+[01m[K/usr/include/c++/13/bits/stl_algo.h:3667:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp& std::[01;32m[Kclamp[m[K(const _Tp&, const _Tp&, const _Tp&)[m[K’
+ 3667 |     [01;36m[Kclamp[m[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi)
+      |     [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_algo.h:3667:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:679:23:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kfloat[m[K’ and ‘[01m[Kdouble[m[K’)
+  679 |     z_int = [01;36m[Kstd::clamp(z_int + z_err*dt, -1.0,1.0)[m[K;
+      |             [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_algo.h:3687:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::[01;32m[Kclamp[m[K(const _Tp&, const _Tp&, const _Tp&, _Compare)[m[K’
+ 3687 |     [01;36m[Kclamp[m[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi, _Compare __comp)
+      |     [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_algo.h:3687:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:679:23:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kfloat[m[K’ and ‘[01m[Kdouble[m[K’)
+  679 |     z_int = [01;36m[Kstd::clamp(z_int + z_err*dt, -1.0,1.0)[m[K;
+      |             [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:680:81:[m[K [01;31m[Kerror: [m[K‘[01m[Klinear_velocity[m[K’ was not declared in this scope; did you mean ‘[01m[Kangular_velocity[m[K’?
+  680 |     float u_z = coefs[1]*z_err + coefs[2]*dz_err + coefs[3]*z_int + ff[2] - cdz*[01;31m[Klinear_velocity[m[K[2];
+      |                                                                                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                                                                 [32m[Kangular_velocity[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:688:23:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kclamp(float, double, double)[m[K’
+  688 |     x_int = [01;31m[Kstd::clamp(x_int + x_err*dt, -1.0,1.0)[m[K;
+      |             [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_algo.h:3667:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp& std::[01;32m[Kclamp[m[K(const _Tp&, const _Tp&, const _Tp&)[m[K’
+ 3667 |     [01;36m[Kclamp[m[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi)
+      |     [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_algo.h:3667:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:688:23:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kfloat[m[K’ and ‘[01m[Kdouble[m[K’)
+  688 |     x_int = [01;36m[Kstd::clamp(x_int + x_err*dt, -1.0,1.0)[m[K;
+      |             [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_algo.h:3687:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::[01;32m[Kclamp[m[K(const _Tp&, const _Tp&, const _Tp&, _Compare)[m[K’
+ 3687 |     [01;36m[Kclamp[m[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi, _Compare __comp)
+      |     [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_algo.h:3687:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:688:23:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kfloat[m[K’ and ‘[01m[Kdouble[m[K’)
+  688 |     x_int = [01;36m[Kstd::clamp(x_int + x_err*dt, -1.0,1.0)[m[K;
+      |             [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:696:23:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kclamp(float, double, double)[m[K’
+  696 |     y_int = [01;31m[Kstd::clamp(y_int + y_err*dt, -1.0,1.0)[m[K;
+      |             [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_algo.h:3667:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp& std::[01;32m[Kclamp[m[K(const _Tp&, const _Tp&, const _Tp&)[m[K’
+ 3667 |     [01;36m[Kclamp[m[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi)
+      |     [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_algo.h:3667:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:696:23:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kfloat[m[K’ and ‘[01m[Kdouble[m[K’)
+  696 |     y_int = [01;36m[Kstd::clamp(y_int + y_err*dt, -1.0,1.0)[m[K;
+      |             [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_algo.h:3687:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::[01;32m[Kclamp[m[K(const _Tp&, const _Tp&, const _Tp&, _Compare)[m[K’
+ 3687 |     [01;36m[Kclamp[m[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi, _Compare __comp)
+      |     [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_algo.h:3687:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:696:23:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kfloat[m[K’ and ‘[01m[Kdouble[m[K’)
+  696 |     y_int = [01;36m[Kstd::clamp(y_int + y_err*dt, -1.0,1.0)[m[K;
+      |             [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:736:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kypr[m[K’ was not declared in this scope
+  736 |     float roll_err=roll_sp-[01;31m[Kypr[m[K[2];
+      |                            [01;31m[K^~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:164[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:23[m[K:
+/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h: In instantiation of ‘[01m[KEigen::PlainObjectBase<Derived>::[01;32m[KPlainObjectBase[m[K(const Scalar&, const Scalar&, const Scalar&, const Scalar&, const ArgTypes& ...) [35m[K[with ArgTypes = {double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double}; Derived = Eigen::Matrix<float, 28, 1, 0, 28, 1>; Scalar = float][m[K[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:297:37:[m[K   required from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::[01;32m[KMatrix[m[K(const Scalar&, const Scalar&, const Scalar&, const Scalar&, const ArgTypes& ...) [35m[K[with ArgTypes = {double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double}; _Scalar = float; int _Rows = 28; int _Cols = 1; int _Options = 0; int _MaxRows = 28; int _MaxCols = 1; Scalar = float][m[K[m[K’
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:655:5:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:538:7:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: THIS_METHOD_IS_ONLY_FOR_VECTORS_OF_A_SPECIFIC_SIZE
+  538 |       [01;31m[KE[m[KIGEN_STATIC_ASSERT_VECTOR_SPECIFIC_SIZE(PlainObjectBase, sizeof...(args) + 4);
+      |       [01;31m[K^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:538:7:[m[K [01;36m[Knote: [m[Kthe comparison reduces to ‘[01m[K(28 == 27)[m[K’
+gmake[2]: *** [CMakeFiles/lemniscate.dir/build.make:76: CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lemniscate.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

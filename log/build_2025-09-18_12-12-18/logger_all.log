@@ -1,0 +1,254 @@
+[0.377s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.377s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x71ddab1c0c80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71ddab2dd0d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71ddab2dd0d0>>, mixin_verb=('build',))
+[0.510s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.510s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.510s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.510s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.510s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.510s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.511s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lunet/ttcc4/direct_motor_control_ws'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(piddob) by extensions ['ignore', 'ignore_ament_install']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(piddob) by extension 'ignore'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(piddob) by extension 'ignore_ament_install'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(piddob) by extensions ['colcon_pkg']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(piddob) by extension 'colcon_pkg'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(piddob) by extensions ['colcon_meta']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(piddob) by extension 'colcon_meta'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(piddob) by extensions ['ros']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(piddob) by extension 'ros'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(piddob) by extensions ['cmake', 'python']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(piddob) by extension 'cmake'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(piddob) by extension 'python'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(piddob) by extensions ['python_setup_py']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(piddob) by extension 'python_setup_py'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(piddob_wrench) by extensions ['ignore', 'ignore_ament_install']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(piddob_wrench) by extension 'ignore'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(piddob_wrench) by extension 'ignore_ament_install'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(piddob_wrench) by extensions ['colcon_pkg']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(piddob_wrench) by extension 'colcon_pkg'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(piddob_wrench) by extensions ['colcon_meta']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(piddob_wrench) by extension 'colcon_meta'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(piddob_wrench) by extensions ['ros']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(piddob_wrench) by extension 'ros'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(piddob_wrench) by extensions ['cmake', 'python']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(piddob_wrench) by extension 'cmake'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(piddob_wrench) by extension 'python'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(piddob_wrench) by extensions ['python_setup_py']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(piddob_wrench) by extension 'python_setup_py'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(rvolmea) by extensions ['ignore', 'ignore_ament_install']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(rvolmea) by extension 'ignore'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(rvolmea) by extension 'ignore_ament_install'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(rvolmea) by extensions ['colcon_pkg']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(rvolmea) by extension 'colcon_pkg'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(rvolmea) by extensions ['colcon_meta']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(rvolmea) by extension 'colcon_meta'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(rvolmea) by extensions ['ros']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(rvolmea) by extension 'ros'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(rvolmea) by extensions ['cmake', 'python']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(rvolmea) by extension 'cmake'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(rvolmea) by extension 'python'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(rvolmea) by extensions ['python_setup_py']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(rvolmea) by extension 'python_setup_py'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(rvolmea_wrench) by extensions ['ignore', 'ignore_ament_install']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(rvolmea_wrench) by extension 'ignore'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(rvolmea_wrench) by extension 'ignore_ament_install'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(rvolmea_wrench) by extensions ['colcon_pkg']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(rvolmea_wrench) by extension 'colcon_pkg'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(rvolmea_wrench) by extensions ['colcon_meta']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(rvolmea_wrench) by extension 'colcon_meta'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(rvolmea_wrench) by extensions ['ros']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(rvolmea_wrench) by extension 'ros'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(rvolmea_wrench) by extensions ['cmake', 'python']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(rvolmea_wrench) by extension 'cmake'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(rvolmea_wrench) by extension 'python'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(rvolmea_wrench) by extensions ['python_setup_py']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(rvolmea_wrench) by extension 'python_setup_py'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data) by extensions ['ignore', 'ignore_ament_install']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data) by extension 'ignore'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data) by extension 'ignore_ament_install'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data) by extensions ['colcon_pkg']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data) by extension 'colcon_pkg'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data) by extensions ['colcon_meta']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data) by extension 'colcon_meta'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data) by extensions ['ros']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data) by extension 'ros'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data) by extensions ['cmake', 'python']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data) by extension 'cmake'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data) by extension 'python'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data) by extensions ['python_setup_py']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data) by extension 'python_setup_py'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/pid_faulty_motor) by extensions ['ignore', 'ignore_ament_install']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/pid_faulty_motor) by extension 'ignore'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/pid_faulty_motor) by extension 'ignore_ament_install'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/pid_faulty_motor) by extensions ['colcon_pkg']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/pid_faulty_motor) by extension 'colcon_pkg'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/pid_faulty_motor) by extensions ['colcon_meta']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/pid_faulty_motor) by extension 'colcon_meta'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/pid_faulty_motor) by extensions ['ros']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/pid_faulty_motor) by extension 'ros'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/pid_faulty_motor) by extensions ['cmake', 'python']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/pid_faulty_motor) by extension 'cmake'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/pid_faulty_motor) by extension 'python'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/pid_faulty_motor) by extensions ['python_setup_py']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/pid_faulty_motor) by extension 'python_setup_py'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/pid_nominal) by extensions ['ignore', 'ignore_ament_install']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/pid_nominal) by extension 'ignore'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/pid_nominal) by extension 'ignore_ament_install'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/pid_nominal) by extensions ['colcon_pkg']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/pid_nominal) by extension 'colcon_pkg'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/pid_nominal) by extensions ['colcon_meta']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/pid_nominal) by extension 'colcon_meta'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/pid_nominal) by extensions ['ros']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/pid_nominal) by extension 'ros'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/pid_nominal) by extensions ['cmake', 'python']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/pid_nominal) by extension 'cmake'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/pid_nominal) by extension 'python'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/pid_nominal) by extensions ['python_setup_py']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/pid_nominal) by extension 'python_setup_py'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/rl_nominal) by extensions ['ignore', 'ignore_ament_install']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/rl_nominal) by extension 'ignore'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/rl_nominal) by extension 'ignore_ament_install'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/rl_nominal) by extensions ['colcon_pkg']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/rl_nominal) by extension 'colcon_pkg'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/rl_nominal) by extensions ['colcon_meta']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/rl_nominal) by extension 'colcon_meta'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/rl_nominal) by extensions ['ros']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/rl_nominal) by extension 'ros'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/rl_nominal) by extensions ['cmake', 'python']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/rl_nominal) by extension 'cmake'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/rl_nominal) by extension 'python'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/rl_nominal) by extensions ['python_setup_py']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(simulated_data/rl_nominal) by extension 'python_setup_py'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/ai_motor_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/ai_motor_controller) by extension 'ignore'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/ai_motor_controller) by extension 'ignore_ament_install'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/ai_motor_controller) by extensions ['colcon_pkg']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/ai_motor_controller) by extension 'colcon_pkg'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/ai_motor_controller) by extensions ['colcon_meta']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/ai_motor_controller) by extension 'colcon_meta'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/ai_motor_controller) by extensions ['ros']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/ai_motor_controller) by extension 'ros'
+[0.645s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ai_motor_controller' with type 'ros.ament_cmake' and name 'ai_motor_controller'
+[0.646s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.647s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.647s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.647s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.647s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.709s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.709s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.716s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/lunet/ttcc4/direct_motor_control_ws/install
+[0.718s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/lunet/ttcc4/ws_sensor_combined/install
+[0.722s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 319 installed packages in /opt/ros/rolling
+[0.731s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.852s] Level 5:colcon.colcon_core.verb:set package 'ai_motor_controller' build argument 'cmake_args' from command line to 'None'
+[0.852s] Level 5:colcon.colcon_core.verb:set package 'ai_motor_controller' build argument 'cmake_target' from command line to 'None'
+[0.852s] Level 5:colcon.colcon_core.verb:set package 'ai_motor_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.852s] Level 5:colcon.colcon_core.verb:set package 'ai_motor_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'ai_motor_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'ai_motor_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'ai_motor_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'ai_motor_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'ai_motor_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.853s] DEBUG:colcon.colcon_core.verb:Building package 'ai_motor_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller', 'merge_install': False, 'path': '/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller', 'symlink_install': False, 'test_result_base': None}
+[0.854s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.857s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.859s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller' with build type 'ament_cmake'
+[0.860s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller'
+[0.869s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.870s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.870s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.909s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/lunet/ttcc4/anaconda3/bin/cmake --build /home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller -- -j8 -l8
+[111.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/lunet/ttcc4/anaconda3/bin/cmake --build /home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller -- -j8 -l8
+[111.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/lunet/ttcc4/anaconda3/bin/cmake --install /home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller
+[111.335s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ai_motor_controller)
+[111.336s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/lunet/ttcc4/anaconda3/bin/cmake --install /home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller
+[111.350s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller' for CMake module files
+[111.352s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller' for CMake config files
+[111.353s] Level 1:colcon.colcon_core.shell:create_environment_hook('ai_motor_controller', 'cmake_prefix_path')
+[111.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/hook/cmake_prefix_path.ps1'
+[111.357s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/hook/cmake_prefix_path.dsv'
+[111.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/hook/cmake_prefix_path.sh'
+[111.363s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/lib'
+[111.364s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/bin'
+[111.364s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/lib/pkgconfig/ai_motor_controller.pc'
+[111.365s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/lib/python3.12/site-packages'
+[111.365s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/bin'
+[111.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/package.ps1'
+[111.369s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/package.dsv'
+[111.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/package.sh'
+[111.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/package.bash'
+[111.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/package.zsh'
+[111.378s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/colcon-core/packages/ai_motor_controller)
+[111.380s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ai_motor_controller)
+[111.381s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller' for CMake module files
+[111.383s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller' for CMake config files
+[111.384s] Level 1:colcon.colcon_core.shell:create_environment_hook('ai_motor_controller', 'cmake_prefix_path')
+[111.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/hook/cmake_prefix_path.ps1'
+[111.386s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/hook/cmake_prefix_path.dsv'
+[111.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/hook/cmake_prefix_path.sh'
+[111.389s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/lib'
+[111.390s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/bin'
+[111.390s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/lib/pkgconfig/ai_motor_controller.pc'
+[111.391s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/lib/python3.12/site-packages'
+[111.391s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/bin'
+[111.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/package.ps1'
+[111.393s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/package.dsv'
+[111.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/package.sh'
+[111.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/package.bash'
+[111.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/ai_motor_controller/package.zsh'
+[111.399s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller/share/colcon-core/packages/ai_motor_controller)
+[111.400s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[111.400s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[111.400s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[111.400s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[111.436s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[111.436s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[111.437s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[111.494s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[111.495s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lunet/ttcc4/direct_motor_control_ws/install/local_setup.ps1'
+[111.496s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lunet/ttcc4/direct_motor_control_ws/install/_local_setup_util_ps1.py'
+[111.498s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lunet/ttcc4/direct_motor_control_ws/install/setup.ps1'
+[111.500s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lunet/ttcc4/direct_motor_control_ws/install/local_setup.sh'
+[111.501s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lunet/ttcc4/direct_motor_control_ws/install/_local_setup_util_sh.py'
+[111.503s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lunet/ttcc4/direct_motor_control_ws/install/setup.sh'
+[111.506s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lunet/ttcc4/direct_motor_control_ws/install/local_setup.bash'
+[111.508s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lunet/ttcc4/direct_motor_control_ws/install/setup.bash'
+[111.511s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lunet/ttcc4/direct_motor_control_ws/install/local_setup.zsh'
+[111.513s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lunet/ttcc4/direct_motor_control_ws/install/setup.zsh'

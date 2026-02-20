@@ -1,0 +1,8 @@
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::[01;32m[Kpublish_thrust_torque_setpoint[m[K(Eigen::Vector<float, 4>)[m[K’:
+[01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:516:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_collective_thrust[m[K’ was not declared in this scope; did you mean ‘[01m[Kprev_collective_thrust_[m[K’?
+  516 |     setpoint[0] = std::clamp(setpoint[0], 0.0f, [01;31m[Kmax_collective_thrust[m[K);
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                 [32m[Kprev_collective_thrust_[m[K
+gmake[2]: *** [CMakeFiles/lemniscate.dir/build.make:76: CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lemniscate.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

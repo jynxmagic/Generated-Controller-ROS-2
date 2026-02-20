@@ -1,0 +1,510 @@
+[0.000000] (-) TimerEvent: {}
+[0.000377] (ai_motor_controller) JobQueued: {'identifier': 'ai_motor_controller', 'dependencies': OrderedDict()}
+[0.000423] (ai_motor_controller) JobStarted: {'identifier': 'ai_motor_controller'}
+[0.014442] (ai_motor_controller) JobProgress: {'identifier': 'ai_motor_controller', 'progress': 'cmake'}
+[0.016921] (ai_motor_controller) JobProgress: {'identifier': 'ai_motor_controller', 'progress': 'build'}
+[0.017862] (ai_motor_controller) Command: {'cmd': ['/home/lunet/ttcc4/anaconda3/bin/cmake', '--build', '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller', '--', '-j8', '-l8'], 'cwd': '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/rolling/share', 'LANGUAGE': 'en_GB:en', 'USER': 'ttcc4', 'GZ_CONFIG_PATH': '/opt/ros/rolling/opt/gz_sim_vendor/share/gz:/opt/ros/rolling/opt/sdformat_vendor/share/gz:/opt/ros/rolling/opt/gz_gui_vendor/share/gz:/opt/ros/rolling/opt/gz_transport_vendor/share/gz:/opt/ros/rolling/opt/gz_rendering_vendor/share/gz:/opt/ros/rolling/opt/gz_plugin_vendor/share/gz:/opt/ros/rolling/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/rolling/opt/gz_msgs_vendor/share/gz:/opt/ros/rolling/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/lunet/ttcc4/ws_sensor_combined/install/px4_ros_com/lib:/home/lunet/ttcc4/ws_sensor_combined/install/px4_msgs/lib:/opt/ros/rolling/opt/zenoh_cpp_vendor/lib:/opt/ros/rolling/opt/gz_sim_vendor/lib:/opt/ros/rolling/opt/gz_sensors_vendor/lib:/opt/ros/rolling/opt/gz_physics_vendor/lib:/opt/ros/rolling/opt/sdformat_vendor/lib:/opt/ros/rolling/opt/gz_gui_vendor/lib:/opt/ros/rolling/opt/gz_transport_vendor/lib:/opt/ros/rolling/opt/gz_rendering_vendor/lib:/opt/ros/rolling/opt/gz_plugin_vendor/lib:/opt/ros/rolling/opt/gz_fuel_tools_vendor/lib:/opt/ros/rolling/opt/gz_msgs_vendor/lib:/opt/ros/rolling/opt/gz_common_vendor/lib:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_tools_vendor/lib:/opt/ros/rolling/opt/gz_ogre_next_vendor/lib:/opt/ros/rolling/opt/gz_dartsim_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'HOME': '/home/lunet/ttcc4', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/lunet/ttcc4/px4_ros_2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'OPENAI_API_KEY': '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', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3413', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1394126462/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lunet/ttcc4/direct_motor_control_ws/install:/home/lunet/ttcc4/ws_sensor_combined/install', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'ttcc4', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1394126462.slice/user@1394126462.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ttcc4', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'PATH': '/opt/ros/rolling/opt/gz_msgs_vendor/bin:/opt/ros/rolling/opt/gz_tools_vendor/bin:/opt/ros/rolling/opt/gz_ogre_next_vendor/bin:/opt/ros/rolling/bin:/home/lunet/ttcc4/pclp:/home/lunet/ttcc4/anaconda3/bin:/home/lunet/ttcc4/anaconda3/condabin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/lunet/ttcc4/.cargo/bin:/usr/lib/ccache:/home/lunet/ttcc4/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/lunet/ttcc4/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/puppetlabs/bin', 'SESSION_MANAGER': 'local/LNX-TTCC4-1.lunet.lboro.ac.uk:@/tmp/.ICE-unix/3363,unix/LNX-TTCC4-1.lunet.lboro.ac.uk:/tmp/.ICE-unix/3363', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/98d5db43_3e1a_4470_8bc5_e3ae994f3e4a', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1394126462', 'DISPLAY': ':0', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1394126462/.mutter-Xwaylandauth.R6P6C3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.132', 'SSH_AUTH_SOCK': '/run/user/1394126462/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/lunet/ttcc4/ws_sensor_combined/install/px4_ros_com:/home/lunet/ttcc4/ws_sensor_combined/install/px4_msgs:/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller:/opt/ros/rolling', 'CONDA_PYTHON_EXE': '/home/lunet/ttcc4/anaconda3/bin/python', 'SHELL': '/bin/bash', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_1394126462_ItQ4gX', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', 'FLIGHTMARE_PATH': '/home/lunet/ttcc4/flightmare_attitude_control', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/lunet/ttcc4/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lunet/ttcc4/ws_sensor_combined/install/px4_ros_com/lib/python3.9/site-packages:/home/lunet/ttcc4/ws_sensor_combined/install/px4_msgs/lib/python3.9/site-packages:/opt/ros/rolling/lib/python3.12/site-packages', 'CONDA_PREFIX': '/home/lunet/ttcc4/anaconda3', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'MANPATH': ':/opt/puppetlabs/puppet/share/man', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/lunet/ttcc4/ws_sensor_combined/install/px4_ros_com:/home/lunet/ttcc4/ws_sensor_combined/install/px4_msgs:/home/lunet/ttcc4/direct_motor_control_ws/install/ai_motor_controller:/opt/ros/rolling/opt/gz_sim_vendor:/opt/ros/rolling/opt/gz_sensors_vendor:/opt/ros/rolling/opt/gz_physics_vendor:/opt/ros/rolling/opt/sdformat_vendor:/opt/ros/rolling/opt/gz_gui_vendor:/opt/ros/rolling/opt/gz_transport_vendor:/opt/ros/rolling/opt/gz_rendering_vendor:/opt/ros/rolling/opt/gz_plugin_vendor:/opt/ros/rolling/opt/gz_fuel_tools_vendor:/opt/ros/rolling/opt/gz_msgs_vendor:/opt/ros/rolling/opt/gz_common_vendor:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_tools_vendor:/opt/ros/rolling/opt/gz_ogre_next_vendor:/opt/ros/rolling/opt/gz_dartsim_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling'}), 'shell': False}
+[0.098634] (-) TimerEvent: {}
+[0.193630] (ai_motor_controller) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o\x1b[0m\n'}
+[0.193831] (ai_motor_controller) StdoutLine: {'line': b'[ 75%] Built target wrench\n'}
+[0.198811] (-) TimerEvent: {}
+[0.299282] (-) TimerEvent: {}
+[0.399788] (-) TimerEvent: {}
+[0.500656] (-) TimerEvent: {}
+[0.601205] (-) TimerEvent: {}
+[0.701696] (-) TimerEvent: {}
+[0.802211] (-) TimerEvent: {}
+[0.902634] (-) TimerEvent: {}
+[1.003108] (-) TimerEvent: {}
+[1.103505] (-) TimerEvent: {}
+[1.203926] (-) TimerEvent: {}
+[1.304221] (-) TimerEvent: {}
+[1.404568] (-) TimerEvent: {}
+[1.504933] (-) TimerEvent: {}
+[1.605249] (-) TimerEvent: {}
+[1.705728] (-) TimerEvent: {}
+[1.806320] (-) TimerEvent: {}
+[1.906802] (-) TimerEvent: {}
+[2.007217] (-) TimerEvent: {}
+[2.107627] (-) TimerEvent: {}
+[2.207893] (-) TimerEvent: {}
+[2.308181] (-) TimerEvent: {}
+[2.408476] (-) TimerEvent: {}
+[2.508782] (-) TimerEvent: {}
+[2.609070] (-) TimerEvent: {}
+[2.709318] (-) TimerEvent: {}
+[2.809588] (-) TimerEvent: {}
+[2.909873] (-) TimerEvent: {}
+[3.010208] (-) TimerEvent: {}
+[3.110602] (-) TimerEvent: {}
+[3.211166] (-) TimerEvent: {}
+[3.311640] (-) TimerEvent: {}
+[3.412000] (-) TimerEvent: {}
+[3.512349] (-) TimerEvent: {}
+[3.612783] (-) TimerEvent: {}
+[3.713991] (-) TimerEvent: {}
+[3.815880] (-) TimerEvent: {}
+[3.916532] (-) TimerEvent: {}
+[4.018201] (-) TimerEvent: {}
+[4.119139] (-) TimerEvent: {}
+[4.220250] (-) TimerEvent: {}
+[4.322252] (-) TimerEvent: {}
+[4.423476] (-) TimerEvent: {}
+[4.524390] (-) TimerEvent: {}
+[4.625281] (-) TimerEvent: {}
+[4.726297] (-) TimerEvent: {}
+[4.829507] (-) TimerEvent: {}
+[4.930045] (-) TimerEvent: {}
+[5.030662] (-) TimerEvent: {}
+[5.131709] (-) TimerEvent: {}
+[5.233450] (-) TimerEvent: {}
+[5.334685] (-) TimerEvent: {}
+[5.435892] (-) TimerEvent: {}
+[5.536572] (-) TimerEvent: {}
+[5.637383] (-) TimerEvent: {}
+[5.737957] (-) TimerEvent: {}
+[5.840014] (-) TimerEvent: {}
+[5.940877] (-) TimerEvent: {}
+[6.041810] (-) TimerEvent: {}
+[6.142977] (-) TimerEvent: {}
+[6.244598] (-) TimerEvent: {}
+[6.345873] (-) TimerEvent: {}
+[6.447054] (-) TimerEvent: {}
+[6.547550] (-) TimerEvent: {}
+[6.648098] (-) TimerEvent: {}
+[6.749338] (-) TimerEvent: {}
+[6.850654] (-) TimerEvent: {}
+[6.951932] (-) TimerEvent: {}
+[7.053201] (-) TimerEvent: {}
+[7.154319] (-) TimerEvent: {}
+[7.256177] (-) TimerEvent: {}
+[7.357304] (-) TimerEvent: {}
+[7.458169] (-) TimerEvent: {}
+[7.559390] (-) TimerEvent: {}
+[7.661367] (-) TimerEvent: {}
+[7.763061] (-) TimerEvent: {}
+[7.864365] (-) TimerEvent: {}
+[7.965609] (-) TimerEvent: {}
+[8.067055] (-) TimerEvent: {}
+[8.168042] (-) TimerEvent: {}
+[8.269421] (-) TimerEvent: {}
+[8.370279] (-) TimerEvent: {}
+[8.471733] (-) TimerEvent: {}
+[8.573039] (-) TimerEvent: {}
+[8.674500] (-) TimerEvent: {}
+[8.775540] (-) TimerEvent: {}
+[8.876461] (-) TimerEvent: {}
+[8.977325] (-) TimerEvent: {}
+[9.078648] (-) TimerEvent: {}
+[9.179732] (-) TimerEvent: {}
+[9.280725] (-) TimerEvent: {}
+[9.381802] (-) TimerEvent: {}
+[9.482831] (-) TimerEvent: {}
+[9.583774] (-) TimerEvent: {}
+[9.686821] (-) TimerEvent: {}
+[9.788939] (-) TimerEvent: {}
+[9.889788] (-) TimerEvent: {}
+[9.991457] (-) TimerEvent: {}
+[10.092136] (-) TimerEvent: {}
+[10.193409] (-) TimerEvent: {}
+[10.294133] (-) TimerEvent: {}
+[10.395951] (-) TimerEvent: {}
+[10.497335] (-) TimerEvent: {}
+[10.598385] (-) TimerEvent: {}
+[10.699492] (-) TimerEvent: {}
+[10.801102] (-) TimerEvent: {}
+[10.901916] (-) TimerEvent: {}
+[11.002839] (-) TimerEvent: {}
+[11.104000] (-) TimerEvent: {}
+[11.204630] (-) TimerEvent: {}
+[11.305440] (-) TimerEvent: {}
+[11.406198] (-) TimerEvent: {}
+[11.506956] (-) TimerEvent: {}
+[11.608419] (-) TimerEvent: {}
+[11.709418] (-) TimerEvent: {}
+[11.810510] (-) TimerEvent: {}
+[11.911243] (-) TimerEvent: {}
+[12.012023] (-) TimerEvent: {}
+[12.112785] (-) TimerEvent: {}
+[12.213495] (-) TimerEvent: {}
+[12.314501] (-) TimerEvent: {}
+[12.415260] (-) TimerEvent: {}
+[12.516255] (-) TimerEvent: {}
+[12.617169] (-) TimerEvent: {}
+[12.718063] (-) TimerEvent: {}
+[12.819402] (-) TimerEvent: {}
+[12.922661] (-) TimerEvent: {}
+[13.023936] (-) TimerEvent: {}
+[13.124781] (-) TimerEvent: {}
+[13.225437] (-) TimerEvent: {}
+[13.326117] (-) TimerEvent: {}
+[13.426899] (-) TimerEvent: {}
+[13.527859] (-) TimerEvent: {}
+[13.629272] (-) TimerEvent: {}
+[13.729971] (-) TimerEvent: {}
+[13.831173] (-) TimerEvent: {}
+[13.932044] (-) TimerEvent: {}
+[14.033120] (-) TimerEvent: {}
+[14.134300] (-) TimerEvent: {}
+[14.235757] (-) TimerEvent: {}
+[14.336655] (-) TimerEvent: {}
+[14.437471] (-) TimerEvent: {}
+[14.538619] (-) TimerEvent: {}
+[14.639833] (-) TimerEvent: {}
+[14.741451] (-) TimerEvent: {}
+[14.842651] (-) TimerEvent: {}
+[14.943963] (-) TimerEvent: {}
+[15.044895] (-) TimerEvent: {}
+[15.145655] (-) TimerEvent: {}
+[15.246758] (-) TimerEvent: {}
+[15.348262] (-) TimerEvent: {}
+[15.449003] (-) TimerEvent: {}
+[15.550249] (-) TimerEvent: {}
+[15.651081] (-) TimerEvent: {}
+[15.751642] (-) TimerEvent: {}
+[15.852963] (-) TimerEvent: {}
+[15.954065] (-) TimerEvent: {}
+[16.054653] (-) TimerEvent: {}
+[16.156723] (-) TimerEvent: {}
+[16.257942] (-) TimerEvent: {}
+[16.359158] (-) TimerEvent: {}
+[16.459868] (-) TimerEvent: {}
+[16.560544] (-) TimerEvent: {}
+[16.661596] (-) TimerEvent: {}
+[16.762644] (-) TimerEvent: {}
+[16.863675] (-) TimerEvent: {}
+[16.964691] (-) TimerEvent: {}
+[17.066416] (-) TimerEvent: {}
+[17.167328] (-) TimerEvent: {}
+[17.268223] (-) TimerEvent: {}
+[17.368737] (-) TimerEvent: {}
+[17.469282] (-) TimerEvent: {}
+[17.570206] (-) TimerEvent: {}
+[17.671118] (-) TimerEvent: {}
+[17.772179] (-) TimerEvent: {}
+[17.873849] (-) TimerEvent: {}
+[17.974749] (-) TimerEvent: {}
+[18.075430] (-) TimerEvent: {}
+[18.182223] (-) TimerEvent: {}
+[18.283281] (-) TimerEvent: {}
+[18.384863] (-) TimerEvent: {}
+[18.485792] (-) TimerEvent: {}
+[18.586888] (-) TimerEvent: {}
+[18.687873] (-) TimerEvent: {}
+[18.788927] (-) TimerEvent: {}
+[18.890484] (-) TimerEvent: {}
+[18.991660] (-) TimerEvent: {}
+[19.092607] (-) TimerEvent: {}
+[19.194008] (-) TimerEvent: {}
+[19.294933] (-) TimerEvent: {}
+[19.395797] (-) TimerEvent: {}
+[19.496413] (-) TimerEvent: {}
+[19.597525] (-) TimerEvent: {}
+[19.698859] (-) TimerEvent: {}
+[19.799817] (-) TimerEvent: {}
+[19.900841] (-) TimerEvent: {}
+[20.001719] (-) TimerEvent: {}
+[20.102505] (-) TimerEvent: {}
+[20.203434] (-) TimerEvent: {}
+[20.304428] (-) TimerEvent: {}
+[20.405425] (-) TimerEvent: {}
+[20.506184] (-) TimerEvent: {}
+[20.606939] (-) TimerEvent: {}
+[20.707845] (-) TimerEvent: {}
+[20.809008] (-) TimerEvent: {}
+[20.910407] (-) TimerEvent: {}
+[21.011571] (-) TimerEvent: {}
+[21.112446] (-) TimerEvent: {}
+[21.213550] (-) TimerEvent: {}
+[21.315448] (-) TimerEvent: {}
+[21.416743] (-) TimerEvent: {}
+[21.518183] (-) TimerEvent: {}
+[21.619527] (-) TimerEvent: {}
+[21.720591] (-) TimerEvent: {}
+[21.821329] (-) TimerEvent: {}
+[21.922044] (-) TimerEvent: {}
+[22.022796] (-) TimerEvent: {}
+[22.124002] (-) TimerEvent: {}
+[22.224867] (-) TimerEvent: {}
+[22.325781] (-) TimerEvent: {}
+[22.426585] (-) TimerEvent: {}
+[22.528519] (-) TimerEvent: {}
+[22.629940] (-) TimerEvent: {}
+[22.737297] (-) TimerEvent: {}
+[22.838466] (-) TimerEvent: {}
+[22.939803] (-) TimerEvent: {}
+[23.040384] (-) TimerEvent: {}
+[23.141585] (-) TimerEvent: {}
+[23.242353] (-) TimerEvent: {}
+[23.343237] (-) TimerEvent: {}
+[23.443979] (-) TimerEvent: {}
+[23.545267] (-) TimerEvent: {}
+[23.646435] (-) TimerEvent: {}
+[23.749873] (-) TimerEvent: {}
+[23.852861] (-) TimerEvent: {}
+[23.955658] (-) TimerEvent: {}
+[24.058379] (-) TimerEvent: {}
+[24.162215] (-) TimerEvent: {}
+[24.264048] (-) TimerEvent: {}
+[24.369518] (-) TimerEvent: {}
+[24.472461] (-) TimerEvent: {}
+[24.576917] (-) TimerEvent: {}
+[24.678954] (-) TimerEvent: {}
+[24.779437] (-) TimerEvent: {}
+[24.879849] (-) TimerEvent: {}
+[24.980257] (-) TimerEvent: {}
+[25.081098] (-) TimerEvent: {}
+[25.183021] (-) TimerEvent: {}
+[25.283792] (-) TimerEvent: {}
+[25.384765] (-) TimerEvent: {}
+[25.489452] (-) TimerEvent: {}
+[25.589969] (-) TimerEvent: {}
+[25.690826] (-) TimerEvent: {}
+[25.791688] (-) TimerEvent: {}
+[25.892578] (-) TimerEvent: {}
+[25.993530] (-) TimerEvent: {}
+[26.094501] (-) TimerEvent: {}
+[26.195682] (-) TimerEvent: {}
+[26.296754] (-) TimerEvent: {}
+[26.397643] (-) TimerEvent: {}
+[26.498620] (-) TimerEvent: {}
+[26.599608] (-) TimerEvent: {}
+[26.700693] (-) TimerEvent: {}
+[26.801615] (-) TimerEvent: {}
+[26.902584] (-) TimerEvent: {}
+[27.004134] (-) TimerEvent: {}
+[27.105903] (-) TimerEvent: {}
+[27.206436] (-) TimerEvent: {}
+[27.307870] (-) TimerEvent: {}
+[27.409910] (-) TimerEvent: {}
+[27.510732] (-) TimerEvent: {}
+[27.611255] (-) TimerEvent: {}
+[27.711970] (-) TimerEvent: {}
+[27.813169] (-) TimerEvent: {}
+[27.914341] (-) TimerEvent: {}
+[28.017235] (-) TimerEvent: {}
+[28.118729] (-) TimerEvent: {}
+[28.219619] (-) TimerEvent: {}
+[28.320451] (-) TimerEvent: {}
+[28.421662] (-) TimerEvent: {}
+[28.523255] (-) TimerEvent: {}
+[28.624766] (-) TimerEvent: {}
+[28.727484] (-) TimerEvent: {}
+[28.828239] (-) TimerEvent: {}
+[28.929008] (-) TimerEvent: {}
+[29.030013] (-) TimerEvent: {}
+[29.130825] (-) TimerEvent: {}
+[29.231999] (-) TimerEvent: {}
+[29.333060] (-) TimerEvent: {}
+[29.434132] (-) TimerEvent: {}
+[29.535788] (-) TimerEvent: {}
+[29.636916] (-) TimerEvent: {}
+[29.737793] (-) TimerEvent: {}
+[29.838730] (-) TimerEvent: {}
+[29.940101] (-) TimerEvent: {}
+[30.040860] (-) TimerEvent: {}
+[30.142228] (-) TimerEvent: {}
+[30.243234] (-) TimerEvent: {}
+[30.344211] (-) TimerEvent: {}
+[30.445264] (-) TimerEvent: {}
+[30.545984] (-) TimerEvent: {}
+[30.646676] (-) TimerEvent: {}
+[30.747133] (-) TimerEvent: {}
+[30.847824] (-) TimerEvent: {}
+[30.948895] (-) TimerEvent: {}
+[31.050013] (-) TimerEvent: {}
+[31.151244] (-) TimerEvent: {}
+[31.252100] (-) TimerEvent: {}
+[31.352821] (-) TimerEvent: {}
+[31.453824] (-) TimerEvent: {}
+[31.555520] (-) TimerEvent: {}
+[31.657310] (-) TimerEvent: {}
+[31.758039] (-) TimerEvent: {}
+[31.859329] (-) TimerEvent: {}
+[31.960317] (-) TimerEvent: {}
+[32.061091] (-) TimerEvent: {}
+[32.162652] (-) TimerEvent: {}
+[32.263463] (-) TimerEvent: {}
+[32.364467] (-) TimerEvent: {}
+[32.466088] (-) TimerEvent: {}
+[32.566994] (-) TimerEvent: {}
+[32.667806] (-) TimerEvent: {}
+[32.768827] (-) TimerEvent: {}
+[32.869550] (-) TimerEvent: {}
+[32.970531] (-) TimerEvent: {}
+[33.072028] (-) TimerEvent: {}
+[33.173025] (-) TimerEvent: {}
+[33.274025] (-) TimerEvent: {}
+[33.375281] (-) TimerEvent: {}
+[33.479705] (-) TimerEvent: {}
+[33.580666] (-) TimerEvent: {}
+[33.681535] (-) TimerEvent: {}
+[33.782259] (-) TimerEvent: {}
+[33.883094] (-) TimerEvent: {}
+[33.984023] (-) TimerEvent: {}
+[34.085233] (-) TimerEvent: {}
+[34.188641] (-) TimerEvent: {}
+[34.289742] (-) TimerEvent: {}
+[34.390569] (-) TimerEvent: {}
+[34.491365] (-) TimerEvent: {}
+[34.592769] (-) TimerEvent: {}
+[34.694175] (-) TimerEvent: {}
+[34.794920] (-) TimerEvent: {}
+[34.895643] (-) TimerEvent: {}
+[34.996288] (-) TimerEvent: {}
+[35.097596] (-) TimerEvent: {}
+[35.198573] (-) TimerEvent: {}
+[35.299429] (-) TimerEvent: {}
+[35.400489] (-) TimerEvent: {}
+[35.501369] (-) TimerEvent: {}
+[35.602069] (-) TimerEvent: {}
+[35.703323] (-) TimerEvent: {}
+[35.804526] (-) TimerEvent: {}
+[35.905483] (-) TimerEvent: {}
+[36.006348] (-) TimerEvent: {}
+[36.107122] (-) TimerEvent: {}
+[36.208217] (-) TimerEvent: {}
+[36.308960] (-) TimerEvent: {}
+[36.409608] (-) TimerEvent: {}
+[36.518428] (-) TimerEvent: {}
+[36.618952] (-) TimerEvent: {}
+[36.719596] (-) TimerEvent: {}
+[36.821088] (-) TimerEvent: {}
+[36.923551] (-) TimerEvent: {}
+[37.024904] (-) TimerEvent: {}
+[37.126100] (-) TimerEvent: {}
+[37.226810] (-) TimerEvent: {}
+[37.327890] (-) TimerEvent: {}
+[37.429306] (-) TimerEvent: {}
+[37.530174] (-) TimerEvent: {}
+[37.631157] (-) TimerEvent: {}
+[37.731985] (-) TimerEvent: {}
+[37.832915] (-) TimerEvent: {}
+[37.933760] (-) TimerEvent: {}
+[38.034840] (-) TimerEvent: {}
+[38.135950] (-) TimerEvent: {}
+[38.236509] (-) TimerEvent: {}
+[38.337543] (-) TimerEvent: {}
+[38.438473] (-) TimerEvent: {}
+[38.539368] (-) TimerEvent: {}
+[38.556593] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:966:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing terminating " character\n'}
+[38.558167] (ai_motor_controller) StderrLine: {'line': b'  966 | } cal velocity: \x1b[01;35m\x1b[K"\x1b[m\x1b[K << xdot.transpose() << std::endl;\n'}
+[38.558601] (ai_motor_controller) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[38.558742] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:966:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmissing terminating " character\n'}
+[38.558893] (ai_motor_controller) StderrLine: {'line': b'  966 | } cal velocity: \x1b[01;31m\x1b[K" << xdot.transpose() << std::endl;\x1b[m\x1b[K\n'}
+[38.559010] (ai_motor_controller) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[38.559120] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid OffboardControl::\x1b[01;32m\x1b[KrvolmeaControl\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[38.559275] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:603:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kmax_thrust\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[38.559368] (ai_motor_controller) StderrLine: {'line': b'  603 |     constexpr float \x1b[01;35m\x1b[Kmax_thrust\x1b[m\x1b[K = 44.0f;\n'}
+[38.559455] (ai_motor_controller) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[38.559544] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:\x1b[m\x1b[K At global scope:\n'}
+[38.559642] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:683:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[38.559779] (ai_motor_controller) StderrLine: {'line': b'  683 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K p.y(), a_comp.z());\n'}
+[38.559920] (ai_motor_controller) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[38.560065] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:683:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kp\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[38.560237] (ai_motor_controller) StderrLine: {'line': b'  683 | } \x1b[01;31m\x1b[Kp\x1b[m\x1b[K.y(), a_comp.z());\n'}
+[38.560330] (ai_motor_controller) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[38.560418] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:691:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Keuler_to_rotation\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[38.560512] (ai_motor_controller) StderrLine: {'line': b'  691 | Eigen::Matrix3f R_des = \x1b[01;31m\x1b[Keuler_to_rotation\x1b[m\x1b[K(phi, theta, 0.0);\n'}
+[38.560618] (ai_motor_controller) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[38.560711] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:692:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kypr\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[38.560835] (ai_motor_controller) StderrLine: {'line': b'  692 | Eigen::Matrix3f R_cur = euler_to_rotation(\x1b[01;31m\x1b[Kypr\x1b[m\x1b[K[2], ypr[1], ypr[0]);\n'}
+[38.560927] (ai_motor_controller) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[38.561017] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:692:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kypr\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[38.561264] (ai_motor_controller) StderrLine: {'line': b'  692 | Eigen::Matrix3f R_cur = euler_to_rotation(ypr[2], \x1b[01;31m\x1b[Kypr\x1b[m\x1b[K[1], ypr[0]);\n'}
+[38.561434] (ai_motor_controller) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[38.561582] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:692:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kypr\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[38.561730] (ai_motor_controller) StderrLine: {'line': b'  692 | Eigen::Matrix3f R_cur = euler_to_rotation(ypr[2], ypr[1], \x1b[01;31m\x1b[Kypr\x1b[m\x1b[K[0]);\n'}
+[38.561866] (ai_motor_controller) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[38.562005] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:692:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Keuler_to_rotation\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[38.562200] (ai_motor_controller) StderrLine: {'line': b'  692 | Eigen::Matrix3f R_cur = \x1b[01;31m\x1b[Keuler_to_rotation\x1b[m\x1b[K(ypr[2], ypr[1], ypr[0]);\n'}
+[38.562351] (ai_motor_controller) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[38.562473] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:694:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krotation_matrix_to_axis_angle\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[38.562585] (ai_motor_controller) StderrLine: {'line': b'  694 | Eigen::Vector3f ori_err = \x1b[01;31m\x1b[Krotation_matrix_to_axis_angle\x1b[m\x1b[K(R_err);\n'}
+[38.562673] (ai_motor_controller) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[38.562756] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:695:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kori_err_prev\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kori_err_dot\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[38.562869] (ai_motor_controller) StderrLine: {'line': b'  695 | Eigen::Vector3f ori_err_dot = (ori_err - \x1b[01;31m\x1b[Kori_err_prev\x1b[m\x1b[K)/dt;\n'}
+[38.562953] (ai_motor_controller) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[38.563034] (ai_motor_controller) StderrLine: {'line': b'      |                                          \x1b[32m\x1b[Kori_err_dot\x1b[m\x1b[K\n'}
+[38.563118] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:695:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdt\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[38.563246] (ai_motor_controller) StderrLine: {'line': b'  695 | Eigen::Vector3f ori_err_dot = (ori_err - ori_err_prev)/\x1b[01;31m\x1b[Kdt\x1b[m\x1b[K;\n'}
+[38.563367] (ai_motor_controller) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[38.563473] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:696:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kori_err_prev\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[38.563578] (ai_motor_controller) StderrLine: {'line': b'  696 | \x1b[01;31m\x1b[Kori_err_prev\x1b[m\x1b[K = ori_err;\n'}
+[38.563664] (ai_motor_controller) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[38.563751] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:699:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcoefs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[38.563860] (ai_motor_controller) StderrLine: {'line': b'  699 | Eigen::Vector3f omega_des = \x1b[01;31m\x1b[Kcoefs\x1b[m\x1b[K[4]*ori_err + coefs[5]*ori_err_dot;\n'}
+[38.564029] (ai_motor_controller) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[38.564115] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:699:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcoefs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[38.564229] (ai_motor_controller) StderrLine: {'line': b'  699 | Eigen::Vector3f omega_des = coefs[4]*ori_err + \x1b[01;31m\x1b[Kcoefs\x1b[m\x1b[K[5]*ori_err_dot;\n'}
+[38.564326] (ai_motor_controller) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[38.564412] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:702:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmass\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[38.564496] (ai_motor_controller) StderrLine: {'line': b'  702 | float z_unclamped = \x1b[01;31m\x1b[Kmass\x1b[m\x1b[K * R_cur.col(2).dot(a_comp);\n'}
+[38.564578] (ai_motor_controller) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[38.564660] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:702:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ka_comp\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[38.564952] (ai_motor_controller) StderrLine: {'line': b'  702 | float z_unclamped = mass * R_cur.col(2).dot(\x1b[01;31m\x1b[Ka_comp\x1b[m\x1b[K);\n'}
+[38.565103] (ai_motor_controller) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[38.565267] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:703:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksat_err_z_vec\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[38.565415] (ai_motor_controller) StderrLine: {'line': b'  703 | \x1b[01;31m\x1b[Ksat_err_z_vec\x1b[m\x1b[K.z() = std::min(0.0f, z_unclamped);\n'}
+[38.565560] (ai_motor_controller) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[38.565734] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:707:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ke_prev\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[38.565938] (ai_motor_controller) StderrLine: {'line': b'  707 | \x1b[01;31m\x1b[Ke_prev\x1b[m\x1b[K = e;\n'}
+[38.566096] (ai_motor_controller) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[38.566300] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:711:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koutput\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[38.566469] (ai_motor_controller) StderrLine: {'line': b'  711 | \x1b[01;31m\x1b[Koutput\x1b[m\x1b[K << thrust, omega_des.x(), omega_des.y(), omega_des.z();\n'}
+[38.566634] (ai_motor_controller) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[38.566781] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:713:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected constructor, destructor, or type conversion before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[38.566935] (ai_motor_controller) StderrLine: {'line': b'  713 | publish_thrust_torque_setpoint\x1b[01;31m\x1b[K(\x1b[m\x1b[Koutput);\n'}
+[38.567084] (ai_motor_controller) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[38.567248] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:715:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[38.567401] (ai_motor_controller) StderrLine: {'line': b'  715 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[38.567562] (ai_motor_controller) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[38.567715] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:966:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[38.567892] (ai_motor_controller) StderrLine: {'line': b'  966 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K cal velocity: " << xdot.transpose() << std::endl;\n'}
+[38.568040] (ai_motor_controller) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[38.568234] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:966:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcal\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[38.568401] (ai_motor_controller) StderrLine: {'line': b'  966 | } \x1b[01;31m\x1b[Kcal\x1b[m\x1b[K velocity: " << xdot.transpose() << std::endl;\n'}
+[38.568551] (ai_motor_controller) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[38.568692] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:981:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprev_local_velocity_y_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[38.568840] (ai_motor_controller) StderrLine: {'line': b'  981 | \x1b[01;31m\x1b[Kprev_local_velocity_y_\x1b[m\x1b[K = local_velocity_y_;\n'}
+[38.568982] (ai_motor_controller) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[38.569125] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:982:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprev_local_velocity_z_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[38.569299] (ai_motor_controller) StderrLine: {'line': b'  982 | \x1b[01;31m\x1b[Kprev_local_velocity_z_\x1b[m\x1b[K = local_velocity_z_;\n'}
+[38.569474] (ai_motor_controller) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[38.569606] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:983:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprev_collective_thrust_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[38.569746] (ai_motor_controller) StderrLine: {'line': b'  983 | \x1b[01;31m\x1b[Kprev_collective_thrust_\x1b[m\x1b[K = required_thrust;\n'}
+[38.569884] (ai_motor_controller) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[38.570029] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:984:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprev_ori_q\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[38.570190] (ai_motor_controller) StderrLine: {'line': b'  984 | \x1b[01;31m\x1b[Kprev_ori_q\x1b[m\x1b[K = ori_q;\n'}
+[38.570345] (ai_motor_controller) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[38.570492] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:985:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprev_cmd_vel\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[38.570637] (ai_motor_controller) StderrLine: {'line': b'  985 | \x1b[01;31m\x1b[Kprev_cmd_vel\x1b[m\x1b[K = target_velocity;\n'}
+[38.570777] (ai_motor_controller) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[38.570916] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:987:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kis_first_run\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[38.571051] (ai_motor_controller) StderrLine: {'line': b'  987 | \x1b[01;31m\x1b[Kis_first_run\x1b[m\x1b[K = false;\n'}
+[38.571207] (ai_motor_controller) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[38.571349] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:991:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected constructor, destructor, or type conversion before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[38.571504] (ai_motor_controller) StderrLine: {'line': b'  991 | publish_thrust_torque_setpoint\x1b[01;31m\x1b[K(\x1b[m\x1b[Kthrust_and_torque);\n'}
+[38.571649] (ai_motor_controller) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[38.571790] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:992:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[38.571937] (ai_motor_controller) StderrLine: {'line': b'  992 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[38.572080] (ai_motor_controller) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[38.572231] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:1130:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[38.572394] (ai_motor_controller) StderrLine: {'line': b' 1130 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[38.572543] (ai_motor_controller) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[38.572716] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:1131:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[38.572881] (ai_motor_controller) StderrLine: {'line': b' 1131 | \x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[38.573029] (ai_motor_controller) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[38.573200] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:1134:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kelse\x1b[m\x1b[K\xe2\x80\x99\n'}
+[38.573358] (ai_motor_controller) StderrLine: {'line': b' 1134 | \x1b[01;31m\x1b[Kelse\x1b[m\x1b[K if (finished_ && ascended_)\n'}
+[38.573506] (ai_motor_controller) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[38.573875] (ai_motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:1143:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[38.574030] (ai_motor_controller) StderrLine: {'line': b' 1143 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[38.574195] (ai_motor_controller) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[38.574321] (ai_motor_controller) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lemniscate.dir/build.make:76: CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o] Error 1\n'}
+[38.575023] (ai_motor_controller) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lemniscate.dir/all] Error 2\n'}
+[38.576483] (ai_motor_controller) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[38.596496] (ai_motor_controller) CommandEnded: {'returncode': 2}
+[38.640207] (-) TimerEvent: {}
+[38.658405] (ai_motor_controller) JobEnded: {'identifier': 'ai_motor_controller', 'rc': 2}
+[38.670718] (-) EventReactorShutdown: {}

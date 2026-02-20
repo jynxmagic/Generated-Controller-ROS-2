@@ -1,0 +1,24 @@
+[0.014s] Invoking command in '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/lunet/ttcc4/anaconda3/bin/cmake --build /home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller -- -j8 -l8
+[0.069s] [ 50%] Built target wrench
+[0.076s] [ 75%] [32mBuilding CXX object CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o[0m
+[50.043s] gmake[2]: *** Deleting file 'CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o'
+[50.050s] gmake[2]: *** [CMakeFiles/lemniscate.dir/build.make:76: CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o] Interrupt
+[50.051s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lemniscate.dir/all] Interrupt
+[50.051s] gmake: *** [Makefile:146: all] Interrupt
+[50.060s] Traceback (most recent call last):
+[50.060s]   File "/home/lunet/ttcc4/anaconda3/bin/cmake", line 8, in <module>
+[50.060s]     sys.exit(cmake())
+[50.060s]   File "/home/lunet/ttcc4/anaconda3/lib/python3.9/site-packages/cmake/__init__.py", line 43, in cmake
+[50.060s]     raise SystemExit(_program('cmake', sys.argv[1:]))
+[50.061s]   File "/home/lunet/ttcc4/anaconda3/lib/python3.9/site-packages/cmake/__init__.py", line 39, in _program
+[50.061s]     return subprocess.call([os.path.join(CMAKE_BIN_DIR, name)] + args, close_fds=False)
+[50.061s]   File "/home/lunet/ttcc4/anaconda3/lib/python3.9/subprocess.py", line 351, in call
+[50.061s]     return p.wait(timeout=timeout)
+[50.061s]   File "/home/lunet/ttcc4/anaconda3/lib/python3.9/subprocess.py", line 1189, in wait
+[50.061s]     return self._wait(timeout=timeout)
+[50.062s]   File "/home/lunet/ttcc4/anaconda3/lib/python3.9/subprocess.py", line 1917, in _wait
+[50.062s]     (pid, sts) = self._try_wait(0)
+[50.062s]   File "/home/lunet/ttcc4/anaconda3/lib/python3.9/subprocess.py", line 1875, in _try_wait
+[50.064s]     (pid, sts) = os.waitpid(self.pid, wait_flags)
+[50.064s] KeyboardInterrupt
+[50.165s] Invoked command in '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/lunet/ttcc4/anaconda3/bin/cmake --build /home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller -- -j8 -l8

@@ -1,0 +1,18 @@
+[0.009s] Invoking command in '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/lunet/ttcc4/anaconda3/bin/cmake --build /home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller -- -j8 -l8
+[0.058s] [ 50%] Built target wrench
+[0.064s] [ 75%] [32mBuilding CXX object CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o[0m
+[10.235s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::[01;32m[KrvolmeaControl[m[K()[m[K’:
+[10.235s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:636:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kypr[m[K’ was not declared in this scope
+[10.235s]   636 |         yaw_sp_prev=[01;31m[Kypr[m[K[0];
+[10.235s]       |                     [01;31m[K^~~[m[K
+[10.236s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:639:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_position[m[K’ was not declared in this scope; did you mean ‘[01m[Klocal_position_x_[m[K’?
+[10.236s]   639 |         prev_goal=[01;31m[Kgoal_position[m[K;
+[10.236s]       |                   [01;31m[K^~~~~~~~~~~~~[m[K
+[10.236s]       |                   [32m[Klocal_position_x_[m[K
+[10.236s] [01m[K/home/lunet/ttcc4/direct_motor_control_ws/src/ai_motor_controller/src/lemniscate.cpp:641:18:[m[K [01;31m[Kerror: [m[K‘[01m[Klinear_velocity[m[K’ was not declared in this scope
+[10.236s]   641 |         vel_prev=[01;31m[Klinear_velocity[m[K;
+[10.236s]       |                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+[10.237s] gmake[2]: *** [CMakeFiles/lemniscate.dir/build.make:76: CMakeFiles/lemniscate.dir/src/lemniscate.cpp.o] Error 1
+[10.237s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lemniscate.dir/all] Error 2
+[10.238s] gmake: *** [Makefile:146: all] Error 2
+[10.243s] Invoked command in '/home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/lunet/ttcc4/anaconda3/bin/cmake --build /home/lunet/ttcc4/direct_motor_control_ws/build/ai_motor_controller -- -j8 -l8
