@@ -1,0 +1,60 @@
+\documentclass[lettersize,journal]{IEEEtran}
+\usepackage{amsmath,amsfonts}
+\usepackage{algorithmic}
+\usepackage{algorithm}
+\usepackage{array}
+\usepackage[caption=false,font=normalsize,labelfont=sf,textfont=sf]{subfig}
+\usepackage{textcomp}
+\usepackage{stfloats}
+\usepackage{url}
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage{subcaption}
+\usepackage{subfig}
+\usepackage{hyperref}
+\hyphenation{op-tical net-works semi-conduc-tor IEEE-Xplore}
+% updated with editorial comments 8/9/2021
+
+\begin{document}
+
+\title{Automated UAV Controller Synthesis via LLM-Generated \\ Control Logic and Particle Swarm Optimisation}
+
+\maketitle
+
+\begin{abstract}
+LLM-guided evolutionary frameworks for program synthesis have demonstrated strong results across combinatorial benchmarks; however, such frameworks have not been widely explored for robotic control systems. 
+This paper presents an automated framework for synthesising control logic and optimising numerical coefficients, enabling the deployment of generated controllers onto robotic platforms. 
+To produce deployable controllers, the framework separates control logic synthesis from numerical parameter optimisation, with controller coefficients optimised via Particle Swarm Optimisation using a Markov Decision Process reward signal.
+The resulting controllers are evaluated in a custom UAV simulation environment, validated using PX4 Software-In-The-Loop, and subsequently deployed on a physical UAV. 
+Controller performance is evaluated on Lemniscate and Lissajous trajectory-tracking tasks and compared against PID with disturbance observer and Linear Quadratic Regulator baselines.
+Across both trajectories, the framework-generated control law achieves improved tracking accuracy relative to the baseline controllers, with a minimum reduction in mean squared error of approximately 38\% in real-world experiments. 
+These results demonstrate the feasibility of deploying automatically synthesised control logic on a physical UAV, bridging automated program synthesis and real-world control deployment.
+\end{abstract}
+
+\begin{keywords}
+Large Language Models, Optimisation, Control, Unmanned Aerial Vehicles
+\end{keywords}
+
+\input{chapters/introduction}
+\input{chapters/related_papers}
+\input{chapters/framework}
+\input{chapters/results}
+\input{chapters/conclusion}
+\vspace{11pt}
+
+% \bf{If you will not include a photo:}\vspace{-33pt}
+% \begin{IEEEbiographynophoto}{John Doe}
+% Use $\backslash${\tt{begin\{IEEEbiographynophoto\}}} and the author name as the argument, followed by the biography text.
+% \end{IEEEbiographynophoto}
+
+\bibliographystyle{unsrt}
+\bibliography{main}
+
+
+
+% \vfill
+
+\end{document}
+
+

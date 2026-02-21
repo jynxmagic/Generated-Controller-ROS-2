@@ -1,0 +1,20 @@
+\section{Introduction}
+\IEEEPARstart{D}{esign} and testing of high-performance control systems for Unmanned Aerial Vehicles (UAVs) is a difficult and time-consuming process that relies on expert knowledge.
+While classical control systems such as Proportional-Integral-Derivative (PID) and Linear Quadratic Regulator (LQR) remain widely used, their performance is sensitive to modelling inaccuracies, parameter selection, and operating conditions.
+More recently, reinforcement learning (RL) methods have shown promise in automating controller design; however, their reliance on training data and the sim-to-real gap continue to limit their widespread adoption in real-world systems.
+
+In parallel, Large Language Models (LLMs) have emerged as powerful tools used for much more than simple question and answer chatbots \cite{10948476}. LLMs are now being utilised for program synthesis and optimisation across a wide range of domains \cite{10937266}. Recent work has demonstrated that LLMs can generate functional code, assist local search, and even outperform human-designed heuristics in combinatorial tasks \cite{romera2024mathematical}.
+Despite this progress, the application of LLMs to control system synthesis remains unexplored, with little evidence that LLM-generated algorithms can be deployed on physical systems.
+Key challenges include the appropriate selection of program parameters, evaluation of control systems under model mismatch, and the transition from simulation to real-world execution.
+
+This work addresses these challenges by proposing an automated framework that combines LLM-based program synthesis with classical optimisation and real-world validation. Rather than relying on LLMs to optimise continous parameters directly, we deliberately decouple controller structure from parameter tuning. In the proposed approach, LLMs are responsible for generating control logic, while real-valued coefficients are optimised using Particle Swarm Optimisation (PSO). This separation closely aligns with established practises within Symbolic Regression (SR) and evolutionary control, enabling each component to operate within its own strengths.
+
+Controller designs are refined through a multi-shot evolutionary querying strategy.
+Previous controller programs and their performance metrics are incorporated into subsequent LLM queries, enabling a guided optimisation procedure with quantitive feedback.
+An actor-critic LLM loop is employed, whereby one model proposes control logic and another provides recommendations based on results.
+
+The proposed framework is evaluated on a thrust-and-torque quadcopter control problem.
+Controllers are trained in a custom UAV environment, validated in PX4 SITL, and finally deployed onto a real UAV.
+Performance is assessed on two challenging trajectory-tracking tasks and compared against a PID+DOB and LQR controller. The results demonstrate that the generated control system achieves superior tracking and robustness across real-world and simulated experiments.
+
+The primary contribution of our paper is the deployment of a generated control system to a UAV. Our results position LLM-assisted controller design as a viable and scalable tool for engineering applications, bridging the gap between automated controller design and real-world deployment.

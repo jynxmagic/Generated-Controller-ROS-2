@@ -1,0 +1,17 @@
+\section{Conclusion}
+In conclusion, we have designed and tested an LLM-synthesised control system using two simulators. The simulators showed that the generated control system is reliable for unmanned flight.
+
+After testing the control system in the real world, we provide proof that generated code can be used in a Reinforcement Learning-esque fashion to create functional real-world code.
+
+
+Because we used a training environment, the generated controllers are subject to the same limitations as reinforcement learning, such as overfitting to the training environment (known as the sim-to-real gap). We base this conclusion on a 3x reduction in performance from the training environment to the real world. Also notable is the lack of online parameter estimation for the generated control systems. The cause is primarily our methodology. No online parameter estimation is required, as PSO already optimises the model towards our known model parameters during the simulation.
+
+The choice of our task, unmanned flight, reflects the growth and capabilities of LLMs to synthesise high-quality code across many queries.
+
+This work opens the door to the application of agentic AI in engineering design and to the creation of many different control systems for the real world. Primarily, the following steps in this work are the creation of certified control systems, which can each be tested in the real world without the need for an intermediate testing environment.
+
+Creating a methodology for unmanned flight is difficult. Simulated training environments are almost always required because poor control systems can lead to catastrophic failure in the real world. It would be interesting to apply this methodology directly to the real world, using online parameter estimation rather than PSO. This way, the limitations identified in this paper (overfitting and lack of generalisation) can be mitigated through real-world scoring and iteration. These control systems would need to be implemented on an unmanned vehicle, such as a TurtleBot, that is not in any intrinsic danger, so that faulty control systems can be easily discarded without damaging the machine executing them.
+A link for viewing the implementation of all controllers with the lemniscate trajectory is provided \href{https://github.com/jynxmagic/Px4-offboard-controllers-thrust-and-torque}{here}. The generated control system can be found under the function `rvolmeaControl'.
+
+% \subsection{Future works}
+% Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur.

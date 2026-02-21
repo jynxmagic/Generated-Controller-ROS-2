@@ -1,0 +1,40 @@
+\section{Related papers}
+The problem this work focuses on solving is the deployment of generated algorithms in the real world.
+The current technical issues faced when trying to implement such a solution are related to the choice of the parameters for a given computer program, and scoring the quality of the produced computer programs within the simulation due to model mismatch.
+Our specific contributions, to that end, are: multi-shot local policy search, training and test environments, and a method that utilises a UAV platform to test generated control algorithms.
+
+
+In the literature, the most related paper to our work appears to be `LLM-Assisted Local Search for Policy Synthesis' \cite{sadmine2024language}.
+With Sadamine, Baier, and Lelis's work, they demonstrate how LLMs can be used to create programmatic policies for various tasks in a single shot.
+Notably, our work differs from theirs in two separate instances: our policies are tested in the real world, and we focus on multiple queries to the LLM for program synthesis.
+Based on our previous work, it appears that a wide approach to program synthesis has provided better results than a small initial population for performing the local search.
+
+In terms of evolutionary papers related to ours, the basis for this paper is FunSearch \cite{romera2024mathematical}.
+Within FunSearch, the authors demonstrated how evolutionary queries can be utilised to surpass human performance on combinatorial problems.
+Compared to our work, which focuses on both evolutionary and local parameterisation, the FunSearch method is costly and yields significantly worse results.
+The primary reasons behind the increased cost of FunSearch are related to local parameterisation.
+It is unlikely that the FunSearch technique, on its own, can be used to create a high-quality control system within a reasonable time or without incurring significant excess computational cost. The inefficiencies of FunSearch are due to the choice of coefficient values within program synthesis. Opposed to simply altering a variable value, the FunSearch technique typically opts for a more complex solution to a problem.
+
+Li et al.\cite{li2024guiding} focused on an enumerative search technique for program synthesis.
+Li et al.'s work focuses primarily on the synthesis of programs for solving a complex dataset (SyGuS), with a continuous bi-directional communication feedback loop for failed programs.
+The primary contribution of their research is the creation of a `probabilistic Context-Free Grammar (pCFG)', a list of failed programs, to help the LLM achieve a correct solution.
+A similar technique is used in our methodology.
+Opposed to giving a specific name to this technique, we define how and why we implemented it.
+For our work, we instead focus on the implicit information provided to the LLM through evolutionary queries and epigenetic program selection.
+Our evolution queries include previous examples of programs, along with a meta-heuristic, the `score' of a program.
+Theoretically, providing the programs in the query as our approach, as opposed to theirs, provides increased context for the model to make intelligent decisions.
+Our work, rather than focusing on achieving a broad application of the technique, aims to apply the optimisation to a single use case.
+This allows us to incorporate information easily and include meta-heuristic information into our queries—a difficult task to achieve in the broad sense.
+
+A related work that might help support the theoretical results of this approach, which has not been implemented, is the usage of multimodality within query generation before program synthesis.
+For example, Huang et al. \cite{huang2024multimodal} performed work utilising GPT-4's multimodal features, demonstrating how multimodality can enhance optimisation performance.
+In the context of our work, implementing this makes sense simply due to the ease and clarity with which information about a trajectory can be displayed in a visual format.
+However, a decision was made not to incorporate multimodal queries within our results, primarily due to our incentive to keep the monetary cost of generation at zero.
+We believe that ensuring the optimisation process is free increases much-appreciated scrutiny and facilitates widespread adoption.
+
+For a recent review and survey of papers covering the relevant topic area, the authors recommend either Wu et al. \cite{wu2024evolutionary} or Huang et al. \cite{huang2024large}. Both papers provide a comprehensive overview of the current progress in Large Language Models and Optimisation.
+
+The reasoning behind this decision is that PSO has proven effective on a range of control problems. For example, researchers have applied PSO to automatically tune PID gains for UAV attitude and position control, achieving improved trajectory tracking performance without manual tuning \cite{rinaldi2025pso}.
+
+
+To our knowledge, no one has yet deployed a generated algorithm in the real world.

@@ -1,0 +1,17 @@
+\section{Related works}
+The problem this work focuses on solving is the deployment of generated algorithms in to a robotic control system.
+The current technical issues faced when trying to implement such a solution are related to the choice of the parameters for a given computer program, and scoring the quality of the produced computer programs within the simulation due to model mismatch.
+Our specific contributions, to that end, are: multi-shot local policy search, training and test environments, and a method that utilises a UAV platform to test generated control algorithms.
+
+
+Using LLM-assisted local search for policy synthesis, it is possible to create programmtic policies for various tasks within a single shot. Notably, these works are not tested within the real world, and only contain singular queries \cite{sadmine2024language}. FunSearch furthers LLM-assisted local search by performing GA-like operations across generated policies \cite{romera2024mathematical}. Using GA-like evolutionary techniques showcases how LLM-assisted evolutionary searching can produce heuristics that surpass human performance.
+
+Implementing an actor-critic loop within evolutionary search is shown to increase the quality of programs as solutions for complex datasets - via the usage of a `probabilistic Context-Free Grammar' \cite{li2024guiding}. It is also possible to improve the quality of critiquing within solutions by introducing multi-modality \cite{huang2025multimodal}, however, due to cost constraints this technique is not used within our work.
+
+For a recent review and survey of papers covering the relevant topic area, the authors recommend either Wu et al. \cite{wu2024evolutionary} or Huang et al. \cite{huang2024large}. Both papers provide a comprehensive overview of the current progress in Large Language Models and Optimisation.
+
+UAV control is largely dominated by four main control systems: PID \cite{sahrir2022modelling}, Reinforcement Learning \cite{kaufmann2023champion}, MPC \cite{ganga2017mpc}, and non-predictive model-based methods \cite{masse2018modeling}. PID controller remain the dominant control system, due to ease of use. The issues with PID are the requirement for tuning for optimal performance. RL is currently the optimal technique, however relies on extensive model building and environmental data. MPC has the same drawbacks as RL, however it also requires a lot of compute during runtime to compute optimal trajectories. Finally, LQR based method are focused on the drawbacks of PID, making tuning easier. The problem with LQR is the requirement for an algebraic equation to be solved for optimal control each timestep, and the expertise required to implement the model for the control system.
+
+Evolutionary robotics and GP-based techniques have been investigated for control system usage, usually parametrised via neural or symbolic structures \cite{kala2012multi}. Our work instead focuses on tractable LLM-generated control laws.
+
+Unlike optimal control formulations that assume known model structure and quadratic costs \cite{masse2018modeling}, this work automates the synthesis of the control structure itself.
