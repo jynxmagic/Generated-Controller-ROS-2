@@ -1,0 +1,83 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{10948476}
+\citation{10937266}
+\citation{romera2024mathematical}
+\citation{sadmine2024language}
+\@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {II}Related papers}{1}{section.2}\protected@file@percent }
+\citation{romera2024mathematical}
+\citation{li2024guiding}
+\citation{huang2024multimodal}
+\citation{wu2024evolutionary}
+\citation{huang2024large}
+\citation{rinaldi2025pso}
+\citation{luo2024large}
+\citation{wang2025multi}
+\citation{dong2022survey}
+\citation{wang2025multi}
+\citation{cranmer2023interpretable}
+\citation{shi1999empirical}
+\@writefile{toc}{\contentsline {section}{\numberline {III}Methodology}{2}{section.3}\protected@file@percent }
+\citation{van2006study}
+\citation{shahzad2014probabilistic}
+\citation{fitas2024optimal}
+\citation{romera2024mathematical}
+\citation{song2020flightmare}
+\citation{ijcai2021p650,faessler2017differential,faessler2017thrust,loquercio2020deep}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-A}}Implementation pipeline}{3}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-B}}Simulated training environment}{3}{subsection.3.2}\protected@file@percent }
+\newlabel{subsec:simulated_training_environment}{{\mbox  {III-B}}{3}{Simulated training environment}{subsection.3.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces \textbf  {System overview: } An overview of the LLM for optimization process.}}{4}{figure.caption.1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:full_system}{{1}{4}{\textbf {System overview: } An overview of the LLM for optimization process}{figure.caption.1}{}}
+\newlabel{eq:first_order_filter}{{7}{4}{Simulated training environment}{equation.7}{}}
+\newlabel{eq:rpm_to_force}{{8}{4}{Simulated training environment}{equation.8}{}}
+\newlabel{eq:three_axis_torque}{{9}{4}{Simulated training environment}{equation.9}{}}
+\newlabel{eq:collective_thrust}{{10}{4}{Simulated training environment}{equation.10}{}}
+\newlabel{eq:velocity}{{12}{4}{Simulated training environment}{equation.12}{}}
+\newlabel{eq:quaternion}{{13}{4}{Simulated training environment}{equation.13}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces Quadcopter Model Parameters}}{5}{table.caption.2}\protected@file@percent }
+\newlabel{tab:quad_model_params}{{I}{5}{Quadcopter Model Parameters}{table.caption.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-C}}Experiments}{5}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-D}}Trajectory Tracking}{5}{subsection.3.4}\protected@file@percent }
+\newlabel{eq:trajectory}{{16}{5}{Trajectory Tracking}{equation.16}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-E}}Lissajous Trajectory}{5}{subsection.3.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-F}}PID+DOB controller}{5}{subsection.3.6}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces PID Cascade Gains}}{5}{table.caption.3}\protected@file@percent }
+\newlabel{tab:pid-cascade-gains}{{II}{5}{PID Cascade Gains}{table.caption.3}{}}
+\citation{carr2024simulation,10974379}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-G}}LQR controller}{6}{subsection.3.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Training Results}{6}{section.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces \textbf  {Training results: } Generated control system output in the training environment vs baseline trajectory. The trajectory to be followed is shown as a dotted line. Also indicated here is the large positional offset the controller begins with, allowing for estimation of controller performance to both large and small reference discrepancies in a single simulation run.}}{6}{figure.caption.4}\protected@file@percent }
+\newlabel{fig:training_results}{{2}{6}{\textbf {Training results: } Generated control system output in the training environment vs baseline trajectory. The trajectory to be followed is shown as a dotted line. Also indicated here is the large positional offset the controller begins with, allowing for estimation of controller performance to both large and small reference discrepancies in a single simulation run}{figure.caption.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Real-world deployment of the generated control system onto a UAV with a motion capture system. The motion capture system sends precise position and orientation information to the companion computer through a TCP connection in an ENU coordinate frame. The companion computer converts the ENU frame into a NED frame and publishes it to the PX4 board. The PX4 board sends vehicle odometry gathered from an Extended Kalman Filter (EKF) back to the companion computer, which subsequently sends body-torque and collective thrust commands to the microprocessor. The microprocessor performs control allocation to convert the normalised thrust commands into PWM commands and interfaces them to the motors. The motors produce thrust, which alters the forces acting on the UAV, thereby changing its position and orientation.}}{7}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:deployment_figure}{{3}{7}{Real-world deployment of the generated control system onto a UAV with a motion capture system. The motion capture system sends precise position and orientation information to the companion computer through a TCP connection in an ENU coordinate frame. The companion computer converts the ENU frame into a NED frame and publishes it to the PX4 board. The PX4 board sends vehicle odometry gathered from an Extended Kalman Filter (EKF) back to the companion computer, which subsequently sends body-torque and collective thrust commands to the microprocessor. The microprocessor performs control allocation to convert the normalised thrust commands into PWM commands and interfaces them to the motors. The motors produce thrust, which alters the forces acting on the UAV, thereby changing its position and orientation}{figure.caption.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces \textbf  {PX4-ROS 2 interation:} Interaction between PX4 and the ROS2 nodes via a publisher/subscriber design pattern.}}{7}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:control-system-block}{{4}{7}{\textbf {PX4-ROS 2 interation:} Interaction between PX4 and the ROS2 nodes via a publisher/subscriber design pattern}{figure.caption.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-A}}Software-in-the-loop (SITL) testing}{7}{subsection.4.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces Per-lap Performance Metrics Comparison SITL}}{7}{table.caption.8}\protected@file@percent }
+\newlabel{tab:performance_metrics_sitl}{{III}{7}{Per-lap Performance Metrics Comparison SITL}{table.caption.8}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {V}Deployment and Real World Results}{7}{section.5}\protected@file@percent }
+\newlabel{fig:px_sitl}{{\caption@xref {??}{ on input line 574}}{8}{Software-in-the-loop (SITL) testing}{figure.caption.7}{}}
+\newlabel{fig:py_sitl}{{\caption@xref {??}{ on input line 579}}{8}{Software-in-the-loop (SITL) testing}{figure.caption.7}{}}
+\newlabel{fig:pz_sitl}{{\caption@xref {??}{ on input line 584}}{8}{Software-in-the-loop (SITL) testing}{figure.caption.7}{}}
+\newlabel{fig:pxl_sitl}{{\caption@xref {??}{ on input line 589}}{8}{Software-in-the-loop (SITL) testing}{figure.caption.7}{}}
+\newlabel{fig:pyl_sitl}{{\caption@xref {??}{ on input line 594}}{8}{Software-in-the-loop (SITL) testing}{figure.caption.7}{}}
+\newlabel{fig:pzl_sitl}{{\caption@xref {??}{ on input line 599}}{8}{Software-in-the-loop (SITL) testing}{figure.caption.7}{}}
+\newlabel{fig:px_real}{{\caption@xref {??}{ on input line 607}}{8}{Software-in-the-loop (SITL) testing}{figure.caption.7}{}}
+\newlabel{fig:py_real}{{\caption@xref {??}{ on input line 612}}{8}{Software-in-the-loop (SITL) testing}{figure.caption.7}{}}
+\newlabel{fig:pz_real}{{\caption@xref {??}{ on input line 617}}{8}{Software-in-the-loop (SITL) testing}{figure.caption.7}{}}
+\newlabel{fig:px_real}{{\caption@xref {??}{ on input line 623}}{8}{Software-in-the-loop (SITL) testing}{figure.caption.7}{}}
+\newlabel{fig:py_real}{{\caption@xref {??}{ on input line 628}}{8}{Software-in-the-loop (SITL) testing}{figure.caption.7}{}}
+\newlabel{fig:pz_real}{{\caption@xref {??}{ on input line 633}}{8}{Software-in-the-loop (SITL) testing}{figure.caption.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces \textbf  {Results: }Comparison of SITL and real-world tracking errors for the lemniscate and Lissajous trajectories. The label RVOLMEA is used to identify the generated control system. Variation between SITL and real-world results is expected, given the change in environments. Consistent with the existing literature, the SITL results are closer to real-world results than those from the training environment. The figures show the reference error over time for the best lap of any given controller (the lowest MSE lap).}}{8}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:lemniscate_fullpage}{{5}{8}{\textbf {Results: }Comparison of SITL and real-world tracking errors for the lemniscate and Lissajous trajectories. The label RVOLMEA is used to identify the generated control system. Variation between SITL and real-world results is expected, given the change in environments. Consistent with the existing literature, the SITL results are closer to real-world results than those from the training environment. The figures show the reference error over time for the best lap of any given controller (the lowest MSE lap)}{figure.caption.7}{}}
+\bibstyle{unsrt}
+\bibdata{main}
+\@writefile{lot}{\contentsline {table}{\numberline {IV}{\ignorespaces Per-lap Performance Metrics Comparison Real world}}{9}{table.caption.9}\protected@file@percent }
+\newlabel{tab:performance_metrics_real_world}{{IV}{9}{Per-lap Performance Metrics Comparison Real world}{table.caption.9}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {VI}Conclusion}{9}{section.6}\protected@file@percent }
+\gdef \@abspage@last{9}

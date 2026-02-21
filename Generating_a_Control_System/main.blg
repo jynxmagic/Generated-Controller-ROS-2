@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2025)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: unsrt.bst
+Database file #1: main.bib
+Repeated entry---line 376 of file main.bib
+ : @article{wu2024evolutionary
+ :                            ,
+I'm skipping whatever remains of this entry
+You've used 30 entries,
+            1791 wiz_defined-function locations,
+            630 strings with 10529 characters,
+and the built_in function-call counts, 8806 in all, are:
+= -- 797
+> -- 431
+< -- 11
++ -- 154
+- -- 124
+* -- 621
+:= -- 1348
+add.period$ -- 101
+call.type$ -- 30
+change.case$ -- 30
+chr.to.int$ -- 0
+cite$ -- 30
+duplicate$ -- 378
+empty$ -- 814
+format.name$ -- 124
+if$ -- 2005
+int.to.chr$ -- 0
+int.to.str$ -- 30
+missing$ -- 28
+newline$ -- 156
+num.names$ -- 34
+pop$ -- 92
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 206
+stack$ -- 0
+substring$ -- 664
+swap$ -- 127
+text.length$ -- 11
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 84
+width$ -- 32
+write$ -- 343
+(There was 1 error message)

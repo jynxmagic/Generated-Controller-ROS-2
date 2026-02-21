@@ -1,0 +1,202 @@
+\begin{thebibliography}{10}
+
+\bibitem{kaufmann2023champion}
+Elia Kaufmann, Leonard Bauersfeld, Antonio Loquercio, Matthias M{\"u}ller,
+  Vladlen Koltun, and Davide Scaramuzza.
+\newblock Champion-level drone racing using deep reinforcement learning.
+\newblock {\em Nature}, 620(7976):982--987, 2023.
+
+\bibitem{10948476}
+Shaowei Qin, Yiji Zhao, Hao Wu, Lei Zhang, and Qiang He.
+\newblock Harnessing the power of large language model for effective web api
+  recommendation.
+\newblock {\em IEEE Transactions on Industrial Informatics}, 21(7):5360--5370,
+  2025.
+
+\bibitem{10937266}
+Diletta Chiaro, Pian Qi, Antonio Pescapè, and Francesco Piccialli.
+\newblock Generative ai-empowered digital twin: A comprehensive survey with
+  taxonomy.
+\newblock {\em IEEE Transactions on Industrial Informatics}, 21(6):4287--4295,
+  2025.
+
+\bibitem{romera2024mathematical}
+Bernardino Romera-Paredes, Mohammadamin Barekatain, Alexander Novikov, Matej
+  Balog, M~Pawan Kumar, Emilien Dupont, Francisco~JR Ruiz, Jordan~S Ellenberg,
+  Pengming Wang, Omar Fawzi, et~al.
+\newblock Mathematical discoveries from program search with large language
+  models.
+\newblock {\em Nature}, 625(7995):468--475, 2024.
+
+\bibitem{sadmine2024language}
+Quazi~Asif Sadmine, Hendrik Baier, and Levi Lelis.
+\newblock Language models speed up local search for finding programmatic
+  policies.
+\newblock {\em Transactions on Machine Learning Research}, 2024.
+
+\bibitem{li2024guiding}
+Yixuan Li, Julian Parsert, and Elizabeth Polgreen.
+\newblock Guiding enumerative program synthesis with large language models.
+\newblock In Arie Gurfinkel and Vijay Ganesh, editors, {\em Computer Aided
+  Verification}, pages 280--301, Cham, 2024. Springer Nature Switzerland.
+
+\bibitem{huang2025multimodal}
+Yuxiao Huang, Wenjie Zhang, Liang Feng, Xingyu Wu, and Kay~Chen Tan.
+\newblock How multimodal integration boost the performance of llm for
+  optimization: Case study on capacitated vehicle routing problems.
+\newblock In {\em 2025 IEEE Symposium for Multidisciplinary Computational
+  Intelligence Incubators (MCII)}, pages 1--7. IEEE, 2025.
+
+\bibitem{wu2024evolutionary}
+Xingyu Wu, Sheng-hao Wu, Jibin Wu, Liang Feng, and Kay~Chen Tan.
+\newblock Evolutionary computation in the era of large language model: Survey
+  and roadmap.
+\newblock {\em IEEE Transactions on Evolutionary Computation}, 2024.
+
+\bibitem{huang2024large}
+Sen Huang, Kaixiang Yang, Sheng Qi, and Rui Wang.
+\newblock When large language model meets optimization.
+\newblock {\em Swarm and Evolutionary Computation}, 90:101663, 2024.
+
+\bibitem{sahrir2022modelling}
+Nur~Hayati Sahrir and Mohd~Ariffanan Mohd~Basri.
+\newblock Modelling and manual tuning pid control of quadcopter.
+\newblock In {\em Control, instrumentation and mechatronics: Theory and
+  practice}, pages 346--357. Springer, 2022.
+
+\bibitem{ganga2017mpc}
+G~Ganga and Meher~Madhu Dharmana.
+\newblock Mpc controller for trajectory tracking control of quadcopter.
+\newblock In {\em 2017 International Conference on Circuit, Power and Computing
+  Technologies (ICCPCT)}, pages 1--6. IEEE, 2017.
+
+\bibitem{masse2018modeling}
+Catherine Mass{\'e}, Olivier Gougeon, Duc-Tien Nguyen, and David Saussi{\'e}.
+\newblock Modeling and control of a quadcopter flying in a wind field: A
+  comparison between lqr and structured ℋ∞ control techniques.
+\newblock In {\em 2018 International Conference on Unmanned Aircraft Systems
+  (ICUAS)}, pages 1408--1417. IEEE, 2018.
+
+\bibitem{kala2012multi}
+Rahul Kala.
+\newblock Multi-robot path planning using co-evolutionary genetic programming.
+\newblock {\em Expert Systems with Applications}, 39(3):3817--3831, 2012.
+
+\bibitem{luo2024large}
+Hanbin Luo, Jianxin Wu, Jiajing Liu, and Maxwell~Fordjour Antwi-Afari.
+\newblock Large language model-based code generation for the control of
+  construction assembly robots: A hierarchical generation approach.
+\newblock {\em Developments in the Built Environment}, 19:100488, 2024.
+
+\bibitem{le2024indict}
+Hung Le, Doyen Sahoo, Yingbo Zhou, Caiming Xiong, and Silvio Savarese.
+\newblock Indict: Code generation with internal dialogues of critiques for both
+  security and helpfulness.
+\newblock {\em Advances in Neural Information Processing Systems},
+  37:85546--85582, 2024.
+
+\bibitem{dong2024survey}
+Qingxiu Dong, Lei Li, Damai Dai, Ce~Zheng, Jingyuan Ma, Rui Li, Heming Xia,
+  Jingjing Xu, Zhiyong Wu, Baobao Chang, et~al.
+\newblock A survey on in-context learning.
+\newblock In {\em Proceedings of the 2024 conference on empirical methods in
+  natural language processing}, pages 1107--1128, 2024.
+
+\bibitem{cranmer2023interpretable}
+Miles Cranmer.
+\newblock Interpretable machine learning for science with pysr and
+  symbolicregression. jl.
+\newblock {\em arXiv preprint arXiv:2305.01582}, 2023.
+
+\bibitem{shi1999empirical}
+Yuhui Shi and Russell~C Eberhart.
+\newblock Empirical study of particle swarm optimization.
+\newblock In {\em Proceedings of the 1999 congress on evolutionary
+  computation-CEC99 (Cat. No. 99TH8406)}, volume~3, pages 1945--1950. IEEE,
+  1999.
+
+\bibitem{van2006study}
+Frans Van~den Bergh and Andries~P Engelbrecht.
+\newblock A study of particle swarm optimization particle trajectories.
+\newblock {\em Information sciences}, 176(8):937--971, 2006.
+
+\bibitem{shahzad2014probabilistic}
+Farrukh Shahzad, Sohail Masood, and Naveed~Kazim Khan.
+\newblock Probabilistic opposition-based particle swarm optimization with
+  velocity clamping.
+\newblock {\em Knowledge and information systems}, 39:703--737, 2014.
+
+\bibitem{van2010convergence}
+Frans Van~den Bergh and Andries~Petrus Engelbrecht.
+\newblock A convergence proof for the particle swarm optimiser.
+\newblock {\em Fundamenta Informaticae}, 105(4):341--374, 2010.
+
+\bibitem{song2020flightmare}
+Yunlong Song, Selim Naji, Elia Kaufmann, Antonio Loquercio, and Davide
+  Scaramuzza.
+\newblock Flightmare: A flexible quadrotor simulator.
+\newblock In {\em Proceedings of the 2020 Conference on Robot Learning}, pages
+  1147--1157, 2021.
+
+\bibitem{ijcai2021p650}
+Elia Kaufmann, Antonio Loquercio, Rene Ranftl, Matthias Müller, Vladlen
+  Koltun, and Davide Scaramuzza.
+\newblock Deep drone acrobatics (extended abstract).
+\newblock In Zhi-Hua Zhou, editor, {\em Proceedings of the Thirtieth
+  International Joint Conference on Artificial Intelligence, {IJCAI-21}}, pages
+  4780--4783. International Joint Conferences on Artificial Intelligence
+  Organization, 8 2021.
+\newblock Sister Conferences Best Papers.
+
+\bibitem{faessler2017differential}
+Matthias Faessler, Antonio Franchi, and Davide Scaramuzza.
+\newblock Differential flatness of quadrotor dynamics subject to rotor drag for
+  accurate tracking of high-speed trajectories.
+\newblock {\em IEEE Robotics and Automation Letters}, PP:1--1, 11 2017.
+
+\bibitem{faessler2017thrust}
+Matthias Faessler, Davide Falanga, and Davide Scaramuzza.
+\newblock Thrust mixing, saturation, and body-rate control for accurate
+  aggressive quadrotor flight.
+\newblock {\em IEEE Robotics and Automation Letters}, 2(2):476--482, 2017.
+
+\bibitem{loquercio2020deep}
+Antonio Loquercio, Elia Kaufmann, René Ranftl, Alexey Dosovitskiy, Vladlen
+  Koltun, and Davide Scaramuzza.
+\newblock Deep drone racing: From simulation to reality with domain
+  randomization.
+\newblock {\em IEEE Transactions on Robotics}, 36(1):1--14, 2020.
+
+\bibitem{PX4_gazebo_imu_plugin_2023}
+{PX4 Development Team}.
+\newblock gazebo\_imu\_plugin.cpp.
+\newblock
+  \url{https://github.com/PX4/PX4-SITL_gazebo-classic/blob/70683dc759cbd3ebccfa78429b564f8b1fb5d149/src/gazebo_imu_plugin.cpp},
+  2023.
+\newblock GitHub repository: PX4/PX4-SITL\_gazebo-classic, commit
+  \texttt{70683dc759cbd3ebccfa78429b564f8b1fb5d149}.
+
+\bibitem{jynxmagic_generated_controller_ros2_2026}
+jynxmagic.
+\newblock {Generated-Controller-ROS-2}: Repository for generating and deploying
+  controllers to ros 2.
+\newblock \url{https://github.com/jynxmagic/Generated-Controller-ROS-2}, 2026.
+\newblock GitHub repository, accessed 20 February 2026.
+
+\bibitem{carr2024simulation}
+Christopher Carr, Miguel Mart{\'\i}nez-Garc{\'\i}a, Eve Zhang, and Matthew
+  Coombes.
+\newblock Simulation diversity: An approach for accurate performance estimation
+  in reinforcement learning.
+\newblock In {\em 2024 30th International Conference on Mechatronics and
+  Machine Vision in Practice (M2VIP)}, pages 1--6. IEEE, 2024.
+
+\bibitem{10974379}
+Sili Huang, Jifeng Hu, Hechang Chen, Peng Cui, Haiyin Piao, Lichao Sun, and
+  Bo~Yang.
+\newblock Generalizable causal reinforcement learning for out-of-distribution
+  environments.
+\newblock {\em IEEE Transactions on Industrial Informatics}, 21(7):5514--5524,
+  2025.
+
+\end{thebibliography}
